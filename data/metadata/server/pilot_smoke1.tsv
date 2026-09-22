@@ -1,0 +1,2 @@
+sample_id	variety_name	subspecies	run_accession	bioproject	biosample	platform	paired_or_single	estimated_depth	read_length	fastq_ftp	fastq_bytes	source_db	panel_role
+SRR25567266	Gaekjujodo	unknown	SRR25567266	PRJNA1003283	SAMN36886480	ILLUMINA	PAIRED	20.034	302.0	ftp.sra.ebi.ac.uk/vol1/fastq/SRR255/066/SRR25567266/SRR25567266_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR255/066/SRR25567266/SRR25567266_2.fastq.gz	1396692204;1402766789	NCBI_SRA	pilot

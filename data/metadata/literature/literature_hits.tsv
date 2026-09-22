@@ -1,0 +1,201 @@
+topic	pmid	year	journal	first_author	n_authors	title	doi
+rice_resequencing	34828355	2021	Genes (Basel)	Ji H	10	Genomic Variation in Korean japonica Rice Varieties	10.3390/genes12111749
+rice_resequencing	28715430	2017	PLoS One	Jiang S	9	Resequencing and variation identification of whole genome of the japonica rice variety "Longdao24" with high yield	10.1371/journal.pone.0181037
+rice_resequencing	32963241	2020	Nat Commun	Lv Q	32	Resequencing of 1,143 indica rice accessions reveals important genetic variations and different heterosis patterns	10.1038/s41467-020-18608-0
+rice_resequencing	35162989	2022	Int J Mol Sci	Meng B	12	Identification and Allele Combination Analysis of Rice Grain Shape-Related Genes by Genome-Wide Association Study	10.3390/ijms23031065
+rice_resequencing	24872877	2014	Gigascience	3,000 rice genomes project	1	The 3,000 rice genomes project	10.1186/2047-217X-3-7
+rice_resequencing	40950556	2025	Plant Direct	Zou B	10	Identification and Evolution of Salt-Tolerant Genes in Weedy Rice Through High-Throughput Resequencing	10.1002/pld3.70096
+rice_resequencing	39741238	2024	BMC Genomics	Zhou X	6	The genomic pattern of insertion/deletion variations during rice improvement	10.1186/s12864-024-11178-1
+rice_resequencing	36215240	2022	PLoS One	Long W	8	Development of InDel markers for Oryza sativa ssp. javanica based on whole-genome resequencing	10.1371/journal.pone.0274418
+rice_resequencing	29478186	2018	Theor Appl Genet	Wu Y	12	Aneuploidization under segmental allotetraploidy in rice and its phenotypic manifestation	10.1007/s00122-018-3077-7
+rice_resequencing	31527731	2019	Nat Ecol Evol	Ye CY	15	Genomic evidence of human selection on Vavilovian mimicry	10.1038/s41559-019-0976-1
+rice_resequencing	28465411	2017	Plant Cell	Xiong Q	14	Ethylene-Inhibited Jasmonic Acid Biosynthesis Promotes Mesocotyl/Coleoptile Elongation of Etiolated Rice Seedlings	10.1105/tpc.16.00981
+rice_resequencing	29387076	2017	Front Plant Sci	Quan R	10	Improvement of Salt Tolerance Using Wild Rice Genes	10.3389/fpls.2017.02269
+rice_resequencing	34110541	2021	Rice (N Y)	Higgins J	27	Resequencing of 672 Native Rice Accessions to Explore Genetic Diversity and Trait Associations in Vietnam	10.1186/s12284-021-00481-0
+rice_resequencing	32681796	2020	Mol Biol Evol	Kou Y	8	Evolutionary Genomics of Structural Variation in Asian Rice (Oryza sativa) Domestication	10.1093/molbev/msaa185
+rice_resequencing	36212817	2022	Front Microbiol	Wang L	14	Genomic footprints related with adaptation and fumonisins production in Fusarium proliferatum	10.3389/fmicb.2022.1004454
+rice_resequencing	33580702	2021	Plant Cell	Choi JY	12	Natural variation in plant telomere length is associated with flowering time	10.1093/plcell/koab022
+rice_resequencing	34131824	2021	Rice (N Y)	Cui D	12	Genetic differentiation and restricted gene flow in rice landraces from Yunnan, China: effects of isolation-by-distance and isolation-by-environment	10.1186/s12284-021-00497-6
+rice_resequencing	38352530	2024	bioRxiv	Hancock CN	13	Identification and characterization of a temperature sensitive chlorotic soybean mutant	10.1101/2024.02.02.578604
+rice_resequencing	32780934	2021	Mol Ecol Resour	Ma W	8	Chromosomal-level genomes of three rice planthoppers provide new insights into sex chromosome evolution	10.1111/1755-0998.13242
+rice_resequencing	42608407	2026	Sci Data	Zheng L	8	Whole-Genome Variants Resource of 144 Oryza rufipogon Accessions	10.1038/s41597-026-07727-w
+rice_resequencing	33547986	2021	Rice (N Y)	Yu H	9	Genomics Analyses Reveal Unique Classification, Population Structure and Novel Allele of Neo-Tetraploid Rice	10.1186/s12284-021-00459-y
+rice_resequencing	36209436	2022	Plant Cell Rep	Zhang Y	9	Discovery of DNA polymorphisms via genome-resequencing and development of molecular markers between two barley cultivars	10.1007/s00299-022-02920-8
+rice_resequencing	41342010	2025	Data Brief	Ab Razak S	7	Whole genome resequencing dataset of weedy rice variants	10.1016/j.dib.2025.112252
+rice_resequencing	36618635	2022	Front Plant Sci	Liang W	8	High-density genetic mapping identified QTLs for anaerobic germination tolerance in rice	10.3389/fpls.2022.1076600
+rice_resequencing	37191779	2023	Rice (N Y)	Hang Y	13	Genetic Diversity and Breeding Signatures for Regional Indica Rice Improvement in Guangdong of Southern China	10.1186/s12284-023-00642-3
+rice_cultivar_identification	36582638	2022	Front Plant Sci	Yu T	9	Identification and expression pattern analysis of the OsSnRK2 gene family in rice	10.3389/fpls.2022.1088281
+rice_cultivar_identification	36097113	2022	Mol Biol Rep	Verma RK	6	Identification and characterization of genes for drought tolerance in upland rice cultivar 'Banglami' of North East India	10.1007/s11033-022-07859-3
+rice_cultivar_identification	28715430	2017	PLoS One	Jiang S	9	Resequencing and variation identification of whole genome of the japonica rice variety "Longdao24" with high yield	10.1371/journal.pone.0181037
+rice_cultivar_identification	35871691	2022	Theor Appl Genet	Chen S	14	Identification and fine-mapping of Xo2, a novel rice bacterial leaf streak resistance gene	10.1007/s00122-022-04179-9
+rice_cultivar_identification	19093510	2007	Pak J Biol Sci	Bhowmik SK	6	Identification of salt tolerant rice cultivars via phenotypic and marker-assisted procedures	10.3923/pjbs.2007.4449.4454
+rice_cultivar_identification	36464674	2022	BMC Plant Biol	Zhang S	7	Identification, evolution, and expression analysis of OsBSK gene family in Oryza sativa Japonica	10.1186/s12870-022-03905-1
+rice_cultivar_identification	35972561	2022	Curr Microbiol	Eğerci Y	3	Identification of Fusarium andiyazi Associated with the Bakanae Disease of Rice in Turkey	10.1007/s00284-022-02962-x
+rice_cultivar_identification	38879711	2024	Sci Rep	Habib MA	12	Climate-smart rice (Oryza sativa L.) genotypes identification using stability analysis, multi-trait selection index, and genotype-environment interaction at different irrigation regimes with adaptation to universal warming	10.1038/s41598-024-64808-9
+rice_cultivar_identification	37155011	2023	Mol Biol Rep	Mishra A	14	Biochemical and SSR based molecular characterization of elite rice varieties for straw lignocellulose	10.1007/s11033-023-08454-w
+rice_cultivar_identification	37896000	2023	Plants (Basel)	Escolà G	7	Development and Genome-Wide Analysis of a Blast-Resistant japonica Rice Variety	10.3390/plants12203536
+rice_cultivar_identification	36235331	2022	Plants (Basel)	Asif S	9	Identification of the OsCML4 Gene in Rice Related to Salt Stress Using QTL Analysis	10.3390/plants11192467
+rice_cultivar_identification	39038946	2024	Plant Cell Environ	Xu Y	6	Discrimination of relatedness drives rice flowering and reproduction in cultivar mixtures	10.1111/pce.15055
+rice_cultivar_identification	28144247	2016	Front Plant Sci	Yan W	9	Simultaneous Identification of Multiple Causal Mutations in Rice	10.3389/fpls.2016.02055
+rice_cultivar_identification	35684271	2022	Plants (Basel)	Zhang Y	14	Genome-Wide Identification of MDH Family Genes and Their Association with Salt Tolerance in Rice	10.3390/plants11111498
+rice_cultivar_identification	30427875	2018	PLoS One	Ran Y	7	Identification of factors affecting rice yield gap in southwest China: An experimental study	10.1371/journal.pone.0206479
+rice_cultivar_identification	32566206	2020	Food Sci Nutr	Wang C	10	Effects of storage on brown rice (Oryza sativa L.) metabolites, analyzed using gas chromatography and mass spectrometry	10.1002/fsn3.1589
+rice_cultivar_identification	29058482	2018	Nat Prod Res	Ashokkumar K	3	Identification and determination of naturally occurring folates in grains of rice (Oryza sativa L.) by UPLC-MS/MS analysis	10.1080/14786419.2017.1392957
+rice_cultivar_identification	35722514	2022	Physiol Mol Biol Plants	Sebastian A	8	Identification and characterization of drought-tolerant local pigmented rice from Indonesia	10.1007/s12298-022-01185-5
+rice_cultivar_identification	35598893	2022	Funct Plant Biol	Shaw BP	6	Genes determining panicle morphology and grain quality in rice (Oryza sativa)	10.1071/FP21346
+rice_cultivar_identification	33668277	2021	Plants (Basel)	Nakhla WR	6	Identification of QTLs for Salt Tolerance at the Germination and Seedling Stages in Rice	10.3390/plants10030428
+rice_cultivar_identification	24946831	2015	J Integr Plant Biol	Fang Y	15	Identification and characterization of Mini1, a gene regulating rice shoot development	10.1111/jipb.12230
+rice_cultivar_identification	32146470	2020	Cytogenet Genome Res	Zheng Y	5	Identification and Characterization of γ-Ray-Induced Mutations in Rice Cytoplasmic Genomes by Whole-Genome Sequencing	10.1159/000506033
+rice_cultivar_identification	31035128	2019	Spectrochim Acta A Mol Biomol Spectrosc	Chen J	6	Rapid and non-destructive analysis for the identification of multi-grain rice seeds with near-infrared spectroscopy	10.1016/j.saa.2019.03.105
+rice_cultivar_identification	35449886	2022	Front Plant Sci	Liang D	13	Identification of Differentially Expressed Genes Reveal Conserved Mechanisms in the Rice-Magnaporthe oryzae Interaction	10.3389/fpls.2022.723356
+rice_cultivar_identification	34917058	2021	Front Microbiol	Sahu KP	9	Integrated Metabarcoding and Culturomic-Based Microbiome Profiling of Rice Phyllosphere Reveal Diverse and Functional Bacterial Communities for Blast Disease Suppression	10.3389/fmicb.2021.780458
+rice_fingerprint	12920520	2003	Theor Appl Genet	Kobayashi S	5	Molecular marker dissection of rice (Oryza sativa L.) plant architecture under temperate and tropical climates	10.1007/s00122-003-1388-8
+rice_fingerprint	37896005	2023	Plants (Basel)	Hao Y	6	Starch Properties and Morphology of Eight Floury Endosperm Mutants in Rice	10.3390/plants12203541
+rice_fingerprint	34249986	2021	Front Nutr	Pezzotti G	8	Raman Molecular Fingerprints of Rice Nutritional Quality and the Concept of Raman Barcode	10.3389/fnut.2021.663569
+rice_fingerprint	24177769	1994	Theor Appl Genet	Cho YG	4	The semidwarf gene, sd-1, of rice (Oryza sativa L.). II. Molecular mapping and marker-assisted selection	10.1007/BF00226982
+rice_fingerprint	39124252	2024	Plants (Basel)	Tang L	5	Detection and Evaluation of Blast Resistance Genes in Backbone Indica Rice Varieties from South China	10.3390/plants13152134
+rice_fingerprint	35581907	2022	Plant Dis	Syauqi J	18	Surveillance of Rice Blast Resistance Effectiveness and Emerging Virulent Isolates in Taiwan	10.1094/PDIS-12-21-2806-RE
+rice_fingerprint	28184437	2017	Nucleic Acids Res	Li L	12	An accurate and efficient method for large-scale SSR genotyping and applications	10.1093/nar/gkx093
+rice_fingerprint	40753219	2025	BMC Plant Biol	Park JR	6	Enhanced rice breeding with GLR1_CAPS marker for glabrous hull selection	10.1186/s12870-025-07113-5
+rice_fingerprint	28813631	2017	Genome	Cheng A	5	Rapid and targeted introgression of fgr gene through marker-assisted backcrossing in rice (Oryza sativa L.)	10.1139/gen-2017-0100
+rice_fingerprint	36215240	2022	PLoS One	Long W	8	Development of InDel markers for Oryza sativa ssp. javanica based on whole-genome resequencing	10.1371/journal.pone.0274418
+rice_fingerprint	31330371	2019	Food Chem	Lange CN	8	Mineral profile exploratory analysis for rice grains traceability	10.1016/j.foodchem.2019.125145
+rice_fingerprint	38327661	2024	Saudi J Biol Sci	Rezk AA	3	Genetic variability and diversity analysis in Oryza sativa L. genotypes using quantitative traits and SSR markers	10.1016/j.sjbs.2024.103944
+rice_fingerprint	36100693	2022	Theor Appl Genet	Li X	12	Golden 2-like transcription factor contributes to the major QTL against rice black-streaked dwarf virus disease	10.1007/s00122-022-04214-9
+rice_fingerprint	36422038	2022	J Fungi (Basel)	Frontini M	5	Increased Rice Susceptibility to Rice Blast Is Related to Post-Flowering Nitrogen Assimilation Efficiency	10.3390/jof8111217
+rice_fingerprint	37155011	2023	Mol Biol Rep	Mishra A	14	Biochemical and SSR based molecular characterization of elite rice varieties for straw lignocellulose	10.1007/s11033-023-08454-w
+rice_fingerprint	24170005	1995	Theor Appl Genet	Wang B	8	Tagging and mapping the thermo-sensitive genic male-sterile gene in rice (Oryza sativa L.) with molecular markers	10.1007/BF00223928
+rice_fingerprint	38498708	2024	Proc Natl Acad Sci U S A	Wang DR	6	Positive effects of public breeding on US rice yields under future climate scenarios	10.1073/pnas.2309969121
+rice_fingerprint	41326447	2025	Sci Rep	Swain B	11	Africa's booming rice cultivation is fueling regional warming	10.1038/s41598-025-27436-5
+rice_fingerprint	30893952	2019	Microorganisms	Sandoval RFC	2	Phenotypic and Molecular Analyses of Rhizoctonia spp. Associated with Rice and Other Hosts	10.3390/microorganisms7030088
+rice_fingerprint	32880855	2021	Plant Mol Biol	Zhang W	10	DNA barcoding of Oryza: conventional, specific, and super barcodes	10.1007/s11103-020-01054-3
+rice_fingerprint	22967059	2012	Mol Ecol	Gross BL	1	Rice domestication: histories and mysteries	10.1111/j.1365-294X.2012.05626.x
+rice_fingerprint	34487253	2021	Rice (N Y)	Bai S	9	Dissection of the Genetic Basis of Rice Panicle Architecture Using a Genome-wide Association Study	10.1186/s12284-021-00520-w
+rice_fingerprint	33498419	2021	Biology (Basel)	Kong H	8	Increases in Genetic Diversity of Weedy Rice Associated with Ambient Temperatures and Limited Gene Flow	10.3390/biology10020071
+rice_fingerprint	38046607	2023	Front Plant Sci	Sanchez DL	3	Genetic architecture of head rice and rice chalky grain percentages using genome-wide association studies	10.3389/fpls.2023.1274823
+rice_fingerprint	36840105	2023	Plants (Basel)	Zampieri E	14	Marker-Assisted Pyramiding of Blast-Resistance Genes in a japonica Elite Rice Cultivar through Forward and Background Selection	10.3390/plants12040757
+rice_pangenome	32633916	2020		Tettelin H	3	Eukaryotic Pangenomes	10.1007/978-3-030-38281-0_12
+rice_pangenome	34051138	2021	Cell	Qin P	29	Pan-genome analysis of 33 genetically diverse rice accessions reveals hidden genomic variations	10.1016/j.cell.2021.04.046
+rice_pangenome	40240605	2025	Nature	Guo D	24	A pangenome reference of wild and cultivated rice	10.1038/s41586-025-08883-6
+rice_pangenome	35821092	2022	Cell Res	Shang L	44	A super pan-genomic landscape of rice	10.1038/s41422-022-00685-z
+rice_pangenome	35668795	2022	Front Plant Sci	Sun Y	11	Terpene Synthases in Rice Pan-Genome and Their Responses to Chilo suppressalis Larvae Infesting	10.3389/fpls.2022.905982
+rice_pangenome	27940610	2017	Nucleic Acids Res	Sun C	12	RPAN: rice pan-genome browser for ∼3000 rice genomes	10.1093/nar/gkw958
+rice_pangenome	40585569	2025	Breed Sci	Yoshikawa T	2	Usage of wild Oryza germplasms for breeding in pan-genomics era	10.1270/jsbbs.24050
+rice_pangenome	39557856	2024	Nat Commun	Long W	17	Genome evolution and diversity of wild and cultivated rice species	10.1038/s41467-024-54427-3
+rice_pangenome	38650829	2024	Natl Sci Rev	Wei H	36	Uncovering key salt-tolerant regulators through a combined eQTL and GWAS analysis using the super pan-genome in rice	10.1093/nsr/nwae043
+rice_pangenome	38650702	2024	Front Plant Sci	Shivute FN	8	Genome-wide and pan-genomic analysis reveals rich variants of NBS-LRR genes in a newly developed wild rice line from Oryza alta Swallen	10.3389/fpls.2024.1345708
+rice_pangenome	37537691	2023	Genome Biol	Wu D	10	A syntelog-based pan-genome provides insights into rice domestication and de-domestication	10.1186/s13059-023-03017-5
+rice_pangenome	34782773	2021	Nat Plants	Lu Y	27	A donor-DNA-free CRISPR/Cas-based approach to gene knock-up in rice	10.1038/s41477-021-01019-4
+rice_pangenome	35722513	2022	Physiol Mol Biol Plants	Parakkunnel R	11	Evolution and co-evolution: insights into the divergence of plant heat shock factor genes	10.1007/s12298-022-01183-7
+rice_pangenome	36814455	2023	NAR Genom Bioinform	Christine TD	9	FrangiPANe, a tool for creating a panreference using left behind reads	10.1093/nargab/lqad013
+rice_pangenome	38003271	2023	Int J Mol Sci	Singh G	15	Genetic Enhancement for Biotic Stress Resistance in Basmati Rice through Marker-Assisted Backcross Breeding	10.3390/ijms242216081
+rice_pangenome	30446793	2019	Theor Appl Genet	Monat C	4	Prospects of pan-genomics in barley	10.1007/s00122-018-3234-z
+rice_pangenome	34067383	2021	Microorganisms	Lee HH	4	Pan-Genome Analysis Reveals Host-Specific Functional Divergences in Burkholderia gladioli	10.3390/microorganisms9061123
+rice_pangenome	37016094	2023	Plant Cell Rep	Li W	11	Identification and validation of new MADS-box homologous genes in 3010 rice pan-genome	10.1007/s00299-023-03006-9
+rice_pangenome	34904403	2022	Plant Genome	Zanini SF	9	Pangenomics in crop improvement-from coding structural variations to finding regulatory variants with pangenome graphs	10.1002/tpg2.20177
+rice_pangenome	33572680	2021	Molecules	Lin YT	6	Fungicidal Activity of Volatile Organic Compounds Emitted by Burkholderia gladioli Strain BBB-01	10.3390/molecules26030745
+rice_pangenome	38607544	2024	Rice (N Y)	Wang J	17	Pangenome-Wide Association Study and Transcriptome Analysis Reveal a Novel QTL and Candidate Genes Controlling both Panicle and Leaf Blast Resistance in Rice	10.1186/s12284-024-00707-x
+rice_pangenome	36944612	2023	Nat Commun	Zhou Y	25	Pan-genome inversion index reveals evolutionary insights into the subpopulation structure of Asian rice	10.1038/s41467-023-37004-y
+rice_pangenome	28447607	2017	Sci Rep	Shivaraj SM	6	Genome-wide identification, characterization, and expression profile of aquaporin gene family in flax (Linum usitatissimum)	10.1038/srep46137
+rice_pangenome	29335547	2018	Nat Genet	Zhao Q	24	Pan-genome analysis highlights the extent of genomic variation in cultivated and wild rice	10.1038/s41588-018-0041-z
+rice_pangenome	40819063	2025	Nat Commun	Qian Y	15	Pangenome analysis of transposable element insertion polymorphisms reveals features underlying cold tolerance in rice	10.1038/s41467-025-62887-4
+rice_structural_variation	37822083	2024	Plant Biotechnol J	Lv P	14	Genome editing in rice using CRISPR/Cas12i3	10.1111/pbi.14192
+rice_structural_variation	34051138	2021	Cell	Qin P	29	Pan-genome analysis of 33 genetically diverse rice accessions reveals hidden genomic variations	10.1016/j.cell.2021.04.046
+rice_structural_variation	40240605	2025	Nature	Guo D	24	A pangenome reference of wild and cultivated rice	10.1038/s41586-025-08883-6
+rice_structural_variation	33539781	2021	Cell	Yu H	29	A route to de novo domestication of wild allotetraploid rice	10.1016/j.cell.2021.01.013
+rice_structural_variation	35821092	2022	Cell Res	Shang L	44	A super pan-genomic landscape of rice	10.1038/s41422-022-00685-z
+rice_structural_variation	41120576	2025	Nat Genet	Xie L	15	Genetic diversity and evolution of rice centromeres	10.1038/s41588-025-02365-1
+rice_structural_variation	27940610	2017	Nucleic Acids Res	Sun C	12	RPAN: rice pan-genome browser for ∼3000 rice genomes	10.1093/nar/gkw958
+rice_structural_variation	32681796	2020	Mol Biol Evol	Kou Y	8	Evolutionary Genomics of Structural Variation in Asian Rice (Oryza sativa) Domestication	10.1093/molbev/msaa185
+rice_structural_variation	41126876	2025	Front Genome Ed	Park H	5	CRISPR/Cas9- and Cas3-mediated modification of copy number variation in rice	10.3389/fgeed.2025.1652950
+rice_structural_variation	33964655	2021	Food Chem	Han Z	6	Structural variations of rice starch affected by constant power microwave treatment	10.1016/j.foodchem.2021.129887
+rice_structural_variation	38286529	2024	Carbohydr Polym	Zhang X	7	Subtle structural variations of resistant starch from whole cooked rice significantly impact metabolic outputs of gut microbiota	10.1016/j.carbpol.2024.121779
+rice_structural_variation	35401589	2022	Front Plant Sci	Dash M	6	Exploring Genomic Variations in Nematode-Resistant Mutant Rice Lines	10.3389/fpls.2022.823372
+rice_structural_variation	38790274	2024	Genes (Basel)	Zhou X	7	The Landscape of Presence/Absence Variations during the Improvement of Rice	10.3390/genes15050645
+rice_structural_variation	40755030	2025	New Phytol	Fang Z	12	Experimental insights into genome reconstruction driven by horizontal transfer of supernumerary chromosomes in Magnaporthe oryzae	10.1111/nph.70438
+rice_structural_variation	34782773	2021	Nat Plants	Lu Y	27	A donor-DNA-free CRISPR/Cas-based approach to gene knock-up in rice	10.1038/s41477-021-01019-4
+rice_structural_variation	41334799	2025	Plant Biotechnol J	Dan Z	3	Structural Variations Contribute to Subspeciation and Yield Heterosis in Rice	10.1111/pbi.70484
+rice_structural_variation	32293284	2020	BMC Plant Biol	Yang W	7	Wide crossing diversify mitogenomes of rice	10.1186/s12870-020-02380-w
+rice_structural_variation	32886328	2020	Mol Biol Rep	Vasumathy SK	5	Genome- wide structural and functional variant discovery of rice landraces using genotyping by sequencing	10.1007/s11033-020-05794-9
+rice_structural_variation	39184317	2024	Food Chem X	Du M	9	Ozone induced structural variation in OSA waxy rice starch: Effects on the thermal behavior of starch and its stabilized pickering emulsion	10.1016/j.fochx.2024.101701
+rice_structural_variation	40453531	2025	Mol Breed	Du C	18	Structural variation in the GH1 promoter regulates the hull color of rice	10.1007/s11032-025-01569-x
+rice_structural_variation	39127715	2024	Plant Methods	Vourlaki IT	4	Evaluation of deep learning for predicting rice traits using structural and single-nucleotide genomic variants	10.1186/s13007-024-01250-y
+rice_structural_variation	36781277	2023	Carbohydr Polym	Li J	13	Multi-scale structure characterization of ozone oxidized waxy rice starch	10.1016/j.carbpol.2023.120624
+rice_structural_variation	29718005	2018	Sci Data	Hu Z	12	Novel sequences, structural variations and gene presence variations of Asian cultivated rice	10.1038/sdata.2018.79
+rice_structural_variation	40232312	2025	Theor Appl Genet	Cheng S	26	Chromosomal structural variation loci HSS1 and HSS6 lead to hybrid sterility in rice	10.1007/s00122-025-04887-y
+rice_structural_variation	37765500	2023	Plants (Basel)	Sun W	5	A Structure Variation in qPH8.2 Detrimentally Affects Plant Architecture and Yield in Rice	10.3390/plants12183336
+low_coverage_genotyping	26432245	2015	Nature	1000 Genomes Project Consortium	11	A global reference for human genetic variation	10.1038/nature15393
+low_coverage_genotyping	34250668	2021	Mol Ecol	Lou RN	4	A beginner's guide to low-coverage whole genome sequencing for population genomics	10.1111/mec.16077
+low_coverage_genotyping	39389018	2024	Cell Genom	Liu S	19	Utilizing non-invasive prenatal test sequencing data for human genetic investigation	10.1016/j.xgen.2024.100669
+low_coverage_genotyping	33743587	2021	BMC Genomics	Wasik K	7	Comparing low-pass sequencing and genotyping for trait mapping in pharmacogenetics	10.1186/s12864-021-07508-2
+low_coverage_genotyping	35251117	2021	Front Genet	Chat V	4	Ultra Low-Coverage Whole-Genome Sequencing as an Alternative to Genotyping Arrays in Genome-Wide Association Studies	10.3389/fgene.2021.790445
+low_coverage_genotyping	40632977	2025	JCO Precis Oncol	Zhao D	21	Risk Assessment With Ultra-Low-Pass Whole-Genome Sequencing of Cell-Free DNA for Large B-Cell Lymphoma	10.1200/PO-25-00200
+low_coverage_genotyping	33543400	2021	Funct Integr Genomics	Fu J	8	Combining targeted sequencing and ultra-low-pass whole-genome sequencing for accurate somatic copy number alteration detection	10.1007/s10142-021-00767-y
+low_coverage_genotyping	37339987	2023	Nat Commun	Sousa da Mota B	15	Imputation of ancient human genomes	10.1038/s41467-023-39202-0
+low_coverage_genotyping	36516232	2022	PLoS Comput Biol	Söylev A	5	CONGA: Copy number variation genotyping in ancient genomes and low-coverage sequencing data	10.1371/journal.pcbi.1010788
+low_coverage_genotyping	41126791	2025	Plant Genome	Sthapit SR	7	A low-coverage skim-sequencing and imputation pipeline for genomic selection	10.1002/tpg2.70139
+low_coverage_genotyping	40695596	2025	Genome Res	Biagini SA	12	Genotype imputation from low-coverage data for medical and population genetic analyses	10.1101/gr.280175.124
+low_coverage_genotyping	34826191	2022	Mol Ecol Resour	Wang L	8	Sequence coverage required for accurate genotyping by sequencing in polyploid species	10.1111/1755-0998.13558
+low_coverage_genotyping	40579709	2025	Acta Neuropathol Commun	Fischer TT	22	Ultra-low-input cell-free DNA sequencing for tumor detection and characterization in a real-world pediatric brain tumor cohort	10.1186/s40478-025-02024-w
+low_coverage_genotyping	29028881	2018	Bioinformatics	Blischak PD	3	SNP genotyping and parameter estimation in polyploids using low-coverage sequencing data	10.1093/bioinformatics/btx587
+low_coverage_genotyping	37923981	2023	BMC Bioinformatics	Delomas TA	2	Estimating microhaplotype allele frequencies from low-coverage or pooled sequencing data	10.1186/s12859-023-05554-z
+low_coverage_genotyping	28498906	2017	DNA Res	Kobayashi M	13	Heap: a highly sensitive and accurate SNP detection tool for low-coverage high-throughput sequencing data	10.1093/dnares/dsx012
+low_coverage_genotyping	36266371	2022	Sci Rep	Adhikari L	18	A high-throughput skim-sequencing approach for genotyping, dosage estimation and identifying translocations	10.1038/s41598-022-19858-2
+low_coverage_genotyping	39605582	2024	bioRxiv	Meleshko D	6	Blackbird: structural variant detection using synthetic and low-coverage long-reads	10.1101/2024.11.17.624011
+low_coverage_genotyping	34910782	2021	PLoS One	Lamb HJ	5	Genomic prediction using low-coverage portable Nanopore sequencing	10.1371/journal.pone.0261274
+low_coverage_genotyping	39880602	2025	Gut	Al Bakir I	25	Low-coverage whole genome sequencing of low-grade dysplasia strongly predicts advanced neoplasia risk in ulcerative colitis	10.1136/gutjnl-2024-333353
+low_coverage_genotyping	33770507	2021	Am J Hum Genet	Martin AR	40	Low-coverage sequencing cost-effectively detects known and novel variation in underrepresented populations	10.1016/j.ajhg.2021.03.012
+low_coverage_genotyping	27821432	2017	Genetics	Kousathanas A	6	Inferring Heterozygosity from Ancient and Low Coverage Genomes	10.1534/genetics.116.189985
+low_coverage_genotyping	40596117	2025	Sci Rep	Virga A	19	Mutational and low-coverage whole genome sequencing identifies actionable DNA repair alterations in prostate cancer plasma DNA	10.1038/s41598-025-05384-4
+low_coverage_genotyping	37546814	2023	medRxiv	Sun S	12	Identifying risk genes for embryo aneuploidy using ultra-low coverage whole-genome sequencing	10.1101/2023.07.22.23292618
+low_coverage_genotyping	33414550	2021	Nat Genet	Rubinacci S	4	Efficient phasing and imputation of low-coverage sequencing data using large reference panels	10.1038/s41588-020-00756-0
+low_coverage_rice	28498906	2017	DNA Res	Kobayashi M	13	Heap: a highly sensitive and accurate SNP detection tool for low-coverage high-throughput sequencing data	10.1093/dnares/dsx012
+low_coverage_rice	35504967	2022	Theor Appl Genet	Gong H	2	Genotype calling and haplotype inference from low coverage sequence data in heterozygous plant genome using HetMap	10.1007/s00122-022-04105-z
+low_coverage_rice	37432175	2023	Nutrients	Bourassa MW	4	Aligning the Epidemiology of Malnutrition with Food Fortification: Grasp Versus Reach	10.3390/nu15092021
+low_coverage_rice	29698758	2018	Int J Biol Macromol	Lee JP	9	Characterization of truncated endo-β-1,4-glucanases from a compost metagenomic library and their saccharification potentials	10.1016/j.ijbiomac.2018.04.102
+low_coverage_rice	26358652	2015	Proc Natl Acad Sci U S A	Xie W	27	Breeding signatures of rice improvement revealed by a genomic variation map from a large germplasm collection	10.1073/pnas.1515919112
+low_coverage_rice	33964159	2021	Mol Biol Evol	Park M	3	Sample Sequence Analysis Uncovers Recurrent Horizontal Transfers of Transposable Elements among Grasses	10.1093/molbev/msab133
+low_coverage_rice	27179918	2016	Mol Plant	Wang H	8	The Power of Inbreeding: NGS-Based GWAS of Rice Reveals Convergent Evolution during Rice Domestication	10.1016/j.molp.2016.04.018
+low_coverage_rice	33354434	2020	PeerJ	Cline E	6	Recalibration of mapping quality scores in Illumina short-read alignments improves SNP detection results in low-coverage sequencing data	10.7717/peerj.10501
+low_coverage_rice	29879918	2018	BMC Genomics	Taudt A	6	METHimpute: imputation-guided construction of complete methylomes from WGBS data	10.1186/s12864-018-4641-x
+low_coverage_rice	19015323	2009	Genome Res	Reinhardt JA	6	De novo assembly using low-coverage short read sequence data from the rice pathogen Pseudomonas syringae pv. oryzae	10.1101/gr.083311.108
+low_coverage_rice	27778102	2017	Mol Genet Genomics	Lwin AK	4	Genomic skimming for identification of medium/highly abundant transposable elements in Arundo donax and Arundo plinii	10.1007/s00438-016-1263-3
+low_coverage_rice	27612449	2016	BMC Bioinformatics	Huang Z	8	A hybrid computational strategy to address WGS variant analysis in >5000 samples	10.1186/s12859-016-1211-6
+low_coverage_rice	15240912	2004	J Genet	Tyagi AK	12	Structural and functional analysis of rice genome	10.1007/BF02715832
+low_coverage_rice	15805491	2005	Genome Res	Katari MS	5	Comparing low coverage random shotgun sequence data from Brassica oleracea and Oryza sativa genome sequence for their ability to add to the annotation of Arabidopsis thaliana	10.1101/gr.3239105
+low_coverage_rice	26403182	2015	Genome Biol	Yao W	6	Exploring the rice dispensable genome using a metagenome-like assembly strategy	10.1186/s13059-015-0757-3
+low_coverage_rice	20498060	2010	Proc Natl Acad Sci U S A	Xie W	9	Parent-independent genotyping for constructing an ultrahigh-density linkage map based on population sequencing	10.1073/pnas.1005931107
+low_coverage_rice	22028874	2011	PLoS One	Vitulo N	21	First survey of the wheat chromosome 5A composition through a next generation sequencing approach	10.1371/journal.pone.0026421
+low_coverage_rice	32013129	2020	Nutrients	Mkambula P	10	The Unfinished Agenda for Food Fortification in Low- and Middle-Income Countries: Quantifying Progress, Gaps and Potential Opportunities	10.3390/nu12020354
+low_coverage_rice	24583583	2014	Genetics	Huang BE	5	Efficient imputation of missing markers in low-coverage genotyping-by-sequencing data from multiparental crosses	10.1534/genetics.113.158014
+low_coverage_rice	22138690	2011	Nat Genet	Huang X	24	Genome-wide association study of flowering time and grain yield traits in a worldwide collection of rice germplasm	10.1038/ng.1018
+low_coverage_rice	26504677	2015	Appl Plant Sci	Garaycochea S	3	A strategy to recover a high-quality, complete plastid sequence from low-coverage whole-genome sequencing	10.3732/apps.1500022
+low_coverage_rice	18976482	2008	BMC Genomics	Kurtz S	4	A new method to compute K-mer frequencies and its application to annotate large repetitive plant genomes	10.1186/1471-2164-9-517
+low_coverage_rice	41706841	2026	Sci Adv	Wang M	19	Multiple southward migrations of Neolithic Chinese farmers into Southeast Asia revealed from large-scale Y-chromosome sequences	10.1126/sciadv.ady1597
+low_coverage_rice	21390234	2011	PLoS One	Yu H	8	Gains in QTL detection using an ultra-high density SNP map based on population sequencing relative to traditional RFLP/SSR markers	10.1371/journal.pone.0017595
+low_coverage_rice	23555916	2013	PLoS One	Kim SI	2	Identification of SNPs in closely related Temperate Japonica rice cultivars using restriction enzyme-phased sequencing	10.1371/journal.pone.0060176
+rice_3k_genomes	30992303	2019	Genome Res	Fuentes RR	12	Structural variants in 3000 rice genomes	10.1101/gr.241240.118
+rice_3k_genomes	39266564	2024	Nat Commun	Long E	25	Context-aware single-cell multiomics approach identifies cell-type-specific lung cancer susceptibility genes	10.1038/s41467-024-52356-9
+rice_3k_genomes	27940610	2017	Nucleic Acids Res	Sun C	12	RPAN: rice pan-genome browser for ∼3000 rice genomes	10.1093/nar/gkw958
+rice_3k_genomes	41784043	2026	Aging Cell	Zhang Z	11	The Immune Cell Atlas of "Longevity Molecular Tag": Identification of Principal Immune Cell Subsets and Their Underlying Molecular Regulatory Mechanisms	10.1111/acel.70431
+rice_3k_genomes	35396275	2022	Genome Res	Zhang F	9	Long-read sequencing of 111 rice genomes reveals significantly larger pan-genomes	10.1101/gr.276015.121
+rice_3k_genomes	40670951	2025	BMC Public Health	Chen S	6	Facilitators and barriers of reducing sedentary behavior in sedentary and non-sedentary older adults: a descriptive qualitative study based on the COM-B model and TDF	10.1186/s12889-025-23613-3
+rice_3k_genomes	40600464	2025	Diabetes Obes Metab	Wang S	4	The cost-utility and budget impact analyses of Tirzepatide versus once-weekly Semaglutide as add-on therapy to metformin in patients with type 2 diabetes mellitus in China	10.1111/dom.16580
+rice_3k_genomes	30604755	2019	Nat Commun	Carpentier MC	10	Retrotranspositional landscape of Asian rice revealed by 3000 genomes	10.1038/s41467-018-07974-5
+rice_3k_genomes	33600286	2021	J Appl Physiol (1985)	Al-Ruweidi MKAA	5	Dexamethasone and transdehydroandrosterone significantly reduce pulmonary epithelial cell injuries associated with mechanical ventilation	10.1152/japplphysiol.00574.2020
+rice_3k_genomes	34299477	2021	Molecules	Sun S	8	Two New Iridoid Glucosides from the Whole Plant of Patrinia scabiosifolia Link	10.3390/molecules26144201
+rice_3k_genomes	32132285	2020	Acta Crystallogr C Struct Chem	Qu Z	7	Characterization, crystal structure and cytotoxic activity of a rare iridoid glycoside from Lonicera saccata	10.1107/S2053229620001977
+rice_3k_genomes	32272554	2020	Cancers (Basel)	Wang Z	6	Integrated Analysis of RNA-Binding Proteins in Glioma	10.3390/cancers12040892
+rice_3k_genomes	32809127	2020	Nat Prod Bioprospect	Zhang L	9	Purity and Uncertainty Study of CRM Betulin by DSC	10.1007/s13659-020-00261-1
+rice_3k_genomes	37261963	2023	Radiographics	Fennessy FM	2	Invited Commentary: Pelvic MRI Is Now the Basis of Personalized Fibroid Care	10.1148/rg.220212
+rice_3k_genomes	36365266	2022	Plants (Basel)	Syu CH	7	Uncovering the Genetic of Cadmium Accumulation in the Rice 3K Panel	10.3390/plants11212813
+rice_3k_genomes	30485495	2019	J Cell Biochem	Qi Y	9	Long noncoding RNA HOXD-AS2 regulates cell cycle to promote glioma progression	10.1002/jcb.28117
+rice_3k_genomes	39716157	2024	BMC Med Educ	Yasin YM	6	From decision to destination: factors influencing healthcare students' career paths in Qatar	10.1186/s12909-024-06527-3
+rice_3k_genomes	39324755	2024	Angew Chem Int Ed Engl	Sun X	11	Chemical Recording of Pump-Specific Drug Efflux in Living Cells	10.1002/anie.202409282
+rice_3k_genomes	33432466	2021	Bot Stud	Lin YL	4	Explore the genetics of weedy traits using rice 3K database	10.1186/s40529-020-00309-y
+rice_3k_genomes	29748895	2018	Rice (N Y)	Xu Y	7	Genomic selection of agronomic traits in hybrid rice using an NCII population	10.1186/s12284-018-0223-4
+rice_3k_genomes	38273959	2023	Front Plant Sci	Sachdeva S	7	Multi-model genome-wide association studies for appearance quality in rice	10.3389/fpls.2023.1304388
+rice_3k_genomes	35409042	2022	Int J Mol Sci	Abdulkareem A	9	Novel Slippery Liquid-Infused Porous Surfaces (SLIPS) Based on Electrospun Polydimethylsiloxane/Polystyrene Fibrous Structures Infused with Natural Blackseed Oil	10.3390/ijms23073682
+rice_3k_genomes	36340400	2022	Front Plant Sci	Siangliw JL	9	Response of Southeast Asian rice root architecture and anatomy phenotypes to drought stress	10.3389/fpls.2022.1008954
+rice_3k_genomes	34677554	2021	Membranes (Basel)	Guan X	3	Flexible, Transparent and Highly Conductive Polymer Film Electrodes for All-Solid-State Transparent Supercapacitor Applications	10.3390/membranes11100788
+rice_3k_genomes	25429973	2015	Nucleic Acids Res	Alexandrov N	13	SNP-Seek database of SNPs derived from 3000 rice genomes	10.1093/nar/gku1039

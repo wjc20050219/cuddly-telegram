@@ -1,0 +1,180 @@
+==============================================================================
+关键文献摘要（按与本项目的相关度排序）
+==============================================================================
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 34250668   [2021] Mol Ecol
+为什么重要：超低深度 WGS 用于群体基因组学（综述/指南）
+标题：A beginner's guide to low-coverage whole genome sequencing for population genomics.
+DOI：10.1111/mec.16077
+
+  Low-coverage whole genome sequencing (lcWGS) has emerged as a powerful and cost-effective approach for population genomic studies in both model and nonmodel species.
+  However, with read depths too low to confidently call individual genotypes, lcWGS requires specialized analysis tools that explicitly account for genotype uncertainty.
+  A growing number of such tools have become available, but it can be difficult to get an overview of what types of analyses can be performed reliably with lcWGS data, and how the distribution of sequencing effort between the number of samples analysed and per-sample sequencing depths affects inference accuracy.
+  In this introductory guide to lcWGS, we first illustrate how the per-sample cost for lcWGS is now comparable to RAD-seq and Pool-seq in many systems.
+  We then provide an overview of software packages that explicitly account for genotype uncertainty in different types of population genomic inference.
+  Next, we use both simulated and empirical data to assess the accuracy of allele frequency, genetic diversity, and linkage disequilibrium estimation, detection of population structure, and selection scans under different sequencing strategies.
+  Our results show that spreading a given amount of sequencing effort across more samples with lower depth per sample consistently improves the accuracy of most types of inference, with a few notable exceptions.
+  Finally, we assess the potential for using imputation to bolster inference from lcWGS data in nonmodel species, and discuss current limitations and future perspectives for lcWGS-based population genomics research.
+  With this overview, we hope to make lcWGS more approachable and stimulate its broader adoption.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 35251117   [2021] Front Genet
+为什么重要：超低深度 WGS 替代基因分型芯片（GWAS）
+标题：Ultra Low-Coverage Whole-Genome Sequencing as an Alternative to Genotyping Arrays in Genome-Wide Association Studies.
+DOI：10.3389/fgene.2021.790445
+
+  An array-based genotyping approach has been the standard practice for genome-wide association studies (GWASs);
+  however, as sequencing costs plummet over the past years, ultra low-coverage whole-genome sequencing (ulcWGS <0.5× coverage) has emerged as a promising alternative that provides superior genomic coverage with substantial reduction of genotyping cost.
+  To evaluate the potential utility of ulcWGS, we performed a whole-genome sequencing (WGS) of 72 European individuals to a target coverage of 0.4× and compared its performance with the widely used Infinium Global Screening Multi-Disease Array (GSA-MD).
+  We showed that the number of variants captured by ulcWGS is comparable with imputed GSA-MD platform, particularly for low-frequency (95.5%) and common variants (99.9%), with high imputation R2 accuracy (mean 0.93 for SNPs and 0.86 for indels).
+  Using deep-coverage 30× WGS as the "truth" genotypes, we found that ulcWGS has higher overall nonreference genotype concordance compared with imputed GSA-MD for both SNPs (0.90 vs.
+  0.88) and indels (0.86 vs.
+  0.83).
+  In addition, ulcWGS proved to be as sensitive as the genotyping-based method in sex imputation and ancestry prediction producing similar principal component (PC) scores.
+  Our findings provide important evidence that the cost efficient ulcWGS of <0.5× generates high genotype accuracy, outperforming the standard genotyping arrays, making it an attractive alternative to the array-based method in next-generation GWAS design.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 38216889   [2024] Genet Sel Evol
+为什么重要：低通量测序 + 填补的单倍型准确性警告
+标题：A cautionary tale of low-pass sequencing and imputation with respect to haplotype accuracy.
+DOI：10.1186/s12711-024-00875-w
+
+  BACKGROUND: Low-pass whole-genome sequencing and imputation offer significant cost savings, enabling substantial increases in sample size and statistical power.
+  This approach is particularly promising in livestock breeding, providing an affordable means of screening individuals for deleterious alleles or calculating genomic breeding values.
+  Consequently, it may also be of value in companion animal genomics to support pedigree breeding.
+  We sought to evaluate in dogs the impact of low coverage sequencing and reference-guided imputation on genotype concordance and association analyses.
+  RESULTS: DNA isolated from saliva of 30 Labrador retrievers was sequenced at low (0.9X and 3.8X) and high (43.5X) coverage, and down-sampled from 43.5X to 9.6X and 17.4X.
+  Genotype imputation was performed using a diverse reference panel (1021 dogs), and two subsets of the former panel (256 dogs each) where one had an excess of Labrador retrievers relative to other breeds.
+  We observed little difference in imputed genotype concordance between reference panels.
+  Association analyses for a locus acting as a disease proxy were performed using single-marker (GEMMA) and haplotype-based (XP-EHH) tests.
+  GEMMA results were highly correlated (r ≥ 0.97) between 43.5X and ≥ 3.8X depths of coverage, while for 0.9X the correlation was lower (r ≤ 0.8).
+  XP-EHH results were less well correlated, with r ranging from 0.58 (0.9X) to 0.88 (17.4X).
+  Across a random sample of 10,000 genomic regions averaging 17 kb in size, we observed a median of three haplotypes per dog across the sequencing depths, with 5% of the regions returning more than eight haplotypes.
+  Inspection of one such region revealed genotype and phasing inconsistencies across sequencing depths.
+  CONCLUSIONS: We demonstrate that saliva-derived canine DNA is suitable for whole-genome sequencing, highlighting the feasibility of client-based sampling.
+  Low-pass sequencing and imputation require caution as incorrect allele assignments result when the subject possesses alleles that are absent in the reference panel.
+  Larger panels have the capacity for greater allelic diversity, which should reduce the potential for imputation error.
+  Although low-pass sequencing can accurately impute allele dosage, we highlight issues with phasing accuracy that impact haplotype-based analyses.
+  Consequently, if accurately phased genotypes are required for analyses, we advocate sequencing at high depth (> 20X).
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 41126791   [2025] Plant Genome
+为什么重要：低覆盖度 skim 测序 + 填补流程（植物/基因组选择）
+标题：A low-coverage skim-sequencing and imputation pipeline for genomic selection.
+DOI：10.1002/tpg2.70139
+
+  Genomic selection (GS) can accelerate plant breeding gains by reducing breeding cycle times, reducing phenotyping costs, or improving selection accuracy.
+  GS is especially promising for perennial crops such as intermediate wheatgrass (IWG, Thinopyrum intermedium) that may require multiple years of evaluation under phenotypic recurrent selection.
+  A major obstacle in implementing GS is the need for an affordable, high-density, genetic marker system that is scalable to thousands or tens-of-thousands of samples in breeding programs, especially in emerging or minor crop species.
+  As sequencing costs continue to decrease, low-coverage whole genome skim-sequencing (skim-seq) has become an attractive method for GS.
+  Using commercial laboratory products and open-source software, we implemented whole genome prediction at breeding program scale using ultra-low coverage (0.01x- 0.05x, 100-125 million reads per sample) whole genome skim-seq.
+  Using STITCH (Sequencing to Imputation Through Constructing Haplotypes) imputation software, we evaluated optimization of imputation parameters including sequence coverage and number of assumed ancestral haplotypes.
+  Finally, we evaluated whole genome prediction cross-validation accuracies using reduced representation genotyping-by-sequencing (GBS) versus skim-seq data for IWG, an outcrossing, heterozygous, large genome (12.7 Gb), polyploid perennial species.
+  Our results indicate correlations between cross-validation accuracies across five traits in IWG using skim-seq data (r = 0.29-0.61) can be used as effectively as GBS (r = 0.29-0.55) while generating low-coverage archival sequence data that will be robust to technological advances.
+  These methods will be applicable to a wide range of crops and scale to breeding program size, allowing for more tractable implementation of GS within breeding programs.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 32101292   [2020] Plant Cell Physiol
+为什么重要：NARO 世界水稻核心种质 WGS（数据资源）
+标题：Whole-Genome Sequencing of the NARO World Rice Core Collection (WRC) as the Basis for Diversity and Association Studies.
+DOI：10.1093/pcp/pcaa019
+
+  Genebanks provide access to diverse materials for crop improvement.
+  To utilize and evaluate them effectively, core collections, such as the World Rice Core Collection (WRC) in the Genebank at the National Agriculture and Food Research Organization, have been developed.
+  Because the WRC consists of 69 accessions with a high degree of genetic diversity, it has been used for >300 projects.
+  To allow deeper investigation of existing WRC data and to further promote research using Genebank rice accessions, we performed whole-genome resequencing of these 69 accessions, examining their sequence variation by mapping against the Oryza sativa ssp.
+  japonica Nipponbare genome.
+  We obtained a total of 2,805,329 single nucleotide polymorphisms (SNPs) and 357,639 insertion-deletions.
+  Based on the principal component analysis and population structure analysis of these data, the WRC can be classified into three major groups.
+  We applied TASUKE, a multiple genome browser to visualize the different WRC genome sequences, and classified haplotype groups of genes affecting seed characteristics and heading date.
+  TASUKE thus provides access to WRC genotypes as a tool for reverse genetics.
+  We examined the suitability of the compact WRC population for genome-wide association studies (GWASs).
+  Heading date, affected by a large number of quantitative trait loci (QTLs), was not associated with known genes, but several seed-related phenotypes were associated with known genes.
+  Thus, for QTLs of strong effect, the compact WRC performed well in GWAS.
+  This information enables us to understand genetic diversity in 37,000 rice accessions maintained in the Genebank and to find genes associated with different phenotypes.
+  The sequence data have been deposited in DNA Data Bank of Japan Sequence Read Archive (DRA) (Supplementary Table S1).
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 30992303   [2019] Genome Res
+为什么重要：3000 水稻基因组的结构变异
+标题：Structural variants in 3000 rice genomes.
+DOI：10.1101/gr.241240.118
+
+  Investigation of large structural variants (SVs) is a challenging yet important task in understanding trait differences in highly repetitive genomes.
+  Combining different bioinformatic approaches for SV detection, we analyzed whole-genome sequencing data from 3000 rice genomes and identified 63 million individual SV calls that grouped into 1.5 million allelic variants.
+  We found enrichment of long SVs in promoters and an excess of shorter variants in 5' UTRs.
+  Across the rice genomes, we identified regions of high SV frequency enriched in stress response genes.
+  We demonstrated how SVs may help in finding causative variants in genome-wide association analysis.
+  These new insights into rice genome biology are valuable for understanding the effects SVs have on gene function, with the prospect of identifying novel agronomically important alleles that can be utilized to improve cultivated rice.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 33367255   [2020] Plant Commun
+为什么重要：3004 份水稻微核心种质设计
+标题：Designing a Mini-Core Collection Effectively Representing 3004 Diverse Rice Accessions.
+DOI：10.1016/j.xplc.2020.100049
+
+  Genetic diversity provides the foundation for plant breeding and genetic research.
+  Over 3000 rice genomes were recently sequenced as part of the 3K Rice Genome (3KRG) Project.
+  We added four additional Indian rice accessions to create a panel of 3004 accessions.
+  However, such a large collection of germplasm is difficult to preserve and evaluate.
+  The construction of core and mini-core collections is an efficient method for the management of genetic resources.
+  In this study, we developed a mini-core comprising 520 accessions that captured most of the SNPs and represented all of the phenotypes and geographic regions from the original panel.
+  The mini-core was validated using different statistical analyses and contained representatives from all major rice groups, including japonica, indica, aus/boro, and aromatic/basmati.
+  Genome-wide association analyses of the mini-core panel efficiently reproduced the marker-trait associations identified in the original panel.
+  Haplotype analysis validated the utility of the mini-core panel.
+  In the current era with many ongoing large-scale sequencing projects, such a strategy for mini-core design should be useful in many crops.
+  The rice mini-core collection developed in this study would be valuable for agronomic trait evaluation and useful for rice improvement via marker-assisted molecular breeding.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 27940610   [2017] Nucleic Acids Res
+为什么重要：RPAN 水稻泛基因组浏览器
+标题：RPAN: rice pan-genome browser for ∼3000 rice genomes.
+DOI：10.1093/nar/gkw958
+
+  A pan-genome is the union of the gene sets of all the individuals of a clade or a species and it provides a new dimension of genome complexity with the presence/absence variations (PAVs) of genes among these genomes.
+  With the progress of sequencing technologies, pan-genome study is becoming affordable for eukaryotes with large-sized genomes.
+  The Asian cultivated rice, Oryza sativa L., is one of the major food sources for the world and a model organism in plant biology.
+  Recently, the 3000 Rice Genome Project (3K RGP) sequenced more than 3000 rice genomes with a mean sequencing depth of 14.3×, which provided a tremendous resource for rice research.
+  In this paper, we present a genome browser, Rice Pan-genome Browser (RPAN), as a tool to search and visualize the rice pan-genome derived from 3K RGP.
+  RPAN contains a database of the basic information of 3010 rice accessions, including genomic sequences, gene annotations, PAV information and gene expression data of the rice pan-genome.
+  At least 12 000 novel genes absent in the reference genome were included.
+  RPAN also provides multiple search and visualization functions.
+  RPAN can be a rich resource for rice biology and rice breeding.
+  It is available at http://cgm.sjtu.edu.cn/3kricedb/ or http://www.rmbreeding.cn/pan3k.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 35396275   [2022] Genome Res
+为什么重要：111 个水稻基因组长读组装（泛基因组更大）
+标题：Long-read sequencing of 111 rice genomes reveals significantly larger pan-genomes.
+DOI：10.1101/gr.276015.121
+
+  The concept of pan-genome, which is the collection of all genomes from a population, has shown a great potential in genomics study, especially for crop sciences.
+  The rice pan-genome constructed from the second-generation sequencing (SGS) data is about 270 Mb larger than Nipponbare, the rice reference genome (NipRG), but it is still disadvantaged by incompleteness and loss of genomic contexts.
+  The third-generation sequencing (TGS) with long reads can help to construct better pan-genomes.
+  In this paper, we report a high-quality rice pan-genome construction method by introducing a series of new steps to deal with the long-read data, including unmapped sequence block filtering, redundancy removing, and sequence block elongating.
+  Compared to NipRG, the long-read sequencing-based pan-genome constructed from 105 rice accessions, which contains 604 Mb novel sequences, is much more comprehensive than the one constructed from ∼3000 rice genomes sequenced with short reads.
+  The repetitive sequences are the main components of novel sequences, which partially explain the differences between the pan-genomes based on TGS and SGS.
+  Adding six wild rice accessions, there are about 879 Mb novel sequences and 19,000 novel genes in the rice pan-genome in total.
+  In addition, we have created high-quality reference genomes for all representative rice populations, including five gapless reference genomes.
+  This study has made significant progress in our understanding of the rice pan-genome, and this pan-genome construction method for long-read data can be applied to accelerate a broad range of genomics studies.
+
+──────────────────────────────────────────────────────────────────────────────
+PMID 33543400   [2021] Funct Integr Genomics
+为什么重要：靶向 + 超低通量 WGS 检测拷贝数变异
+标题：Combining targeted sequencing and ultra-low-pass whole-genome sequencing for accurate somatic copy number alteration detection.
+DOI：10.1007/s10142-021-00767-y
+
+  This study investigated the feasibility of combining targeted sequencing and ultra-low-pass whole-genome sequencing (ULP-WGS) for improved somatic copy number alteration (SCNA) detection, due to its role in tumorigenesis and prognosis.
+  Cerebrospinal fluid and matched blood samples were obtained from 29 patients with brain metastasis derived from lung cancer.
+  Samples were subjected to targeted sequencing (genomic coverage: 300 kb) and 2×ULP-WGS.
+  The SCNA was detected by the CTLW_CNV, Control-FreeC, and CNVkit methods and their accuracy was analyzed.
+  Eighteen tumor samples showed consistent SCNA results between the three methods, while a small fraction of samples resulted in different SCNA estimations.
+  Further analysis indicated that consistency of SCNA highly correlated with the difference of baseline depth (normalized depth of regions without SCNA events) estimation between methods.
+  Conflict Index showed that CTLW_CNV significantly improved the accuracy of SCNA detection through precise baseline depth estimation.
+  CTLW_CNV combines targeted sequencing and ULP-WGS for improved SCNA detection.
+  The improvement in detection accuracy is mainly due to a refined baseline depth estimation, guided by single-nucleotide polymorphism allele frequencies within the deeply sequenced region (targeted sequencing).
+  This method is especially suitable for tumor samples with biased aneuploidy, a previously under-estimated genomic characteristic across different cancer types.
+
+==============================================================================
+共 10 篇，取到 10 篇

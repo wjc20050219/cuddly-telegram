@@ -1,0 +1,36 @@
+# RiceVar-ID 服务器端 conda 环境（精简版：只含流水线必需工具，不含 R / Web 依赖）
+# 相比本机 environment.yml 去掉了 r-base / r-tidyverse / fastapi / qrcode 等，
+# 目的是让 SAT 求解又快又稳（本机实测：精简 + strict 优先级可在数秒内求解完成）。
+name: ricevar
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - samtools
+  - bcftools
+  - bedtools
+  - bwa-mem2
+  - minimap2
+  - mosdepth
+  - fastp
+  - fastqc
+  - multiqc
+  - snakemake-minimal
+  - seqkit
+  - kmc
+  - kmer-jellyfish
+  - sra-tools
+  - entrez-direct
+  - curl
+  - pigz
+  - numpy
+  - pandas
+  - scipy
+  - pyarrow
+  - pysam
+  - tqdm
+  - pip
+  - pip:
+      - requests

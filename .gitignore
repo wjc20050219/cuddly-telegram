@@ -1,0 +1,92 @@
+# Git 忽略规则 —— RiceVar-ID
+
+## 绝不入库：测序原始数据与体积大的中间产物
+# 原始 FASTQ 体积可达数百 GB，且可从公共库按 run 号重新下载；
+# 把它们提交进版本库既无必要也会让仓库不可用。
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.bam
+*.bam.bai
+*.cram
+*.cram.crai
+*.sam
+
+## 参考基因组（可重新下载，且有校验和记录）
+reference/*.fa
+reference/*.fa.gz
+reference/*.fasta
+reference/*.fasta.gz
+reference/*.bt2
+reference/*.0123
+reference/*.amb
+reference/*.ann
+reference/*.bwt
+reference/*.pac
+reference/*.sa
+
+## 分析中间产物（由 server/ 下脚本产生，不入库）
+# 注意：这些目录里的 .gitkeep 是刻意保留的占位文件，必须显式豁免，
+# 否则目录在克隆后不存在，脚本会因找不到输出目录而失败。
+data/raw/*
+!data/raw/.gitkeep
+data/qc/*
+!data/qc/.gitkeep
+data/bam/
+data/vcf/
+data/depth/
+data/kmer/
+data/tmp/
+
+## 可重新下载的元数据缓存（约 110 MB，不值得入库）
+# xml_cache 是 NCBI/ENA 批量查询的原始响应，可凭检索条件重新抓取；
+# 其派生结果（sample_attrs.tsv、variety_canonical.tsv 等）已入库。
+data/metadata/candidates/xml_cache/
+
+## 下游产物的占位文件同样保留
+reference/*
+!reference/.gitkeep
+results/fingerprints/*
+results/markers/*
+results/statistics/*
+results/validation/*
+!results/fingerprints/.gitkeep
+!results/markers/.gitkeep
+!results/statistics/.gitkeep
+!results/validation/.gitkeep
+database/*
+!database/.gitkeep
+
+## 不随代码公开发布（本地保留）
+# `.learnings/` 是开发过程中 AI 编码助手的事故与经验记录，属于工具链副产品而非
+# 科研产出；`docs/methods/_raw/` 是已发表论文的全文抓取存档（版权归原作者，
+# 公开转载并不合适）。两者都保留在开发机上，但**不入库、不推送**。
+# 论文解析结论本身有独立、可引用的载体：docs/methods/paper_niu2024_extraction.md。
+.learnings/
+docs/methods/_raw/
+
+## 本机环境与临时文件
+.tmp/
+local/
+*.log
+# .tools/ 是本机装的纯 Python 依赖（pip --target），可由 requirements 重建
+.tools/
+
+## 数据库产物（可由 build_database.py 重建）
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+## Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+## 系统
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,181 @@
+topic	pmid	year	journal	first_author	title	doi
+3k_rgp_paper	30992303	2019	Genome Res	Fuentes RR	Structural variants in 3000 rice genomes	10.1101/gr.241240.118
+3k_rgp_paper	27940610	2017	Nucleic Acids Res	Sun C	RPAN: rice pan-genome browser for ∼3000 rice genomes	10.1093/nar/gkw958
+3k_rgp_paper	35396275	2022	Genome Res	Zhang F	Long-read sequencing of 111 rice genomes reveals significantly larger pan-genomes	10.1101/gr.276015.121
+3k_rgp_paper	33367255	2020	Plant Commun	Kumar A	Designing a Mini-Core Collection Effectively Representing 3004 Diverse Rice Accessions	10.1016/j.xplc.2020.100049
+3k_rgp_paper	30604755	2019	Nat Commun	Carpentier MC	Retrotranspositional landscape of Asian rice revealed by 3000 genomes	10.1038/s41467-018-07974-5
+3k_rgp_paper	33830376	2021	Planta	Jiang N	Genome-wide association mapping for resistance to bacterial blight and bacterial leaf streak in rice	10.1007/s00425-021-03612-5
+3k_rgp_paper	29748895	2018	Rice (N Y)	Xu Y	Genomic selection of agronomic traits in hybrid rice using an NCII population	10.1186/s12284-018-0223-4
+3k_rgp_paper	25429973	2015	Nucleic Acids Res	Alexandrov N	SNP-Seek database of SNPs derived from 3000 rice genomes	10.1093/nar/gku1039
+3k_rgp_paper	34487253	2021	Rice (N Y)	Bai S	Dissection of the Genetic Basis of Rice Panicle Architecture Using a Genome-wide Association Study	10.1186/s12284-021-00520-w
+3k_rgp_paper	36340400	2022	Front Plant Sci	Siangliw JL	Response of Southeast Asian rice root architecture and anatomy phenotypes to drought stress	10.3389/fpls.2022.1008954
+3k_rgp_paper	39558187	2025	Nucleic Acids Res	Hamilton JP	The rice genome annotation project: an updated database for mining the rice genome	10.1093/nar/gkae1061
+3k_rgp_paper	33367250	2020	Plant Commun	Ji C	Xa1 Allelic R Genes Activate Rice Blight Resistance Suppressed by Interfering TAL Effectors	10.1016/j.xplc.2020.100087
+3k_rgp_paper	37214799	2023	bioRxiv	Ferrero-Serrano Á	Oryza CLIMtools: A Genome-Environment Association Resource Reveals Adaptive Roles for Heterotrimeric G Proteins in the Regulation of Rice Agronomic Traits	10.1101/2023.05.10.540241
+3k_rgp_paper	38213027	2024	Plant Commun	Ferrero-Serrano Á	Oryza CLIMtools: A genome-environment association resource reveals adaptive roles for heterotrimeric G proteins in the regulation of rice agronomic traits	10.1016/j.xplc.2024.100813
+3k_rgp_paper	36853402	2023	Rice (N Y)	Beye A	Traces of Introgression from cAus into Tropical Japonica Observed in African Upland Rice Varieties	10.1186/s12284-023-00625-4
+3k_rgp_paper	33034758	2020	Rice (N Y)	Roman-Reyna V	Characterization of the Leaf Microbiome from Whole-Genome Sequencing Data of the 3000 Rice Genomes Project	10.1186/s12284-020-00432-1
+3k_rgp_paper	33638765	2021	Rice (N Y)	Lu J	Genome-Wide Association Study Dissects Resistance Loci against Bacterial Blight in a Diverse Rice Panel from the 3000 Rice Genomes Project	10.1186/s12284-021-00462-3
+3k_rgp_paper	36313447	2022	Front Genet	Wang W	Distribution characteristics of selenium, cadmium and arsenic in rice grains and their genetic dissection by genome-wide association study	10.3389/fgene.2022.1007896
+3k_rgp_paper	32299830	2020	Genome Res	Guo T	Dynamic effects of interacting genes underlying rice flowering-time phenotypic plasticity and global adaptation	10.1101/gr.255703.119
+3k_rgp_paper	31888458	2019	BMC Genomics	Tang T	Sketch distance-based clustering of chromosomes for large genome database compression	10.1186/s12864-019-6310-0
+variety_id_title	28715430	2017	PLoS One	Jiang S	Resequencing and variation identification of whole genome of the japonica rice variety "Longdao24" with high yield	10.1371/journal.pone.0181037
+variety_id_title	39038946	2024	Plant Cell Environ	Xu Y	Discrimination of relatedness drives rice flowering and reproduction in cultivar mixtures	10.1111/pce.15055
+variety_id_title	34399174	2022	Food Chem	Arslan M	Discrimination of rice varieties using smartphone-based colorimetric sensor arrays and gas chromatography techniques	10.1016/j.foodchem.2021.130783
+variety_id_title	37403623	2024	Nat Prod Res	Dharsini SP	Identification of potential probiotics from fermented sour traditional rice varieties and in vitro simulation studies	10.1080/14786419.2023.2230608
+variety_id_title	34436469	2021	Metabolites	Jie Y	Identification of Key Volatiles Differentiating Aromatic Rice Cultivars Using an Untargeted Metabolomics Approach	10.3390/metabo11080528
+variety_id_title	35187294	2022	ACS Omega	Jin B	Identification of Rice Seed Varieties Based on Near-Infrared Hyperspectral Imaging Technology Combined with Deep Learning	10.1021/acsomega.1c04102
+variety_id_title	19093510	2007	Pak J Biol Sci	Bhowmik SK	Identification of salt tolerant rice cultivars via phenotypic and marker-assisted procedures	10.3923/pjbs.2007.4449.4454
+variety_id_title	36835399	2023	Int J Mol Sci	Gao P	Identification of Elite R-Gene Combinations against Blast Disease in Geng Rice Varieties	10.3390/ijms24043984
+variety_id_title	36097113	2022	Mol Biol Rep	Verma RK	Identification and characterization of genes for drought tolerance in upland rice cultivar 'Banglami' of North East India	10.1007/s11033-022-07859-3
+variety_id_title	27242837	2016	Front Plant Sci	Samejima H	Identification of Striga hermonthica-Resistant Upland Rice Varieties in Sudan and Their Resistance Phenotypes	10.3389/fpls.2016.00634
+variety_id_title	35567210	2022	Plants (Basel)	Ma B	Intelligent Identification and Features Attribution of Saline-Alkali-Tolerant Rice Varieties Based on Raman Spectroscopy	10.3390/plants11091210
+variety_id_title	25755666	2015	Int J Plant Genomics	Pourabed E	Identification and DUS Testing of Rice Varieties through Microsatellite Markers	10.1155/2015/965073
+variety_id_title	34846546	2022	Theor Appl Genet	Zhang Z	Global identification and integrated analysis of heat-responsive long non-coding RNAs in contrasting rice cultivars	10.1007/s00122-021-04001-y
+variety_id_title	41012083	2025	Plants (Basel)	Wang C	Identification of High- and Low-Cadmium (Cd)-Accumulating Rice Cultivars Using Combined Molecular Markers	10.3390/plants14182931
+variety_id_title	38567126	2024	Front Plant Sci	Wang H	Whole-transcriptome profiling and identification of cold tolerance-related ceRNA networks in japonica rice varieties	10.3389/fpls.2024.1260591
+variety_id_title	31127449	2019	Funct Integr Genomics	Goel S	Identification of microRNA-target modules from rice variety Pusa Basmati-1 under high temperature and salt stress	10.1007/s10142-019-00673-4
+variety_id_title	36465951	2022	Comput Intell Neurosci	Fatima M	Two-Stage Intelligent DarkNet-SqueezeNet Architecture-Based Framework for Multiclass Rice Grain Variety Identification	10.1155/2022/1339469
+variety_id_title	39942918	2025	Plants (Basel)	Tian J	Evaluation of Rice Quality Storage Stability: From Variety Screening to Trait Identification	10.3390/plants14030356
+variety_id_title	31847134	2019	Molecules	Hao Y	Identification of Rice Varieties and Transgenic Characteristics Based on Near-Infrared Diffuse Reflectance Spectroscopy and Chemometrics	10.3390/molecules24244568
+variety_id_title	40852576	2025	Food Chem X	Qian L	Discrimination of different varieties of rice in Wuchang area based on E-nose and HS-SPME-GC-O-MS	10.1016/j.fochx.2025.102779
+lowpass_title	34250668	2021	Mol Ecol	Lou RN	A beginner's guide to low-coverage whole genome sequencing for population genomics	10.1111/mec.16077
+lowpass_title	35251117	2021	Front Genet	Chat V	Ultra Low-Coverage Whole-Genome Sequencing as an Alternative to Genotyping Arrays in Genome-Wide Association Studies	10.3389/fgene.2021.790445
+lowpass_title	25373763	2015	Methods Mol Biol	Golicz AA	Skim-based genotyping by sequencing	10.1007/978-1-4939-1966-6_19
+lowpass_title	38279846	2024	Prenat Diagn	Mighton C	Validation of low-pass genome sequencing for prenatal diagnosis	10.1002/pd.6525
+lowpass_title	42552276	2026	Mol Biomed	Zhang Y	Integrative cfDNA profiling from low-pass whole-genome sequencing enables tissue-of-origin prediction in cancer	10.1186/s43556-026-00497-2
+lowpass_title	33543400	2021	Funct Integr Genomics	Fu J	Combining targeted sequencing and ultra-low-pass whole-genome sequencing for accurate somatic copy number alteration detection	10.1007/s10142-021-00767-y
+lowpass_title	42602860	2026	eGastroenterology	Rojo C	Ultra-low-pass whole-genome sequencing of bile cfDNA in patients with biliary strictures	10.1136/egastro-2026-100425
+lowpass_title	40632977	2025	JCO Precis Oncol	Zhao D	Risk Assessment With Ultra-Low-Pass Whole-Genome Sequencing of Cell-Free DNA for Large B-Cell Lymphoma	10.1200/PO-25-00200
+lowpass_title	37079053	2023	J Cancer Res Clin Oncol	Qin JJ	Low-coverage and cost-effective whole-genome sequencing assay for glioma risk stratification	10.1007/s00432-023-04716-z
+lowpass_title	32451733	2020	Hum Genet	Chau MHK	Low-pass genome sequencing: a validated method in clinical cytogenetics	10.1007/s00439-020-02185-9
+lowpass_title	40778171	2026	medRxiv	Wang K	Whole-genome variant detection in long-read sequencing data from ultra-low input patient samples	10.1101/2025.07.25.25332067
+lowpass_title	36773750	2023	Mol Phylogenet Evol	Taite M	Genome skimming elucidates the evolutionary history of Octopoda	10.1016/j.ympev.2023.107729
+lowpass_title	35321281	2022	World J Gastrointest Oncol	Ye LP	Cost-effective low-coverage whole-genome sequencing assay for the risk stratification of gastric cancer	10.4251/wjgo.v14.i3.690
+lowpass_title	39880602	2025	Gut	Al Bakir I	Low-coverage whole genome sequencing of low-grade dysplasia strongly predicts advanced neoplasia risk in ulcerative colitis	10.1136/gutjnl-2024-333353
+lowpass_title	35751014	2022	BMC Bioinformatics	Herzig AF	Moment estimators of relatedness from low-depth whole-genome sequencing data	10.1186/s12859-022-04795-8
+lowpass_title	33743587	2021	BMC Genomics	Wasik K	Comparing low-pass sequencing and genotyping for trait mapping in pharmacogenetics	10.1186/s12864-021-07508-2
+lowpass_title	34910782	2021	PLoS One	Lamb HJ	Genomic prediction using low-coverage portable Nanopore sequencing	10.1371/journal.pone.0261274
+lowpass_title	40596117	2025	Sci Rep	Virga A	Mutational and low-coverage whole genome sequencing identifies actionable DNA repair alterations in prostate cancer plasma DNA	10.1038/s41598-025-05384-4
+lowpass_title	38683324	2024	Methods Mol Biol	Mirarab S	Analyses of Nuclear Reads Obtained Using Genome Skimming	10.1007/978-1-0716-3581-0_16
+lowpass_title	37510263	2023	Genes (Basel)	Li K	Low-Pass Genome Sequencing-Based Detection of Paternity: Validation in Clinical Cytogenetics	10.3390/genes14071357
+rice_germplasm	32101292	2020	Plant Cell Physiol	Tanaka N	Whole-Genome Sequencing of the NARO World Rice Core Collection (WRC) as the Basis for Diversity and Association Studies	10.1093/pcp/pcaa019
+rice_germplasm	36986915	2023	Plants (Basel)	Luo JS	Genome and Transcriptome Identification of a Rice Germplasm with High Cadmium Uptake and Translocation	10.3390/plants12061226
+rice_germplasm	37047087	2023	Int J Mol Sci	Chen D	Genome-Wide Association Study for Seed Dormancy Using Re-Sequenced Germplasm under Multiple Conditions in Rice	10.3390/ijms24076117
+rice_germplasm	41805715	2026	PLoS One	Yang W	Genetic diversity and core collection construction of glutinous rice landraces in 'He' cultivation zone of Guizhou using SSR sequencing	10.1371/journal.pone.0343623
+rice_germplasm	25485030	2014	Trop Plant Biol	Brozynska M	Chloroplast Genome of Novel Rice Germplasm Identified in Northern Australia	10.1007/s12042-014-9142-8
+rice_germplasm	28321828	2017	Rice (N Y)	Dilla-Ermita CJ	Genome-wide Association Analysis Tracks Bacterial Leaf Blight Resistance Loci In Rice Diverse Germplasm	10.1186/s12284-017-0147-4
+rice_germplasm	36432867	2022	Plants (Basel)	Zhong K	Genome-Wide Association Study of Zinc Toxicity Tolerance within a Rice Core Collection (Oryza sativa L.)	10.3390/plants11223138
+rice_germplasm	32972357	2020	BMC Plant Biol	Liu S	Genome-wide association studies of ionomic and agronomic traits in USDA mini core collection of rice and comparative analyses of different mapping methods	10.1186/s12870-020-02603-0
+rice_germplasm	41470633	2025	Plants (Basel)	Fu YB	Individual Genomic Distinctness of Rice Germplasm as Measured with an Average Pairwise Dissimilarity of Genome-Wide SNPs and Structural Variants	10.3390/plants14243750
+rice_germplasm	37538056	2023	Front Plant Sci	Padmashree R	Genome-wide association studies in rice germplasm reveal significant genomic regions for root and yield-related traits under aerobic and irrigated conditions	10.3389/fpls.2023.1143853
+rice_germplasm	29298667	2018	BMC Genet	Batayeva D	Genome-wide association study of seedling stage salinity tolerance in temperate japonica rice germplasm	10.1186/s12863-017-0590-7
+rice_germplasm	33539537	2021	Plant Cell Physiol	Tanaka N	Investigation of the Genetic Diversity of a Rice Core Collection of Japanese Landraces using Whole-Genome Sequencing	10.1093/pcp/pcaa125
+rice_germplasm	35356125	2022	Front Plant Sci	Yang W	Genome-Wide Association Study of Pericarp Color in Rice Using Different Germplasm and Phenotyping Methods Reveals Different Genetic Architectures	10.3389/fpls.2022.841191
+rice_germplasm	35557725	2022	Front Plant Sci	Wang X	Mining Beneficial Genes for Salt Tolerance From a Core Collection of Rice Landraces at the Seedling Stage Through Genome-Wide Association Mapping	10.3389/fpls.2022.847863
+rice_germplasm	30619409	2018	Front Plant Sci	Zhao M	Mining Beneficial Genes for Aluminum Tolerance Within a Core Collection of Rice Landraces Through Genome-Wide Association Mapping With High Density SNPs From Specific-Locus Amplified Fragment Sequencing	10.3389/fpls.2018.01838
+rice_germplasm	31208337	2019	BMC Plant Biol	Zhang P	Genome-wide association study of important agronomic traits within a core collection of rice (Oryza sativa L.)	10.1186/s12870-019-1842-7
+rice_germplasm	37240156	2023	Int J Mol Sci	Li J	Genome-Wide Association Study Identifies Resistance Loci for Bacterial Blight in a Collection of Asian Temperate Japonica Rice Germplasm	10.3390/ijms24108810
+rice_germplasm	28355306	2017	PLoS One	Zhang F	Genome-wide association analysis identifies resistance loci for bacterial blight in a diverse collection of indica rice germplasm	10.1371/journal.pone.0174598
+rice_germplasm	30013584	2018	Front Plant Sci	Song J	Genome-Wide Association Mapping for Cold Tolerance in a Core Collection of Rice (Oryza sativa L.) Landraces by Using High-Density Single Nucleotide Polymorphism Markers From Specific-Locus Amplified Fragment Sequencing	10.3389/fpls.2018.00875
+rice_germplasm	30976929	2019	Rice (N Y)	Li N	Genome-wide association study and candidate gene analysis of alkalinity tolerance in japonica rice germplasm at the seedling stage	10.1186/s12284-019-0285-y
+seed_purity	39949471	2025	Curr Res Food Sci	El Harkaoui S	Adulteration detection in cactus seed oil: Integrating analytical chemistry and machine learning approaches	10.1016/j.crfs.2025.100986
+seed_purity	30105054	2018	Int J Anal Chem	Chen H	Authenticity Detection of Black Rice by Near-Infrared Spectroscopy and Support Vector Data Description	10.1155/2018/8032831
+seed_purity	38171735	2024	J Oleo Sci	Yang X	Efficient Enzymatic Enrichment of High-purity Nervonic Acid from Malania oleifera Seed Oil	10.5650/jos.ess23170
+seed_purity	34300945	2021	Materials (Basel)	Li Z	Grain Growth Mechanism of Lamellar-Structure High-Purity Nickel via Cold Rolling and Cryorolling during Annealing	10.3390/ma14144025
+seed_purity	31330371	2019	Food Chem	Lange CN	Mineral profile exploratory analysis for rice grains traceability	10.1016/j.foodchem.2019.125145
+seed_purity	34206783	2021	Sensors (Basel)	Liu W	Rice Seed Purity Identification Technology Using Hyperspectral Image with LASSO Logistic Regression Model	10.3390/s21134384
+seed_purity	30933778	2019	Spectrochim Acta A Mol Biomol Spectrosc	Teye E	Innovative and rapid analysis for rice authenticity using hand-held NIR spectrometry and chemometrics	10.1016/j.saa.2019.03.085
+seed_purity	31137594	2019	Molecules	Song J	Quality and Authenticity Control of Functional Red Yeast Rice-A Review	10.3390/molecules24101944
+seed_purity	41227685	2025	Foods	Gonçalves C	Blockchain-Enabled Traceability in the Rice Supply Chain: Insights from the TRACE-RICE Project	10.3390/foods14213711
+seed_purity	37685168	2023	Foods	Zhang Y	A Blockchain-Based Traceability Model for Grain and Oil Food Supply Chain	10.3390/foods12173235
+seed_purity	36247557	2022	Front Plant Sci	Zhang H	Detection of seed purity of hybrid wheat using reflectance and transmittance hyperspectral imaging technology	10.3389/fpls.2022.1015891
+seed_purity	35722667	2022	Food Addit Contam Part B Surveill	Bui MQ	Geographical origin traceability of Sengcu rice using elemental markers and multivariate analysis	10.1080/19393210.2022.2070932
+seed_purity	41346830	2025	Front Plant Sci	Li C	Rice origin traceability using mid-infrared and fluorescence spectral data fusion	10.3389/fpls.2025.1679754
+seed_purity	36832928	2023	Foods	Zheng Q	Precise Authenticity of Quinoa, Coix Seed, Wild Rice and Chickpea Components Using Optimized TaqMan Real-Time PCR	10.3390/foods12040852
+seed_purity	36753940	2023	Food Chem	Zhi L	Multi-stable isotope and multi-element origin traceability of rice from the main producing regions in Asia: A long-term investigation during 2017-2020	10.1016/j.foodchem.2023.135417
+seed_purity	28551256	2017	Food Chem	Chung IM	Authenticity testing of environment-friendly Korean rice (Oryza sativa L.) using carbon and nitrogen stable isotope ratio analysis	10.1016/j.foodchem.2017.05.014
+seed_purity	38296168	2024	Fitoterapia	Wu X	A new integrated strategy for high purity pinolenic acid production from Pinus koraiensis Sieb. et Zucc seed oil and evaluation of its hypolipidemic activity in vivo	10.1016/j.fitote.2024.105842
+seed_purity	40521154	2025	Data Brief	Nawaz M	High-resolution RGB image dataset for wheat seed varietal identification and purity assessment	10.1016/j.dib.2025.111690
+seed_purity	38182092	2024	J Food Prot	Kuyu CG	Nutritional and Microbial Quality of teff Grain as Influenced by Economically Motivated Adulteration Along the Supply Chain	10.1016/j.jfp.2023.100216
+seed_purity	24976486	2014	Chem Asian J	Zheng Y	Seed-mediated synthesis of gold tetrahedra in high purity and with tunable, well-controlled sizes	10.1002/asia.201402499
+dna_barcode_crop	41796074	2026	J Exp Bot	Morello-López J	Tethers and Transporters: The Molecular Fingerprint of Plant ER-PM Contact Sites	10.1093/jxb/erag127
+dna_barcode_crop	37967132	2023	PLoS One	Schweikle S	DNA barcoding as new diagnostic tool to lethal plant poisoning in herbivorous mammals	10.1371/journal.pone.0292275
+dna_barcode_crop	37249883	2023	Methods Mol Biol	Feau N	DNA-Barcoding Identification of Plant Pathogens for Disease Diagnostics	10.1007/978-1-0716-3159-1_3
+dna_barcode_crop	19004756	2009	Proc Biol Sci	Jurado-Rivera JA	DNA barcoding insect-host plant associations	10.1098/rspb.2008.1264
+dna_barcode_crop	32391031	2020	Front Plant Sci	Ji Y	Ultra-Barcoding Discovers a Cryptic Species in Paris yunnanensis (Melanthiaceae), a Medicinally Important Plant	10.3389/fpls.2020.00411
+dna_barcode_crop	35605810	2022	Phytochemistry	Sartori AGO	Plant genetic diversity by DNA barcoding to investigate propolis origin	10.1016/j.phytochem.2022.113226
+dna_barcode_crop	33913093	2021	Mol Biol Rep	Thakur VV	DNA barcoding of some medicinally important plant species of Lamiaceae family in India	10.1007/s11033-021-06356-3
+dna_barcode_crop	32649839	2021	Genome	Kolter A	Plant DNA barcoding necessitates marker-specific efforts to establish more comprehensive reference databases	10.1139/gen-2019-0198
+dna_barcode_crop	29143601	2017	BMC Plant Biol	Genievskaya Y	Morphological description and DNA barcoding study of sand rice (Agriophyllum squarrosum, Chenopodiaceae) collected in Kazakhstan	10.1186/s12870-017-1132-1
+dna_barcode_crop	28944019	2017	Ecol Evol	Hosein FN	Utility of DNA barcoding to identify rare endemic vascular plant species in Trinidad	10.1002/ece3.3220
+dna_barcode_crop	36692675	2023	Mol Biol Rep	Ramasetty BT	DNA barcoding and nutritional profiling of underutilized native indigenous plant species of Karnataka, India	10.1007/s11033-022-08155-w
+dna_barcode_crop	35631799	2022	Plants (Basel)	Cahyaningsih R	DNA Barcoding Medicinal Plant Species from Indonesia	10.3390/plants11101375
+dna_barcode_crop	37021680	2023	Mol Ecol Resour	Song F	Plant DNA barcode library for native flowering plants in the arid region of northwestern China	10.1111/1755-0998.13797
+dna_barcode_crop	38895104	2024	Plant Direct	Nath S	DNA barcoding of terrestrial invasive plant species in Southwest Michigan	10.1002/pld3.615
+dna_barcode_crop	37941051	2023	BMC Res Notes	Bastin S	Establishing reliable DNA barcoding primers for jumping plant lice (Psylloidea, Hemiptera)	10.1186/s13104-023-06585-8
+dna_barcode_crop	37653977	2023	Plants (Basel)	Jin DP	Identification of the Plant Family Caryophyllaceae in Korea Using DNA Barcoding	10.3390/plants12102060
+dna_barcode_crop	30703281	2019	Mol Ecol Resour	Gill BA	Plant DNA-barcode library and community phylogeny for a semi-arid East African savanna	10.1111/1755-0998.13001
+dna_barcode_crop	28250597	2017	Physiol Mol Biol Plants	Enan MR	DNA barcoding of selected UAE medicinal plant species: a comparative assessment of herbarium and fresh samples	10.1007/s12298-016-0412-9
+dna_barcode_crop	31472895	2019	Chin J Nat Med	Liu M	Species identification of poisonous medicinal plant using DNA barcoding	10.1016/S1875-5364(19)30060-3
+dna_barcode_crop	22419486	2012	Methods Mol Biol	Cowan RS	Challenges in the DNA barcoding of plant material	10.1007/978-1-61779-609-8_3
+cnv_crop_marker	30382311	2019	Theor Appl Genet	Lyra DH	Modeling copy number variation in the genomic prediction of maize hybrids	10.1007/s00122-018-3215-2
+cnv_crop_marker	33643334	2020	Front Plant Sci	Liu Q	The Copy Number Variation of OsMTD1 Regulates Rice Plant Architecture	10.3389/fpls.2020.620282
+cnv_crop_marker	33127757	2020	Proc Natl Acad Sci U S A	Nilsen KT	Copy number variation of TdDof controls solid-stemmed architecture in wheat	10.1073/pnas.2009418117
+cnv_crop_marker	38641318	2024	J Genet Genomics	Zhou D	Copy number variation of NAL23 causes narrow-leaf development in rice	10.1016/j.jgg.2024.04.006
+cnv_crop_marker	37957162	2023	Nat Commun	Zhao Z	Copy number variation of the restorer Rf4 underlies human selection of three-line hybrid rice breeding	10.1038/s41467-023-43009-4
+cnv_crop_marker	26147619	2015	Nat Genet	Wang Y	Copy number variation at the GL7 locus contributes to grain size diversity in rice	10.1038/ng.3346
+cnv_crop_marker	41126876	2025	Front Genome Ed	Park H	CRISPR/Cas9- and Cas3-mediated modification of copy number variation in rice	10.3389/fgeed.2025.1652950
+cnv_crop_marker	38951917	2024	Genome Biol	Niu J	Tagging large CNV blocks in wheat boosts digitalization of germplasm resources by ultra-low-coverage sequencing	10.1186/s13059-024-03315-6
+cnv_crop_marker	31357926	2019	BMC Genet	Würschum T	Copy number variation of Ppd-B1 is the major determinant of heading time in durum wheat	10.1186/s12863-019-0768-2
+cnv_crop_marker	19956538	2009	PLoS Genet	Springer NM	Maize inbreds exhibit high levels of copy number variation (CNV) and presence/absence variation (PAV) in genome content	10.1371/journal.pgen.1000734
+cnv_crop_marker	26883046	2016	Theor Appl Genet	Sieber AN	Copy number variation of CBF-A14 at the Fr-A2 locus determines frost tolerance in winter durum wheat	10.1007/s00122-016-2685-3
+cnv_crop_marker	40432508	2025	J Integr Plant Biol	Han X	A copy number variation in the ZmMADS1 promoter enhances maize adaptation to high altitudes	10.1111/jipb.13924
+cnv_crop_marker	33155760	2021	Plant Genome	Juery C	New insights into homoeologous copy number variations in the hexaploid wheat genome	10.1002/tpg2.20069
+cnv_crop_marker	21771342	2011	BMC Genomics	Yu P	Detection of copy number variations in rice using array-based comparative genomic hybridization	10.1186/1471-2164-12-372
+cnv_crop_marker	38977688	2024	Nat Commun	Tralamazza SM	Copy number variation introduced by a massive mobile element facilitates global thermal adaptation in a fungal wheat pathogen	10.1038/s41467-024-49913-7
+cnv_crop_marker	21036921	2010	Genome Res	Swanson-Wagner RA	Pervasive gene content variation and copy number variation in maize and its undomesticated progenitor	10.1101/gr.109165.110
+cnv_crop_marker	26219856	2015	BMC Genet	Würschum T	Multiply to conquer: Copy number variations at Ppd-B1 and Vrn-A1 facilitate global adaptation in wheat	10.1186/s12863-015-0258-0
+cnv_crop_marker	32591023	2020	BMC Biol	Zhao F	A genome-wide survey of copy number variations reveals an asymmetric evolution of duplicated genes in rice	10.1186/s12915-020-00798-0
+cnv_crop_marker	27859852	2017	Plant J	Würschum T	Copy number variations of CBF genes at the Fr-A2 locus are essential components of winter hardiness in wheat	10.1111/tpj.13424
+cnv_crop_marker	21917144	2011	Genome Biol	Saintenac C	Targeted analysis of nucleotide and copy number variation by exon capture in allotetraploid wheat genome	10.1186/gb-2011-12-9-r88
+imputation_lowcov	37386250	2023	Nat Genet	Rubinacci S	Imputation of low-coverage sequencing data from 150,119 UK Biobank genomes	10.1038/s41588-023-01438-3
+imputation_lowcov	40695596	2025	Genome Res	Biagini SA	Genotype imputation from low-coverage data for medical and population genetic analyses	10.1101/gr.280175.124
+imputation_lowcov	35046990	2021	Front Genet	Deng T	Comparison of Genotype Imputation for SNP Array and Low-Coverage Whole-Genome Sequencing Data	10.3389/fgene.2021.704118
+imputation_lowcov	41126791	2025	Plant Genome	Sthapit SR	A low-coverage skim-sequencing and imputation pipeline for genomic selection	10.1002/tpg2.70139
+imputation_lowcov	33414550	2021	Nat Genet	Rubinacci S	Efficient phasing and imputation of low-coverage sequencing data using large reference panels	10.1038/s41588-020-00756-0
+imputation_lowcov	38216889	2024	Genet Sel Evol	Wragg D	A cautionary tale of low-pass sequencing and imputation with respect to haplotype accuracy	10.1186/s12711-024-00875-w
+imputation_lowcov	26168789	2015	BMC Genet	VanRaden PM	Fast imputation using medium or low-coverage sequence data	10.1186/s12863-015-0243-7
+imputation_lowcov	39883620	2025	PLoS One	Triay C	Fast and accurate imputation of genotypes from noisy low-coverage sequencing data in bi-parental populations	10.1371/journal.pone.0314759
+imputation_lowcov	39041837	2024	G3 (Bethesda)	Liu S	Accurate genotype imputation from low-coverage whole-genome sequencing data of rainbow trout	10.1093/g3journal/jkae168
+imputation_lowcov	41795469	2026	Am J Hum Genet	Kumar KH	MetaGLIMPSE: Meta-imputation of low-coverage sequencing data for modern and ancient genomes	10.1016/j.ajhg.2026.02.004
+imputation_lowcov	33122697	2020	Sci Rep	Hui R	Evaluating genotype imputation pipeline for ultra-low coverage ancient genomes	10.1038/s41598-020-75387-w
+imputation_lowcov	40155798	2025	Genet Sel Evol	Gundappa MK	High performance imputation of structural and single nucleotide variants using low-coverage whole genome sequencing	10.1186/s12711-025-00962-6
+imputation_lowcov	33167493	2020	Genes (Basel)	Snelling WM	Assessment of Imputation from Low-Pass Sequencing to Predict Merit of Beef Steers	10.3390/genes11111312
+imputation_lowcov	27537694	2016	PLoS One	Chan AW	Evaluating Imputation Algorithms for Low-Depth Genotyping-By-Sequencing (GBS) Data	10.1371/journal.pone.0160733
+imputation_lowcov	41644996	2026	Sci Rep	Maróti Z	Robust imputation-based method for eye, hair, and skin colour prediction from low-coverage ancient DNA	10.1038/s41598-026-38372-3
+imputation_lowcov	39126800	2024	Animal	Wang XQ	Imputation strategies for low-coverage whole-genome sequencing data and their effects on genomic prediction and genome-wide association studies in pigs	10.1016/j.animal.2024.101258
+imputation_lowcov	39028337	2024	Mamm Genome	Çubukcu H	Evaluation of genotype imputation using Glimpse tools on low coverage ancient DNA	10.1007/s00335-024-10053-4
+imputation_lowcov	33473199	2021	Nat Genet	Rubinacci S	Publisher Correction: Efficient phasing and imputation of low-coverage sequencing data using large reference panels	10.1038/s41588-021-00788-0
+imputation_lowcov	35151474	2022	J Dairy Sci	Teng J	Assessment of the performance of different imputation methods for low-coverage sequencing in Holstein cattle	10.3168/jds.2021-21360
+imputation_lowcov	41257582	2025	BMC Genomics	Koorevaar T	Genotype imputation from low-coverage WGS using haplotype reference panels in cultivated strawberry	10.1186/s12864-025-12270-w
+variety_similarity_ml	36832960	2023	Foods	Yu F	Deep Learning-Based Intelligent Apple Variety Classification System and Model Interpretability Analysis	10.3390/foods12040885
+variety_similarity_ml	38927655	2024	Genes (Basel)	Chen P	Genetic Identification of Medicinal Citrus Cultivar 'Local Juhong' Using Molecular Markers and Genomics	10.3390/genes15060719
+variety_similarity_ml	41402752	2025	BMC Plant Biol	Akbarpour O	Deep learning-based seed variety classification: a case study in maize	10.1186/s12870-025-07919-3
+variety_similarity_ml	36003818	2022	Front Plant Sci	Tao M	Combination of spectral index and transfer learning strategy for glyphosate-resistant cultivar identification	10.3389/fpls.2022.973745
+variety_similarity_ml	34371609	2021	Plants (Basel)	Taheri-Garavand A	Automated In Situ Seed Variety Identification via Deep Learning: A Case Study in Chickpea	10.3390/plants10071406
+variety_similarity_ml	36650465	2023	BMC Plant Biol	Zhang J	Genetic diversity analysis and variety identification using SSR and SNP markers in melon	10.1186/s12870-023-04056-7
+variety_similarity_ml	32889133	2021	Food Chem	Mascellani A	(1)H NMR chemometric models for classification of Czech wine type and variety	10.1016/j.foodchem.2020.127852
+variety_similarity_ml	41605999	2026	Sci Rep	Bagherpour H	Machine learning approach for wheat variety identification using single-seed imaging	10.1038/s41598-026-35252-8
+variety_similarity_ml	39942650	2025	Molecules	Rodrigues PM	Machine Learning-Based Spectral Analyses for Camellia japonica Cultivar Identification	10.3390/molecules30030546
+variety_similarity_ml	40134410	2025	Int J Food Sci	Yılmaz B	Exploring Deep Learning Approaches for Walnut Phenotype Variety Classification	10.1155/ijfo/9677985
+variety_similarity_ml	34973616	2022	Spectrochim Acta A Mol Biomol Spectrosc	Liu Q	Variety classification of coated maize seeds based on Raman hyperspectral imaging	10.1016/j.saa.2021.120772
+variety_similarity_ml	34344983	2021	Sci Rep	Yang H	A novel method for peanut variety identification and classification by Improved VGG16	10.1038/s41598-021-95240-y
+variety_similarity_ml	38805455	2024	PLoS One	Liu X	Cotton seed cultivar identification based on the fusion of spectral and textural features	10.1371/journal.pone.0303219
+variety_similarity_ml	35734255	2022	Front Plant Sci	Wang J	Multi-Information Model for Large-Flowered Chrysanthemum Cultivar Recognition and Classification	10.3389/fpls.2022.806711
+variety_similarity_ml	40941168	2025	Foods	Zhang L	Variety Identification of Corn Seeds Based on Hyperspectral Imaging and Convolutional Neural Network	10.3390/foods14173052
+variety_similarity_ml	37563698	2023	Plant Methods	Li X	Classification of multi-year and multi-variety pumpkin seeds using hyperspectral imaging technology and three-dimensional convolutional neural network	10.1186/s13007-023-01057-3
+variety_similarity_ml	38486848	2024	Front Plant Sci	Xue M	Advanced deep learning models for phenotypic trait extraction and cultivar classification in lychee using photon-counting micro-CT imaging	10.3389/fpls.2024.1358360
+variety_similarity_ml	37959114	2023	Foods	Iqbal MJ	On Application of Lightweight Models for Rice Variety Classification and Their Potential in Edge Computing	10.3390/foods12213993
+variety_similarity_ml	41154094	2025	Foods	Qi G	Variety Identification of Corn Seeds Based on Hyperspectral Imaging and Residual Mamba 1D CNN	10.3390/foods14203558
+variety_similarity_ml	40895148	2025	Food Sci Nutr	Gargiulo L	Olive Variety Classification and Prediction From 3D Morphology of Fruit and Stone: A Study Case on Five South Italy Autochthone Cultivars	10.1002/fsn3.70797

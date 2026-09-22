@@ -1,0 +1,28 @@
+# 行尾约定：仓库中的文本文件一律以 LF 存储与检出。
+#
+# 为什么这不只是"整洁"问题：本项目的 `server/*.sh` 会被上传到 Linux 服务器执行。
+# 一个带 CRLF 的 shell 脚本在 Linux 上会直接**语法失败**——
+# 首行 `#!/usr/bin/env bash\r` 让解释器变成 `bash\r`（bad interpreter），
+# `for ...; do\r` 会报 `$'\r': command not found`。
+# 这不是风格问题，而是"脚本根本跑不起来"。
+#
+# 这个缺陷真实发生过：`server/00_probe.sh` 与 `server/02_download.sh`
+# 在 Windows 上被编辑器/工具改写成 CRLF，而 `00_probe.sh` 正是
+# 请求管理员**第一个执行**的脚本。
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.tsv  text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+
+# 二进制产物不得做行尾转换
+*.png  binary
+*.gz   binary
+*.bam  binary
+*.bai  binary
+*.fa   binary
+*.fasta binary
+*.vcf.gz binary

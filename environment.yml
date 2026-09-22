@@ -1,0 +1,52 @@
+# RiceVar-ID conda 环境（TASK-002 输出，v2：2026-09-15 为可解性修订）
+# 创建：conda env create -f environment.yml
+# 更新：conda env update -f environment.yml --prune
+# 说明：bwa-mem2 无官方 Windows 构建，本环境在 WSL2（Ubuntu + Miniconda3）内运行。
+# v2 修订：python 3.10→3.11（snakemake 8 需要 ≥3.11）；移除 r-tidyverse（解决 SAT 求解爆炸，
+#          R 绘图包按需在 Phase 6 前单独安装）；移除 mamba（conda≥24 内置 libmamba 求解器）。
+name: ricevar
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # ---- 基础 ----
+  - python=3.11
+  - r-base=4.3
+  - git
+  # ---- 测序数据处理 ----
+  - fastqc
+  - fastp
+  - samtools
+  - bcftools
+  - bedtools
+  - bwa-mem2
+  - minimap2
+  - mosdepth
+  - seqkit
+  # ---- k-mer ----
+  - kmc
+  - kmer-jellyfish        # ★★ 这才是 k-mer CLI（bioconda）
+                          #    踩坑记录：conda-forge 的 `jellyfish` 只是 Python 绑定库、
+                          #    **不含** `jellyfish` 可执行文件。首版 environment.yml 只写了
+                          #    `jellyfish`，导致按 yml 重建环境拿不到 CLI。
+                          #    详见 software_versions.txt 第三节问题 5。
+  - jellyfish             # Python 绑定库（当前环境已装；项目未直接依赖，保留以免环境漂移）
+  # ---- 工作流 ----
+  - snakemake
+  - snakemake-executor-plugin-cluster-generic
+  # ---- 下载工具 ----
+  - sra-tools
+  - entrez-direct
+  - curl
+  # ---- CNV 分析 ----
+  - hmmlearn              # 论文 CNVb 方法用 HMM 平滑窗口深度（TASK-004 第 4 节 Step 1）
+  # ---- Python 依赖（conda 管理核心科学栈，其余见 requirements.txt）----
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - -r requirements.txt

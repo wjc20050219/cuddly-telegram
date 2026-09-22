@@ -1,0 +1,6 @@
+sample_id	variety_name	subspecies	run_accession	study_accession	platform	est_depth	data_gb	read_length	country	source	note
+P01	Huanghuazhan	indica	SRR9696152	PRJNA554986	HiSeq X Ten	7.2	2.68	300	China:Hunan	ENA	体积最小，流水线首选验证样本
+P02	93-11	indica	SRR15718853	PRJNA760649	HiSeq 4000	14.7	5.50	300	China:Beijing	ENA	籼稻模式品种，与 IRGSP-1.0 亲缘较远
+P03	Basmati	indica_aromatic	SRR13124930	PRJNA623686	NovaSeq 6000	14.3	5.36	300	Pakistan	ENA	香稻，遗传背景特异
+P04	X559	Sui Japonica	japonica	DRR771384	PRJDB36518	HiSeq X Ten	16.4	6.17	300	Japan	ENA	DDBJ 来源，粳稻
+P05	X632	Chu xiang Japonica	japonica	DRR771457	PRJDB36518	HiSeq X Ten	16.3	6.12	299	Japan	ENA	DDBJ 来源，粳稻；与 P04 同项目

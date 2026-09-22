@@ -1,0 +1,71 @@
+--- ★ 品种名质量分级 ---
+  good         7,773/32,564   23.9%  ███████
+  caveat          32/32,564    0.1%  
+  code         7,025/32,564   21.6%  ███████
+  unusable    17,734/32,564   54.5%  ██████████████████
+  （code = 短字母数字编号，多为真实品种缩写，待 TASK-012 解析）
+
+--- 品种名来源 ---
+  (none)                        17,734   54.5%
+  xml:cultivar_tag              14,793   45.4%
+  xml:lineage_name                  20    0.1%
+  derived:description               11    0.0%
+  derived:alias                      6    0.0%
+
+--- 可用于建库的样本 ---
+  严格的（good+caveat，名字直接可用）  ：7,805 条 run
+  含编号类（+code，需 TASK-012 解析）  ：14,830 条 run
+  去重后品种数：8,468
+
+--- 品种出现次数 Top 30（可用于评估重复度）---
+  zh11                                     run=5349  最高深度=44.8x
+  kitaake                                  run=62    最高深度=189.3x
+  sk1                                      run=47    最高深度=65.2x
+  nipponbare                               run=44    最高深度=76.8x
+  dn416                                    run=36    最高深度=62.9x
+  dg1                                      run=31    最高深度=79.8x
+  samba mahsuri                            run=28    最高深度=73.2x
+  nipb                                     run=27    最高深度=41.0x
+  taichung native 1 (tn1)                  run=23    最高深度=100.4x
+  dn423                                    run=18    最高深度=57.5x
+  y58s                                     run=13    最高深度=123.9x
+  9311                                     run=13    最高深度=673.5x
+  cy927                                    run=13    最高深度=53.2x
+  wanli 1                                  run=12    最高深度=29.6x
+  zhonghua11                               run=11    最高深度=68.7x
+  minghui63                                run=11    最高深度=55.4x
+  ir64 (irri)                              run=10    最高深度=29.8x
+  huanghuazhan                             run=10    最高深度=55.7x
+  r900                                     run=10    最高深度=121.3x
+  dular                                    run=10    最高深度=60.4x
+  liu xu::irgc 109232-1                    run=9     最高深度=108.5x
+  npb                                      run=9     最高深度=7.1x
+  wuyungeng24                              run=9     最高深度=89.2x
+  ndcmp49                                  run=9     最高深度=36.9x
+  hcs                                      run=9     最高深度=45.4x
+  jia58                                    run=9     最高深度=33.2x
+  dv85                                     run=9     最高深度=43.0x
+  n22                                      run=8     最高深度=43.5x
+  fuhui838                                 run=8     最高深度=57.2x
+  liangyoupei9                             run=8     最高深度=32.5x
+
+--- 每个品种只出现 1 次的品种数 ---
+  8,068 / 8,468  (95.3%)
+  ^ 单样本品种无法做「同品种不同深度」的稳定性检验，建库时需注意
+
+--- 深度 ≥10× 且品种名可用的样本 ---
+  12,605 条 run，覆盖 7,130 个品种
+
+--- 亚种分布（good/caveat 样本）---
+  (未标注)                     13,619
+  japonica                     747
+  indica                       305
+  aus                          139
+  aromatic                      11
+  admixed                        5
+  temperate_japonica             4
+
+--- 来源库分布（good/caveat 样本）---
+  NCBI_SRA       9,203
+  DDBJ           5,595
+  ENA               32

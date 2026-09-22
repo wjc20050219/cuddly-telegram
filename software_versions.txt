@@ -1,0 +1,119 @@
+# RiceVar-ID 软件环境记录（TASK-002 输出）
+# 检测日期：2026-09-15（环境建成后实测回填）；2026-09-16 复核并修复两处依赖缺陷（见第三节 5、6）
+# 检测主机：Windows 11 23H2 (10.0.22631 x64) + WSL2
+# 规则：每次安装/升级任何软件后，更新本文件的对应条目与日期。
+
+## 一、当前项目运行环境（已建成）
+
+**宿主**：Windows 11 23H2 → WSL2（内核 6.18.33.2-microsoft-standard-WSL2）
+**发行版**：Ubuntu 26.04.1 LTS（发行版名 `Ubuntu`，默认以 root 执行项目命令）
+**环境管理器**：Miniconda3（`/opt/miniconda3`，conda 26.7.1，内置 libmamba 求解器）
+**项目环境**：conda env `ricevar` — `/opt/miniconda3/envs/ricevar`
+**通道镜像**：TUNA（conda-forge / bioconda 走 `mirrors.tuna.tsinghua.edu.cn`，PyPI 走 `pypi.tuna.tsinghua.edu.cn`），`channel_priority: strict`
+
+进入环境：
+
+```bash
+wsl -d Ubuntu -u root
+source /opt/miniconda3/etc/profile.d/conda.sh && conda activate ricevar
+```
+
+## 二、Windows 主机侧状态（未变）
+
+```
+python (系统)        3.7.3      C:\Program Files\Python37     仅系统用途，不作项目解释器
+pip (系统)           19.0.3     随系统 Python
+node                 v26.8.1
+npm                  11.19.0
+wsl (功能)           已启用 → WSL 2.7.14.0 + Ubuntu 26.04.1 LTS 已安装
+```
+
+生信工具链全部安装在 WSL2 内的 conda 环境中（bwa-mem2 等无 Windows 原生构建）。
+
+## 三、问题与决策记录
+
+1. 系统自带 Python 3.7.3 过旧 → 项目统一使用 WSL2 内 conda 环境 `ricevar`。
+2. 生信工具链无 Windows 原生版本 → 采用 WSL2 + Ubuntu 方案（2026-09-15 完成部署）。
+3. **Miniforge → Miniconda 替换**：`wsl --update --web-download` 正常，但 WSL 内 `github.com` 与 TUNA `github-release/LatestRelease` 两条 Miniforge 下载源均失败（exit 20）。改用 TUNA Anaconda 镜像的 Miniconda3（`mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh`），一次性成功。
+4. **environment.yml v2 修订（可解性）**：首版在 `channel_priority: flexible` 下求解 41 分钟仍未收敛（CPU 99%、RSS 7 GB，属求解爆炸）。修订三点后 **数秒内求解成功**：
+   - `python=3.10` → `python=3.11`（snakemake 9 要求 ≥3.11，原组合与 `snakemake-executor-plugin-cluster-generic` 冲突）；
+   - 移除 `r-tidyverse`（拉入数百个 R 包，是求解爆炸主因；R 绘图包按需在 Phase 6 前单独安装）；
+   - 移除 `mamba`（conda ≥24 已内置 libmamba），并将 `channel_priority` 设为 **strict**。
+5. **jellyfish 包名坑**：`jellyfish`（conda-forge）是 Python 绑定库，**不含** k-mer 计数 CLI；CLI 需 `kmer-jellyfish`（bioconda）。已补装。
+   ⚠️ **2026-09-16 补充修复**：当时只把 CLI 补装进当前环境，**忘了同步修改 `environment.yml`**——
+   yml 中仍只声明 `jellyfish`，意味着**照 yml 重建环境会装到 Python 绑定、拿不到 `jellyfish` 可执行文件**。
+   现已改为同时声明 `kmer-jellyfish`（CLI）与 `jellyfish`（Python 绑定）并加注释说明区别。
+   **复现性缺陷已消除。**
+6. **hmmlearn 缺失（2026-09-16 补装）**：论文 CNVb 方法需用 HMM 平滑窗口深度
+   （`n_components=3, n_iter=60, tol=0.001`，见 TASK-004 解析第 4 节 Step 1），
+   但首版 `environment.yml` 与 `requirements.txt` **均未包含**该依赖。
+   已安装 **hmmlearn 0.3.3** 并补入两个依赖文件（安装时 numpy/scipy/scikit-learn 均
+   "already satisfied"，未扰动既有环境）。
+7. `scripts/record_versions.sh` 因 `set -euo pipefail` + 工具非零退出码（bwa-mem2 `--version`）而中断 → 已改用 `scripts/collect_env_versions.sh`（本文件第五节即其输出）。
+
+## 四、部署命令备忘（已完成，供复现）
+
+```powershell
+# Windows 侧（管理员）：启用功能并安装 WSL2 + Ubuntu
+wsl --update --web-download
+wsl --set-default-version 2
+wsl --install -d Ubuntu --no-launch
+```
+
+```bash
+# WSL 内（root）：安装 Miniconda3 + 建 ricevar 环境
+bash /mnt/d/dsh/RiceVar-ID/setup_wsl_env3.sh
+```
+
+## 五、ricevar 环境实际版本清单（2026-09-15 实测）
+
+### 5.1 基础环境
+
+| 组件 | 版本 |
+| --- | --- |
+| 操作系统 | Ubuntu 26.04.1 LTS（WSL2 内核 6.18.33.2） |
+| conda | 26.7.1（base: /opt/miniconda3） |
+| Python | 3.11.16 |
+| pip | 26.2.1 |
+| R / Rscript | 4.3.3 "Angel Food Cake" |
+| git | 2.55.0 |
+
+### 5.2 测序数据处理
+
+| 工具 | 版本 |
+| --- | --- |
+| FastQC | v0.12.1 |
+| fastp | 1.3.7 |
+| samtools | 1.24 |
+| bcftools | 1.24 |
+| bedtools | v2.31.1 |
+| bwa-mem2 | 2.3 |
+| minimap2 | 2.31-r1302 |
+| mosdepth | 0.3.14 |
+| seqkit | 2.13.0 |
+| sra-tools (fasterq-dump) | 3.4.1 |
+| entrez-direct | 26.0 |
+
+### 5.3 k-mer 与工作流
+
+| 工具 | 版本 |
+| --- | --- |
+| KMC | 3.2.4 (2024-02-09) |
+| jellyfish (k-mer CLI) | 2.3.1（包名 `kmer-jellyfish`） |
+| Snakemake | 9.24.0（+ executor-plugin-cluster-generic 1.0.9） |
+
+### 5.4 Python 依赖（环境内实测）
+
+| 包 | 版本 | 包 | 版本 |
+| --- | --- | --- | --- |
+| numpy | 2.4.6 | pysam | 0.24.1 |
+| pandas | 3.0.5 | biopython | 1.88 |
+| scipy | 1.17.1 | scikit-allel | 1.3.13 |
+| pyarrow | 25.0.1 | scikit-learn | 1.9.1 |
+| matplotlib | 3.11.2 | seaborn | 0.13.2 |
+| adjustText | 1.4.0 | pytest | 9.1.1 |
+| fastapi | 0.141.1 | uvicorn | 0.53.0 |
+| sqlmodel | 0.0.42 | qrcode | 8.2 |
+| **hmmlearn** | **0.3.3** | joblib | 1.6.0 |
+
+> 完整包清单可用 `conda list -n ricevar` 与 `pip list` 复核。

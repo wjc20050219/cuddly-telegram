@@ -1,0 +1,8 @@
+query_label	query	result	count
+OS-WGS	tax_eq(4530) AND library_strategy="WGS"	read_run	96623
+OS-WGS-GENOMIC	tax_eq(4530) AND library_strategy="WGS" AND library_source="GENOMIC"	read_run	96497
+OS-any-strategy	tax_eq(4530)	read_run	141538
+OS-cultivar-in-title	tax_eq(4530) AND library_strategy="WGS" AND sample_title="*cultivar*"	read_run	24
+Oryza-genus-WGS	tax_tree(4527) AND library_strategy="WGS"	read_run	114131
+DRA-submitted-WGS	tax_eq(4530) AND library_strategy="WGS" AND center_name="*DDBJ*"	read_run	0
+OS-WGS-paired	tax_eq(4530) AND library_strategy="WGS" AND library_layout="PAIRED"	read_run	95261

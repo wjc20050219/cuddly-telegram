@@ -1,0 +1,1327 @@
+group_id	duplicate_type	canonical_name	n_samples	n_varieties_in_group	samples	biosamples	bioprojects	max_depth	recommendation	note
+DUP00001	same_biosample	LIU XU::IRGC 109232-1	9	1	SRR10302205;SRR10302299;SRR10302207;SRR10302209;SRR10302210;SRR10302211;SRR10302208;SRR10302212;SRR10302300	SAMN13021815	PRJNA577228	108.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00002	same_biosample	IR64	10	1	SRR10357911;SRR10357915;SRR10357913;SRR10357916;SRR10357918;SRR10357912;SRR10357914;SRR10357917;SRR10357919;SRR10357929	SAMN10564385	PRJNA509165	29.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00003	same_biosample	BIL_sbn	2	1	SRR11097791;SRR11097792	SAMN14122721	PRJNA607167	115.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00004	same_biosample	Taichung Native 1	23	1	SRR12643972;SRR12643974;SRR12643976;SRR12643978;SRR12643979;SRR12643994;SRR12643973;SRR12643986;SRR12643990;SRR12643991;SRR12643992;SRR12643981	SAMN16115968	PRJNA663050	100.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00005	same_biosample	Kola Joha	4	1	SRR13189454;SRR13189456;SRR13189453;SRR13189455	SAMN16793264	PRJNA678305	134.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00006	same_biosample	ZS97	2	1	SRR13280199;SRR13280200	SAMN17125852	PRJNA686812	138.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00007	same_biosample	Zhonghua 11	5	1	SRR14139046;SRR14297943;SRR14139043;SRR14139044;SRR14139045	SAMN18604610	PRJNA719383	64.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00008	same_biosample	D62	5	1	SRR14139049;SRR14269748;SRR14139074;SRR14139100;SRR14139101	SAMN18604545	PRJNA719383	54.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00009	same_biosample	Wushansimiao	5	1	SRR14139056;SRR14269757;SRR14139054;SRR14139055;SRR14139057	SAMN18604598	PRJNA719383	66.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00010	same_biosample	Tumba	5	1	SRR14139061;SRR14139059;SRR14139062;SRR14269758;SRR14139058	SAMN18604595	PRJNA719383	58.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00011	same_biosample	Tsipala Menahar	5	1	SRR14139063;SRR14297940;SRR14139064;SRR14139066;SRR14139065	SAMN18604592	PRJNA719383	76.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00012	same_biosample	Nam Roo	5	1	SRR14139073;SRR14297950;SRR14139072;SRR14139069;SRR14139070	SAMN18604584	PRJNA719383	66.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00013	same_biosample	J4155	5	1	SRR14139084;SRR14269766;SRR14139081;SRR14139082;SRR14139080	SAMN18604575	PRJNA719383	60.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00014	same_biosample	II32	5	1	SRR14139087;SRR14269768;SRR14139088;SRR14139089;SRR14139086	SAMN18604569	PRJNA719383	55.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00015	same_biosample	Guang8	5	1	SRR14139092;SRR14139090;SRR14139093;SRR14139091;SRR14269769	SAMN18604566	PRJNA719383	56.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00016	same_biosample	Gui630	2	1	SRR14139095;SRR14269770	SAMN18604563	PRJNA719383	79.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00017	same_biosample	DHX2	5	1	SRR14139108;SRR14139110;SRR14139107;SRR14269746;SRR14139106	SAMN18604551	PRJNA719383	70.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00018	same_biosample	Fuhui838	5	1	SRR14269745;SRR14139099;SRR14139104;SRR14139098;SRR14139105	SAMN18604554	PRJNA719383	57.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00019	same_biosample	Basmati1	2	1	SRR14269751;SRR14139120	SAMN18604536	PRJNA719383	57.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00020	same_biosample	93-11	2	1	SRR15718853;SRR15718852	SAMN21220108	PRJNA760649	59.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00021	same_biosample	Kitaake FN4240-S	2	1	SRR18694055;SRR18694054	SAMN17674913	PRJNA696673	18.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00022	same_biosample	Kitaake FN4241-S	2	1	SRR18694060;SRR18694059	SAMN17674616	PRJNA696674	44.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00023	same_biosample	Kitaake FN4183-S	2	1	SRR18694231;SRR18694232	SAMN17674752	PRJNA696695	27.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00024	same_biosample	R900	9	1	SRR18739138;SRR18739140;SRR18739133;SRR18739134;SRR18739136;SRR18739137;SRR18739139;SRR18739151;SRR18739135	SAMN27552386	PRJNA825106	121.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00025	same_biosample	Y58S	9	1	SRR18739141;SRR18739142;SRR18739145;SRR18739144;SRR18739148;SRR18739146;SRR18739147;SRR18739149;SRR18739143	SAMN27552387	PRJNA825106	123.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00026	same_biosample	91	2	1	SRR19145928;SRR21847256	SAMN27029714	PRJNA820969|PRJNA888474	264.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00027	same_biosample	Huanghuazhan:HM2-S61	2	1	SRR2040558;SRR2052535	SAMN03603351	PRJNA283022	46.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00028	same_biosample	Huanghuazhan:H-212	2	1	SRR2052532;SRR2040561	SAMN03603346	PRJNA283022	68.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00029	same_biosample	PB1	2	1	SRR2056130;SRR2056129	SAMN03702439	PRJNA284427	21.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00030	same_biosample	93-11	6	1	SRR10948639;SRR10948641;SRR10948640;SRR10948642;SRR10948643;SRR10948638	SAMN13829612	PRJNA600693	673.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00031	same_biosample	9311-2	2	1	SRR1210602;SRR1210601	SAMN02711996	PRJNA243018	23.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00032	same_biosample	9311-3	2	1	SRR1210605;SRR1210603	SAMN02711997	PRJNA243018	23.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00033	same_biosample	PA64s-3	2	1	SRR1210630;SRR1210632	SAMN02712000	PRJNA243018	21.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00034	same_biosample	Kitaake	12	1	SRR28812528;SRR28812545;SRR28812526;SRR28812529;SRR28812530;SRR28812527;SRR28812531;SRR28812536;SRR28812546;SRR28812525;SRR28812547;SRR28812548	SAMN41070118	PRJNA1104162	19.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00035	same_biosample	Mianhui725	2	1	SRR29409876;SRR31369134	SAMN41831848	PRJNA1122958|PRJNA1178436	41.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00036	same_biosample	110080	2	1	SRR31369124;SRR29409873	SAMN41831859	PRJNA1122958|PRJNA1178436	41.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00037	same_biosample	Yuetai B	4	1	SRR31420046;SRR31690024;SRR29409877;SRR31369135	SAMN41831847	PRJNA1122958|PRJNA1178436	138.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00038	same_biosample	Tainung sen 20	2	1	SRR3405165;SRR3405166	SAMN04870395	PRJNA318569	19.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00039	same_biosample	SHZ	7	1	SRR4027806;SRR4027807;SRR4027809;SRR4027805;SRR4027808;SRR4027803;SRR4027804	SAMN05519037	PRJNA337144	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00040	same_biosample	Dular	7	1	SRR4027823;SRR4027819;SRR4027821;SRR4027822;SRR4027820;SRR4027824;SRR4027818	SAMN05518883	PRJNA337127	9.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00041	same_biosample	N22	4	1	SRR4027938;SRR4027941;SRR4027939;SRR4027940	SAMN05518913	PRJNA337142	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00042	same_biosample	Kitaake ubi-XA21 FN-231	2	1	SRR4096814;SRR4096815	SAMN05442952	PRJNA334384	33.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00043	same_biosample	Kitaake ubi-XA21 FN-233	2	1	SRR4096879;SRR4096878	SAMN05446202	PRJNA334386	33.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00044	same_biosample	Kitaake ubi-XA21 FN-263	2	1	SRR4096881;SRR4096882	SAMN05443077	PRJNA334414	29.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00045	same_biosample	Kitaake ubi-XA21 FN-264	2	1	SRR4096915;SRR4096916	SAMN05446456	PRJNA334415	31.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00046	same_biosample	Kitaake ubi-XA21 FN-269	2	1	SRR4096920;SRR4096919	SAMN05446459	PRJNA334418	29.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00047	same_biosample	Kitaake ubi-XA21 FN-265	2	1	SRR4096953;SRR4096954	SAMN05446457	PRJNA334416	34.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00048	same_biosample	Kitaake ubi-XA21 FN-272	2	1	SRR4096956;SRR4096955	SAMN05446474	PRJNA334419	32.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00049	same_biosample	Kitaake ubi-XA21 FN-235	2	1	SRR4096962;SRR4096963	SAMN05446544	PRJNA334388	38.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00050	same_biosample	Kitaake ubi-XA21 FN-232	2	1	SRR4096964;SRR4096965	SAMN05446201	PRJNA334385	33.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00051	same_biosample	Kitaake ubi-XA21 FN-273	2	1	SRR4096967;SRR4096968	SAMN05446475	PRJNA333149	29.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00052	same_biosample	Kitaake ubi-XA21 FN-274	2	1	SRR4096974;SRR4096973	SAMN05446476	PRJNA333150	33.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00053	same_biosample	Kitaake ubi-XA21 FN-281	2	1	SRR4097043;SRR4097044	SAMN05443075	PRJNA333155	31.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00054	same_biosample	Kitaake ubi-XA21 FN-287	2	1	SRR4097057;SRR4097058	SAMN05446408	PRJNA333160	50.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00055	same_biosample	Kitaake ubi-XA21 FN-342	2	1	SRR4097331;SRR4097332	SAMN05446352	PRJNA333210	41.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00056	same_biosample	Kitaake ubi-XA21 FN-408	2	1	SRR4097793;SRR4097792	SAMN05446402	PRJNA333256	38.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00057	same_biosample	Kitaake ubi-XA21 FN-409	2	1	SRR4097797;SRR4097796	SAMN05446403	PRJNA333257	35.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00058	same_biosample	Kitaake ubi-XA59 FN1497-S	2	1	SRR4393222;SRR4393223	SAMN05878373	PRJNA346155	30.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00059	same_biosample	Kitaake ubi-XA55 FN1492-S	2	1	SRR4393231;SRR4393230	SAMN05878427	PRJNA346151	49.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00060	same_biosample	Kitaake ubi-XA62 FN1501-S	2	1	SRR4393237;SRR4393236	SAMN05878132	PRJNA346158	15.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00061	same_biosample	Kitaake ubi-XA52 FN1488-S	2	1	SRR4393245;SRR4393246	SAMN05878141	PRJNA346148	53.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00062	same_biosample	Kitaake ubi-XA75 FN1525-S	2	1	SRR4393275;SRR4393274	SAMN05877998	PRJNA346171	44.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00063	same_biosample	Kitaake ubi-XA96 FN1550-S	2	1	SRR4393291;SRR4393290	SAMN05877730	PRJNA347082	44.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00064	same_biosample	illmi	6	1	SRR5478753;SRR5478754;SRR5478755;SRR5478756;SRR5478751;SRR5478752	SAMN06711082	PRJNA382602	40.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00065	same_biosample	Longdao24	8	1	SRR5630900;SRR5630909;SRR5463094;SRR5630908;SRR5630910;SRR5484648;SRR5630911;SRR5678368	SAMN06806499	PRJNA383779	51.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00066	same_biosample	tetraploid of N9	2	1	SRR8427215;SRR8427216	SAMN10720269	PRJNA514100	44.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00067	same_biosample	CSSL	3	1	SRR9316839;SRR9316841;SRR9316840	SAMN12083649	PRJNA549347	42.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00068	same_biosample	Digludao	2	1	SRR9678808;SRR9679838	SAMN12268388	PRJNA554468	7.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00069	same_biosample	Zhonghua 11	2	1	DRR969240;DRR861633	SAMD01758767	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00070	same_biosample	Zhonghua 11	2	1	DRR969701;DRR862094	SAMD01759228	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00071	same_biosample	Zhonghua 11	2	1	DRR969915;DRR862308	SAMD01759442	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00072	same_biosample	Zhonghua 11	2	1	DRR970491;DRR862884	SAMD01760018	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00073	same_biosample	Zhonghua 11	2	1	DRR971010;DRR863403	SAMD01760537	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00074	same_biosample	Zhonghua 11	2	1	DRR860554;DRR968161	SAMD01757688	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00075	same_biosample	Zhonghua 11	2	1	DRR860577;DRR968184	SAMD01757711	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00076	same_biosample	Zhonghua 11	2	1	DRR860584;DRR968191	SAMD01757718	PRJDB38331	15.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00077	same_biosample	Zhonghua 11	2	1	DRR860607;DRR968214	SAMD01757741	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00078	same_biosample	Zhonghua 11	2	1	DRR860610;DRR968217	SAMD01757744	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00079	same_biosample	Zhonghua 11	2	1	DRR860655;DRR968262	SAMD01757789	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00080	same_biosample	Zhonghua 11	2	1	DRR860733;DRR968340	SAMD01757867	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00081	same_biosample	Zhonghua 11	2	1	DRR860737;DRR968344	SAMD01757871	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00082	same_biosample	Zhonghua 11	2	1	DRR860777;DRR968384	SAMD01757911	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00083	same_biosample	Zhonghua 11	2	1	DRR860833;DRR968440	SAMD01757967	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00084	same_biosample	Zhonghua 11	2	1	DRR860861;DRR968468	SAMD01757995	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00085	same_biosample	Zhonghua 11	2	1	DRR860943;DRR968550	SAMD01758077	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00086	same_biosample	Zhonghua 11	2	1	DRR860949;DRR968556	SAMD01758083	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00087	same_biosample	Zhonghua 11	2	1	DRR860979;DRR968586	SAMD01758113	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00088	same_biosample	Zhonghua 11	2	1	DRR861074;DRR968681	SAMD01758208	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00089	same_biosample	Zhonghua 11	2	1	DRR861103;DRR968710	SAMD01758237	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00090	same_biosample	Zhonghua 11	2	1	DRR861140;DRR968747	SAMD01758274	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00091	same_biosample	Zhonghua 11	2	1	DRR861142;DRR968749	SAMD01758276	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00092	same_biosample	Zhonghua 11	2	1	DRR861237;DRR968844	SAMD01758371	PRJDB38331	16.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00093	same_biosample	Zhonghua 11	2	1	DRR861271;DRR968878	SAMD01758405	PRJDB38331	16.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00094	same_biosample	Zhonghua 11	2	1	DRR861285;DRR968892	SAMD01758419	PRJDB38331	17.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00095	same_biosample	Zhonghua 11	2	1	DRR861316;DRR968923	SAMD01758450	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00096	same_biosample	Zhonghua 11	2	1	DRR861329;DRR968936	SAMD01758463	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00097	same_biosample	Zhonghua 11	2	1	DRR861340;DRR968947	SAMD01758474	PRJDB38331	17.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00098	same_biosample	Zhonghua 11	2	1	DRR861355;DRR968962	SAMD01758489	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00099	same_biosample	Zhonghua 11	2	1	DRR861446;DRR969053	SAMD01758580	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00100	same_biosample	Zhonghua 11	2	1	DRR861451;DRR969058	SAMD01758585	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00101	same_biosample	Zhonghua 11	2	1	DRR861495;DRR969102	SAMD01758629	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00102	same_biosample	Zhonghua 11	2	1	DRR861512;DRR969119	SAMD01758646	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00103	same_biosample	Zhonghua 11	2	1	DRR861513;DRR969120	SAMD01758647	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00104	same_biosample	Zhonghua 11	2	1	DRR861526;DRR969133	SAMD01758660	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00105	same_biosample	Zhonghua 11	2	1	DRR861553;DRR969160	SAMD01758687	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00106	same_biosample	Zhonghua 11	2	1	DRR861592;DRR969199	SAMD01758726	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00107	same_biosample	Zhonghua 11	2	1	DRR861629;DRR969236	SAMD01758763	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00108	same_biosample	Zhonghua 11	2	1	DRR861677;DRR969284	SAMD01758811	PRJDB38331	24.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00109	same_biosample	Zhonghua 11	2	1	DRR861694;DRR969301	SAMD01758828	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00110	same_biosample	Zhonghua 11	2	1	DRR861713;DRR969320	SAMD01758847	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00111	same_biosample	Zhonghua 11	2	1	DRR861758;DRR969365	SAMD01758892	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00112	same_biosample	Zhonghua 11	2	1	DRR861769;DRR969376	SAMD01758903	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00113	same_biosample	Zhonghua 11	2	1	DRR861811;DRR969418	SAMD01758945	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00114	same_biosample	Zhonghua 11	2	1	DRR861823;DRR969430	SAMD01758957	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00115	same_biosample	Zhonghua 11	2	1	DRR861828;DRR969435	SAMD01758962	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00116	same_biosample	Zhonghua 11	2	1	DRR861892;DRR969499	SAMD01759026	PRJDB38331	22.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00117	same_biosample	Zhonghua 11	2	1	DRR861920;DRR969527	SAMD01759054	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00118	same_biosample	Zhonghua 11	2	1	DRR862003;DRR969610	SAMD01759137	PRJDB38331	14.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00119	same_biosample	Zhonghua 11	2	1	DRR862035;DRR969642	SAMD01759169	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00120	same_biosample	Zhonghua 11	2	1	DRR862042;DRR969649	SAMD01759176	PRJDB38331	17.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00121	same_biosample	Zhonghua 11	2	1	DRR862055;DRR969662	SAMD01759189	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00122	same_biosample	Zhonghua 11	2	1	DRR862149;DRR969756	SAMD01759283	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00123	same_biosample	Zhonghua 11	2	1	DRR862172;DRR969779	SAMD01759306	PRJDB38331	13.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00124	same_biosample	Zhonghua 11	2	1	DRR862185;DRR969792	SAMD01759319	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00125	same_biosample	Zhonghua 11	2	1	DRR862195;DRR969802	SAMD01759329	PRJDB38331	12.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00126	same_biosample	Zhonghua 11	2	1	DRR862315;DRR969922	SAMD01759449	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00127	same_biosample	Zhonghua 11	2	1	DRR862347;DRR969954	SAMD01759481	PRJDB38331	14.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00128	same_biosample	Zhonghua 11	2	1	DRR862359;DRR969966	SAMD01759493	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00129	same_biosample	Zhonghua 11	2	1	DRR862399;DRR970006	SAMD01759533	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00130	same_biosample	Zhonghua 11	2	1	DRR862424;DRR970031	SAMD01759558	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00131	same_biosample	Zhonghua 11	2	1	DRR862473;DRR970080	SAMD01759607	PRJDB38331	16.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00132	same_biosample	Zhonghua 11	2	1	DRR862488;DRR970095	SAMD01759622	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00133	same_biosample	Zhonghua 11	2	1	DRR862509;DRR970116	SAMD01759643	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00134	same_biosample	Zhonghua 11	2	1	DRR862567;DRR970174	SAMD01759701	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00135	same_biosample	Zhonghua 11	2	1	DRR862614;DRR970221	SAMD01759748	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00136	same_biosample	Zhonghua 11	2	1	DRR862671;DRR970278	SAMD01759805	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00137	same_biosample	Zhonghua 11	2	1	DRR862678;DRR970285	SAMD01759812	PRJDB38331	16.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00138	same_biosample	Zhonghua 11	2	1	DRR862691;DRR970298	SAMD01759825	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00139	same_biosample	Zhonghua 11	2	1	DRR862715;DRR970322	SAMD01759849	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00140	same_biosample	Zhonghua 11	2	1	DRR862783;DRR970390	SAMD01759917	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00141	same_biosample	Zhonghua 11	2	1	DRR862810;DRR970417	SAMD01759944	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00142	same_biosample	Zhonghua 11	2	1	DRR862817;DRR970424	SAMD01759951	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00143	same_biosample	Zhonghua 11	2	1	DRR862832;DRR970439	SAMD01759966	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00144	same_biosample	Zhonghua 11	2	1	DRR862873;DRR970480	SAMD01760007	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00145	same_biosample	Zhonghua 11	2	1	DRR862889;DRR970496	SAMD01760023	PRJDB38331	19.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00146	same_biosample	Zhonghua 11	2	1	DRR862922;DRR970529	SAMD01760056	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00147	same_biosample	Zhonghua 11	2	1	DRR862926;DRR970533	SAMD01760060	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00148	same_biosample	Zhonghua 11	2	1	DRR863034;DRR970641	SAMD01760168	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00149	same_biosample	Zhonghua 11	2	1	DRR863078;DRR970685	SAMD01760212	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00150	same_biosample	Zhonghua 11	2	1	DRR863087;DRR970694	SAMD01760221	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00151	same_biosample	Zhonghua 11	2	1	DRR863115;DRR970722	SAMD01760249	PRJDB38331	8.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00152	same_biosample	Zhonghua 11	2	1	DRR863235;DRR970842	SAMD01760369	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00153	same_biosample	Zhonghua 11	2	1	DRR863274;DRR970881	SAMD01760408	PRJDB38331	15.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00154	same_biosample	Zhonghua 11	2	1	DRR863314;DRR970921	SAMD01760448	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00155	same_biosample	Zhonghua 11	2	1	DRR863351;DRR970958	SAMD01760485	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00156	same_biosample	Zhonghua 11	2	1	DRR863394;DRR971001	SAMD01760528	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00157	same_biosample	Zhonghua 11	2	1	DRR863416;DRR971023	SAMD01760550	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00158	same_biosample	Zhonghua 11	2	1	DRR863473;DRR971080	SAMD01760607	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00159	same_biosample	Zhonghua 11	2	1	DRR863482;DRR971089	SAMD01760616	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00160	same_biosample	Zhonghua 11	2	1	DRR863494;DRR971101	SAMD01760628	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00161	same_biosample	Zhonghua 11	2	1	DRR863504;DRR971111	SAMD01760638	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00162	same_biosample	Zhonghua 11	2	1	DRR863533;DRR971140	SAMD01760667	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00163	same_biosample	Zhonghua 11	2	1	DRR863559;DRR971166	SAMD01760693	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00164	same_biosample	Zhonghua 11	2	1	DRR863593;DRR971200	SAMD01760727	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00165	same_biosample	Zhonghua 11	2	1	DRR863596;DRR971203	SAMD01760730	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00166	same_biosample	Zhonghua 11	2	1	DRR863616;DRR971223	SAMD01760750	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00167	same_biosample	Zhonghua 11	2	1	DRR863643;DRR971250	SAMD01760777	PRJDB38331	15.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00168	same_biosample	Zhonghua 11	2	1	DRR863723;DRR971330	SAMD01760857	PRJDB38331	14.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00169	same_biosample	Zhonghua 11	2	1	DRR863734;DRR971341	SAMD01760868	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00170	same_biosample	Zhonghua 11	2	1	DRR863817;DRR971424	SAMD01760951	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00171	same_biosample	Zhonghua 11	2	1	DRR863863;DRR971470	SAMD01760997	PRJDB38331	14.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00172	same_biosample	Zhonghua 11	2	1	DRR863875;DRR971482	SAMD01761009	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00173	same_biosample	Zhonghua 11	2	1	DRR863896;DRR971503	SAMD01761030	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00174	same_biosample	Zhonghua 11	2	1	DRR863899;DRR971506	SAMD01761033	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00175	same_biosample	Zhonghua 11	2	1	DRR863907;DRR971514	SAMD01761041	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00176	same_biosample	Zhonghua 11	2	1	DRR863950;DRR971557	SAMD01761084	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00177	same_biosample	Zhonghua 11	2	1	DRR863983;DRR971590	SAMD01761117	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00178	same_biosample	Zhonghua 11	2	1	DRR864079;DRR971686	SAMD01761213	PRJDB38331	15.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00179	same_biosample	Zhonghua 11	2	1	DRR864124;DRR971731	SAMD01761258	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00180	same_biosample	Zhonghua 11	2	1	DRR864136;DRR971743	SAMD01761270	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00181	same_biosample	Zhonghua 11	2	1	DRR864139;DRR971746	SAMD01761273	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00182	same_biosample	Zhonghua 11	2	1	DRR864153;DRR971760	SAMD01761287	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00183	same_biosample	Zhonghua 11	2	1	DRR864167;DRR971774	SAMD01761301	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00184	same_biosample	Zhonghua 11	2	1	DRR864191;DRR971798	SAMD01761325	PRJDB38331	17.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00185	same_biosample	Zhonghua 11	2	1	DRR864213;DRR971820	SAMD01761347	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00186	same_biosample	Zhonghua 11	2	1	DRR864243;DRR971850	SAMD01761377	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00187	same_biosample	Zhonghua 11	2	1	DRR864268;DRR971875	SAMD01761402	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00188	same_biosample	Zhonghua 11	2	1	DRR864288;DRR971895	SAMD01761422	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00189	same_biosample	Zhonghua 11	2	1	DRR864412;DRR972019	SAMD01761546	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00190	same_biosample	Zhonghua 11	2	1	DRR864569;DRR972176	SAMD01761703	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00191	same_biosample	Zhonghua 11	2	1	DRR864609;DRR972216	SAMD01761743	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00192	same_biosample	Zhonghua 11	2	1	DRR864729;DRR972336	SAMD01761863	PRJDB38331	14.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00193	same_biosample	Zhonghua 11	2	1	DRR864862;DRR972469	SAMD01761996	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00194	same_biosample	Zhonghua 11	2	1	DRR864863;DRR972470	SAMD01761997	PRJDB38331	12.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00195	same_biosample	Zhonghua 11	2	1	DRR864871;DRR972478	SAMD01762005	PRJDB38331	14.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00196	same_biosample	Zhonghua 11	2	1	DRR864902;DRR972509	SAMD01762036	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00197	same_biosample	Zhonghua 11	2	1	DRR864974;DRR972581	SAMD01762108	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00198	same_biosample	Zhonghua 11	2	1	DRR864976;DRR972583	SAMD01762110	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00199	same_biosample	Zhonghua 11	2	1	DRR864979;DRR972586	SAMD01762113	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00200	same_biosample	Zhonghua 11	2	1	DRR864986;DRR972593	SAMD01762120	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00201	same_biosample	Zhonghua 11	2	1	DRR865015;DRR972622	SAMD01762149	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00202	same_biosample	Zhonghua 11	2	1	DRR865061;DRR972668	SAMD01762195	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00203	same_biosample	Zhonghua 11	2	1	DRR865070;DRR972677	SAMD01762204	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00204	same_biosample	Zhonghua 11	2	1	DRR865076;DRR972683	SAMD01762210	PRJDB38331	15.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00205	same_biosample	Zhonghua 11	2	1	DRR865083;DRR972690	SAMD01762217	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00206	same_biosample	Zhonghua 11	2	1	DRR865105;DRR972712	SAMD01762239	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00207	same_biosample	Zhonghua 11	2	1	DRR865116;DRR972723	SAMD01762250	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00208	same_biosample	Zhonghua 11	2	1	DRR865154;DRR972761	SAMD01762288	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00209	same_biosample	Zhonghua 11	2	1	DRR968308;DRR860701	SAMD01757835	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00210	same_biosample	Zhonghua 11	2	1	DRR968315;DRR860708	SAMD01757842	PRJDB38331	7.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00211	same_biosample	Zhonghua 11	2	1	DRR968463;DRR860856	SAMD01757990	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00212	same_biosample	Zhonghua 11	2	1	DRR968610;DRR861003	SAMD01758137	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00213	same_biosample	Zhonghua 11	2	1	DRR968647;DRR861040	SAMD01758174	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00214	same_biosample	Zhonghua 11	2	1	DRR968655;DRR861048	SAMD01758182	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00215	same_biosample	Zhonghua 11	2	1	DRR968670;DRR861063	SAMD01758197	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00216	same_biosample	Zhonghua 11	2	1	DRR968679;DRR861072	SAMD01758206	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00217	same_biosample	Zhonghua 11	2	1	DRR968740;DRR861133	SAMD01758267	PRJDB38331	7.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00218	same_biosample	Zhonghua 11	2	1	DRR968744;DRR861137	SAMD01758271	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00219	same_biosample	Zhonghua 11	2	1	DRR968757;DRR861150	SAMD01758284	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00220	same_biosample	Zhonghua 11	2	1	DRR968793;DRR861186	SAMD01758320	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00221	same_biosample	Zhonghua 11	2	1	DRR968869;DRR861262	SAMD01758396	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00222	same_biosample	Zhonghua 11	2	1	DRR968910;DRR861303	SAMD01758437	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00223	same_biosample	Zhonghua 11	2	1	DRR968969;DRR861362	SAMD01758496	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00224	same_biosample	Zhonghua 11	2	1	DRR968978;DRR861371	SAMD01758505	PRJDB38331	13.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00225	same_biosample	Zhonghua 11	2	1	DRR968984;DRR861377	SAMD01758511	PRJDB38331	17.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00226	same_biosample	Zhonghua 11	2	1	DRR969017;DRR861410	SAMD01758544	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00227	same_biosample	Zhonghua 11	2	1	DRR969083;DRR861476	SAMD01758610	PRJDB38331	16.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00228	same_biosample	Zhonghua 11	2	1	DRR969178;DRR861571	SAMD01758705	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00229	same_biosample	Zhonghua 11	2	1	DRR969196;DRR861589	SAMD01758723	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00230	same_biosample	Zhonghua 11	2	1	DRR969293;DRR861686	SAMD01758820	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00231	same_biosample	Zhonghua 11	2	1	DRR969319;DRR861712	SAMD01758846	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00232	same_biosample	Zhonghua 11	2	1	DRR969326;DRR861719	SAMD01758853	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00233	same_biosample	Zhonghua 11	2	1	DRR969343;DRR861736	SAMD01758870	PRJDB38331	17.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00234	same_biosample	Zhonghua 11	2	1	DRR969361;DRR861754	SAMD01758888	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00235	same_biosample	Zhonghua 11	2	1	DRR969390;DRR861783	SAMD01758917	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00236	same_biosample	Zhonghua 11	2	1	DRR969402;DRR861795	SAMD01758929	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00237	same_biosample	Zhonghua 11	2	1	DRR969413;DRR861806	SAMD01758940	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00238	same_biosample	Zhonghua 11	2	1	DRR969421;DRR861814	SAMD01758948	PRJDB38331	9.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00239	same_biosample	Zhonghua 11	2	1	DRR969423;DRR861816	SAMD01758950	PRJDB38331	6.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00240	same_biosample	Zhonghua 11	2	1	DRR969425;DRR861818	SAMD01758952	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00241	same_biosample	Zhonghua 11	2	1	DRR969528;DRR861921	SAMD01759055	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00242	same_biosample	Zhonghua 11	2	1	DRR969531;DRR861924	SAMD01759058	PRJDB38331	15.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00243	same_biosample	Zhonghua 11	2	1	DRR969535;DRR861928	SAMD01759062	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00244	same_biosample	Zhonghua 11	2	1	DRR969543;DRR861936	SAMD01759070	PRJDB38331	16.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00245	same_biosample	Zhonghua 11	2	1	DRR969614;DRR862007	SAMD01759141	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00246	same_biosample	Zhonghua 11	2	1	DRR969619;DRR862012	SAMD01759146	PRJDB38331	14.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00247	same_biosample	Zhonghua 11	2	1	DRR969646;DRR862039	SAMD01759173	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00248	same_biosample	Zhonghua 11	2	1	DRR969654;DRR862047	SAMD01759181	PRJDB38331	19.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00249	same_biosample	Zhonghua 11	2	1	DRR969748;DRR862141	SAMD01759275	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00250	same_biosample	Zhonghua 11	2	1	DRR969808;DRR862201	SAMD01759335	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00251	same_biosample	Zhonghua 11	2	1	DRR969847;DRR862240	SAMD01759374	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00252	same_biosample	Zhonghua 11	2	1	DRR969901;DRR862294	SAMD01759428	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00253	same_biosample	Zhonghua 11	2	1	DRR969902;DRR862295	SAMD01759429	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00254	same_biosample	Zhonghua 11	2	1	DRR969973;DRR862366	SAMD01759500	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00255	same_biosample	Zhonghua 11	2	1	DRR970013;DRR862406	SAMD01759540	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00256	same_biosample	Zhonghua 11	2	1	DRR970051;DRR862444	SAMD01759578	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00257	same_biosample	Zhonghua 11	2	1	DRR970059;DRR862452	SAMD01759586	PRJDB38331	15.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00258	same_biosample	Zhonghua 11	2	1	DRR970060;DRR862453	SAMD01759587	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00259	same_biosample	Zhonghua 11	2	1	DRR970064;DRR862457	SAMD01759591	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00260	same_biosample	Zhonghua 11	2	1	DRR970075;DRR862468	SAMD01759602	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00261	same_biosample	Zhonghua 11	2	1	DRR970103;DRR862496	SAMD01759630	PRJDB38331	16.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00262	same_biosample	Zhonghua 11	2	1	DRR970129;DRR862522	SAMD01759656	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00263	same_biosample	Zhonghua 11	2	1	DRR970163;DRR862556	SAMD01759690	PRJDB38331	9.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00264	same_biosample	Zhonghua 11	2	1	DRR970182;DRR862575	SAMD01759709	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00265	same_biosample	Zhonghua 11	2	1	DRR970293;DRR862686	SAMD01759820	PRJDB38331	15.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00266	same_biosample	Zhonghua 11	2	1	DRR970362;DRR862755	SAMD01759889	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00267	same_biosample	Zhonghua 11	2	1	DRR970405;DRR862798	SAMD01759932	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00268	same_biosample	Zhonghua 11	2	1	DRR970415;DRR862808	SAMD01759942	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00269	same_biosample	Zhonghua 11	2	1	DRR970429;DRR862822	SAMD01759956	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00270	same_biosample	Zhonghua 11	2	1	DRR970477;DRR862870	SAMD01760004	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00271	same_biosample	Zhonghua 11	2	1	DRR970522;DRR862915	SAMD01760049	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00272	same_biosample	Zhonghua 11	2	1	DRR970550;DRR862943	SAMD01760077	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00273	same_biosample	Zhonghua 11	2	1	DRR970561;DRR862954	SAMD01760088	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00274	same_biosample	Zhonghua 11	2	1	DRR970570;DRR862963	SAMD01760097	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00275	same_biosample	Zhonghua 11	2	1	DRR970576;DRR862969	SAMD01760103	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00276	same_biosample	Zhonghua 11	2	1	DRR970590;DRR862983	SAMD01760117	PRJDB38331	14.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00277	same_biosample	Zhonghua 11	2	1	DRR970603;DRR862996	SAMD01760130	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00278	same_biosample	Zhonghua 11	2	1	DRR970664;DRR863057	SAMD01760191	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00279	same_biosample	Zhonghua 11	2	1	DRR970701;DRR863094	SAMD01760228	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00280	same_biosample	Zhonghua 11	2	1	DRR970714;DRR863107	SAMD01760241	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00281	same_biosample	Zhonghua 11	2	1	DRR970727;DRR863120	SAMD01760254	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00282	same_biosample	Zhonghua 11	2	1	DRR970793;DRR863186	SAMD01760320	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00283	same_biosample	Zhonghua 11	2	1	DRR970823;DRR863216	SAMD01760350	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00284	same_biosample	Zhonghua 11	2	1	DRR970834;DRR863227	SAMD01760361	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00285	same_biosample	Zhonghua 11	2	1	DRR970920;DRR863313	SAMD01760447	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00286	same_biosample	Zhonghua 11	2	1	DRR970944;DRR863337	SAMD01760471	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00287	same_biosample	Zhonghua 11	2	1	DRR970945;DRR863338	SAMD01760472	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00288	same_biosample	Zhonghua 11	2	1	DRR970978;DRR863371	SAMD01760505	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00289	same_biosample	Zhonghua 11	2	1	DRR971013;DRR863406	SAMD01760540	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00290	same_biosample	Zhonghua 11	2	1	DRR971043;DRR863436	SAMD01760570	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00291	same_biosample	Zhonghua 11	2	1	DRR971067;DRR863460	SAMD01760594	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00292	same_biosample	Zhonghua 11	2	1	DRR971120;DRR863513	SAMD01760647	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00293	same_biosample	Zhonghua 11	2	1	DRR971266;DRR863659	SAMD01760793	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00294	same_biosample	Zhonghua 11	2	1	DRR971267;DRR863660	SAMD01760794	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00295	same_biosample	Zhonghua 11	2	1	DRR971286;DRR863679	SAMD01760813	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00296	same_biosample	Zhonghua 11	2	1	DRR971293;DRR863686	SAMD01760820	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00297	same_biosample	Zhonghua 11	2	1	DRR971347;DRR863740	SAMD01760874	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00298	same_biosample	Zhonghua 11	2	1	DRR971363;DRR863756	SAMD01760890	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00299	same_biosample	Zhonghua 11	2	1	DRR971413;DRR863806	SAMD01760940	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00300	same_biosample	Zhonghua 11	2	1	DRR971434;DRR863827	SAMD01760961	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00301	same_biosample	Zhonghua 11	2	1	DRR971475;DRR863868	SAMD01761002	PRJDB38331	9.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00302	same_biosample	Zhonghua 11	2	1	DRR971486;DRR863879	SAMD01761013	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00303	same_biosample	Zhonghua 11	2	1	DRR971509;DRR863902	SAMD01761036	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00304	same_biosample	Zhonghua 11	2	1	DRR971553;DRR863946	SAMD01761080	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00305	same_biosample	Zhonghua 11	2	1	DRR971579;DRR863972	SAMD01761106	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00306	same_biosample	Zhonghua 11	2	1	DRR971654;DRR864047	SAMD01761181	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00307	same_biosample	Zhonghua 11	2	1	DRR971672;DRR864065	SAMD01761199	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00308	same_biosample	Zhonghua 11	2	1	DRR971806;DRR864199	SAMD01761333	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00309	same_biosample	Zhonghua 11	2	1	DRR971920;DRR864313	SAMD01761447	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00310	same_biosample	Zhonghua 11	2	1	DRR971952;DRR864345	SAMD01761479	PRJDB38331	9.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00311	same_biosample	Zhonghua 11	2	1	DRR971980;DRR864373	SAMD01761507	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00312	same_biosample	Zhonghua 11	2	1	DRR971982;DRR864375	SAMD01761509	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00313	same_biosample	Zhonghua 11	2	1	DRR972027;DRR864420	SAMD01761554	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00314	same_biosample	Zhonghua 11	2	1	DRR972034;DRR864427	SAMD01761561	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00315	same_biosample	Zhonghua 11	2	1	DRR972038;DRR864431	SAMD01761565	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00316	same_biosample	Zhonghua 11	2	1	DRR972054;DRR864447	SAMD01761581	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00317	same_biosample	Zhonghua 11	2	1	DRR972072;DRR864465	SAMD01761599	PRJDB38331	8.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00318	same_biosample	Zhonghua 11	2	1	DRR972085;DRR864478	SAMD01761612	PRJDB38331	7.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00319	same_biosample	Zhonghua 11	2	1	DRR972096;DRR864489	SAMD01761623	PRJDB38331	13.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00320	same_biosample	Zhonghua 11	2	1	DRR972232;DRR864625	SAMD01761759	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00321	same_biosample	Zhonghua 11	2	1	DRR972253;DRR864646	SAMD01761780	PRJDB38331	9.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00322	same_biosample	Zhonghua 11	2	1	DRR972353;DRR864746	SAMD01761880	PRJDB38331	17.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00323	same_biosample	Zhonghua 11	2	1	DRR972382;DRR864775	SAMD01761909	PRJDB38331	17.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00324	same_biosample	Zhonghua 11	2	1	DRR972400;DRR864793	SAMD01761927	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00325	same_biosample	Zhonghua 11	2	1	DRR972436;DRR864829	SAMD01761963	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00326	same_biosample	Zhonghua 11	2	1	DRR972519;DRR864912	SAMD01762046	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00327	same_biosample	Zhonghua 11	2	1	DRR972615;DRR865008	SAMD01762142	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00328	same_biosample	Zhonghua 11	2	1	DRR972617;DRR865010	SAMD01762144	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00329	same_biosample	Zhonghua 11	2	1	DRR972618;DRR865011	SAMD01762145	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00330	same_biosample	Zhonghua 11	2	1	DRR972628;DRR865021	SAMD01762155	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00331	same_biosample	Zhonghua 11	2	1	DRR972646;DRR865039	SAMD01762173	PRJDB38331	12.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00332	same_biosample	Zhonghua 11	2	1	DRR972704;DRR865097	SAMD01762231	PRJDB38331	17.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00333	same_biosample	Zhonghua 11	2	1	DRR972726;DRR865119	SAMD01762253	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00334	same_biosample	Zhonghua 11	2	1	DRR972734;DRR865127	SAMD01762261	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00335	same_biosample	Zhonghua 11	2	1	DRR969377;DRR861770	SAMD01758904	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00336	same_biosample	Zhonghua 11	2	1	DRR969668;DRR862061	SAMD01759195	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00337	same_biosample	Zhonghua 11	2	1	DRR970526;DRR862919	SAMD01760053	PRJDB38331	16.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00338	same_biosample	Zhonghua 11	2	1	DRR968374;DRR860767	SAMD01757901	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00339	same_biosample	Zhonghua 11	2	1	DRR968794;DRR861187	SAMD01758321	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00340	same_biosample	Zhonghua 11	2	1	DRR968795;DRR861188	SAMD01758322	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00341	same_biosample	Zhonghua 11	2	1	DRR969910;DRR862303	SAMD01759437	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00342	same_biosample	Zhonghua 11	2	1	DRR970344;DRR862737	SAMD01759871	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00343	same_biosample	Zhonghua 11	2	1	DRR970878;DRR863271	SAMD01760405	PRJDB38331	15.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00344	same_biosample	Zhonghua 11	2	1	DRR971036;DRR863429	SAMD01760563	PRJDB38331	15.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00345	same_biosample	Zhonghua 11	2	1	DRR971137;DRR863530	SAMD01760664	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00346	same_biosample	Zhonghua 11	2	1	DRR971187;DRR863580	SAMD01760714	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00347	same_biosample	Zhonghua 11	2	1	DRR971698;DRR864091	SAMD01761225	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00348	same_biosample	Zhonghua 11	2	1	DRR971886;DRR864279	SAMD01761413	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00349	same_biosample	Zhonghua 11	2	1	DRR972093;DRR864486	SAMD01761620	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00350	same_biosample	9311-1	2	1	SRR1210599;SRR1210600	SAMN02711995	PRJNA243018	23.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00351	same_biosample	Yihui3551	5	1	SRR14139053;SRR14139051;SRR14269756;SRR14139050;SRR14139052	SAMN18604601	PRJNA719383	58.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00352	same_biosample	Chuannong1	2	1	SRR14139060;SRR14297946	SAMN18604542	PRJNA719383	75.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00353	same_biosample	R527	2	1	SRR14139068;SRR14297951	SAMN18604586	PRJNA719383	72.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00354	same_biosample	93-11	2	1	SRR14139131;SRR14297939	SAMN18604533	PRJNA719383	63.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00355	same_biosample	Y58S	2	1	SRR14297941;SRR14139048	SAMN18604604	PRJNA719383	65.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00356	same_biosample	114-7-2	2	1	SRR15675933;SRR15682554	SAMN21155889	PRJNA759058	23.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00357	same_biosample	Kitaake FN4255-S	2	1	SRR18694064;SRR18694065	SAMN17675914	PRJNA696678	25.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00358	same_biosample	Kitaake FN4247-S	2	1	SRR18694068;SRR18694067	SAMN17675927	PRJNA696675	23.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00359	same_biosample	Kitaake FN4187-S	2	1	SRR18694296;SRR18694295	SAMN17675921	PRJNA696698	23.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00360	same_biosample	Kitaake FN4189-S	2	1	SRR18694298;SRR18694297	SAMN17676072	PRJNA696700	21.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00361	same_biosample	Kitaake FN4188-S	2	1	SRR18694302;SRR18694301	SAMN17675922	PRJNA696699	32.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00362	same_biosample	Kitaake FN4190-S	2	1	SRR18694401;SRR18694402	SAMN17674465	PRJNA696701	23.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00363	same_biosample	Huanghuazhan:HE-47	2	1	SRR2052531;SRR2046084	SAMN03603345	PRJNA283022	39.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00364	same_biosample	Samba Mahsuri	2	1	SRR24574990;SRR24574989	SAMN35085412	PRJNA972670	48.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00365	same_biosample	Tetep	2	1	SRR8184521;SRR8241155	SAMN09694248	PRJNA482013	153.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00366	same_biosample	C418	2	1	SRR29409862;SRR31369128	SAMN41831852	PRJNA1122958|PRJNA1178436	45.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00367	same_biosample	Wuyunjing8	2	1	SRR29409874;SRR31369125	SAMN41831858	PRJNA1122958|PRJNA1178436	41.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00368	same_biosample	R465	2	1	SRR31369129;SRR29409863	SAMN41831851	PRJNA1122958|PRJNA1178436	41.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00369	same_biosample	610234	2	1	SRR31369131;SRR29409865	SAMN41831849	PRJNA1122958|PRJNA1178436	41.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00370	same_biosample	Balilla	4	1	SRR31690023;SRR31369132;SRR29409868;SRR31420045	SAMN41831864	PRJNA1122958|PRJNA1178436	131.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00371	same_biosample	Kitaake	4	1	SRR35002253;SRR35002254;SRR35123229;SRR35002252	SAMN49535039	PRJNA1128348	84.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00372	same_biosample	parent2	2	1	SRR38398302;SRR38398301	SAMN58884878	PRJNA1462520	26.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00373	same_biosample	Kitaake ubi-XA21 FN-225	2	1	SRR4096776;SRR4096775	SAMN05442953	PRJNA334379	23.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00374	same_biosample	Kitaake ubi-XA21 FN 398-1	2	1	SRR4096942;SRR4096943	SAMN05446194	PRJNA334375	29.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00375	same_biosample	Kitaake ubi-XA21 FN-234	2	1	SRR4096946;SRR4096947	SAMN05442951	PRJNA334387	45.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00376	same_biosample	Kitaake ubi-XA21 FN-275	2	1	SRR4096970;SRR4096969	SAMN05443076	PRJNA333151	31.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00377	same_biosample	Kitaake ubi-XA21 FN-278	2	1	SRR4097039;SRR4097040	SAMN05446478	PRJNA333153	35.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00378	same_biosample	FS32	2	1	SRR14139097;SRR14297948	SAMN18604557	PRJNA719383	56.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00379	same_biosample	Yixiang1	2	1	SRR14297942;SRR14139047	SAMN18604607	PRJNA719383	58.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00380	same_biosample	Samba Mahsuri	4	1	SRR18056147;SRR18056145;SRR18056148;SRR18056146	SAMN26011220	PRJNA807848	49.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00381	same_biosample	Kitaake FN4279-S	2	1	SRR18694061;SRR18694062	SAMN17674301	PRJNA696684	25.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00382	same_biosample	Kitaake FN4325-S	2	1	SRR18694216;SRR18694217	SAMN17674765	PRJNA696692	24.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00383	same_biosample	Kitaake FN4314-S	2	1	SRR18694219;SRR18694218	SAMN17674764	PRJNA696691	23.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00384	same_biosample	Kitaake ubi-XA21 FN1152 -S	2	1	SRR4210080;SRR4210082	SAMN05444137	PRJNA334712	112.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00385	same_biosample	Kitaake ubi-XA72 FN1515-S	2	1	SRR4393234;SRR4393233	SAMN05877840	PRJNA346168	46.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00386	same_biosample	Kitaake ubi-XA64 FN1505-S	2	1	SRR4393241;SRR4393242	SAMN05878131	PRJNA346160	36.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00387	same_biosample	Kitaake ubi-XA63 FN1504-S	2	1	SRR4393244;SRR4393243	SAMN05878011	PRJNA346159	40.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00388	same_biosample	Zhonghua 11	2	1	DRR968545;DRR860938	SAMD01758072	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00389	same_biosample	Zhonghua 11	2	1	DRR970562;DRR862955	SAMD01760089	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00390	same_biosample	RP Bio-226	2	1	SRR2175888;SRR2544584	SAMN03751782	PRJNA285384	27.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00391	same_biosample	Zhonghua 11	2	1	DRR860588;DRR968195	SAMD01757722	PRJDB38331	14.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00392	same_biosample	Zhonghua 11	2	1	DRR860650;DRR968257	SAMD01757784	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00393	same_biosample	Zhonghua 11	2	1	DRR860675;DRR968282	SAMD01757809	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00394	same_biosample	Zhonghua 11	2	1	DRR860690;DRR968297	SAMD01757824	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00395	same_biosample	Zhonghua 11	2	1	DRR860692;DRR968299	SAMD01757826	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00396	same_biosample	Zhonghua 11	2	1	DRR860710;DRR968317	SAMD01757844	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00397	same_biosample	Zhonghua 11	2	1	DRR860779;DRR968386	SAMD01757913	PRJDB38331	6.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00398	same_biosample	Zhonghua 11	2	1	DRR860781;DRR968388	SAMD01757915	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00399	same_biosample	Zhonghua 11	2	1	DRR860783;DRR968390	SAMD01757917	PRJDB38331	7.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00400	same_biosample	Zhonghua 11	2	1	DRR860787;DRR968394	SAMD01757921	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00401	same_biosample	Zhonghua 11	2	1	DRR860915;DRR968522	SAMD01758049	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00402	same_biosample	Zhonghua 11	2	1	DRR860927;DRR968534	SAMD01758061	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00403	same_biosample	Zhonghua 11	2	1	DRR860961;DRR968568	SAMD01758095	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00404	same_biosample	Zhonghua 11	2	1	DRR860968;DRR968575	SAMD01758102	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00405	same_biosample	Zhonghua 11	2	1	DRR860996;DRR968603	SAMD01758130	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00406	same_biosample	Zhonghua 11	2	1	DRR861032;DRR968639	SAMD01758166	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00407	same_biosample	Zhonghua 11	2	1	DRR861081;DRR968688	SAMD01758215	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00408	same_biosample	Zhonghua 11	2	1	DRR861118;DRR968725	SAMD01758252	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00409	same_biosample	Zhonghua 11	2	1	DRR861144;DRR968751	SAMD01758278	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00410	same_biosample	Zhonghua 11	2	1	DRR861167;DRR968774	SAMD01758301	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00411	same_biosample	Zhonghua 11	2	1	DRR861177;DRR968784	SAMD01758311	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00412	same_biosample	Zhonghua 11	2	1	DRR861258;DRR968865	SAMD01758392	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00413	same_biosample	Zhonghua 11	2	1	DRR861259;DRR968866	SAMD01758393	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00414	same_biosample	Zhonghua 11	2	1	DRR861305;DRR968912	SAMD01758439	PRJDB38331	17.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00415	same_biosample	Zhonghua 11	2	1	DRR861374;DRR968981	SAMD01758508	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00416	same_biosample	Zhonghua 11	2	1	DRR861458;DRR969065	SAMD01758592	PRJDB38331	15.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00417	same_biosample	Huanghuazhan:H174	2	1	SRR2040559;SRR2052533	SAMN03603347	PRJNA283022	41.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00418	same_biosample	Zhonghua 11	2	1	DRR861463;DRR969070	SAMD01758597	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00419	same_biosample	Huanghuazhan:H190	2	1	SRR2040560;SRR2052534	SAMN03603348	PRJNA283022	38.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00420	same_biosample	Zhonghua 11	2	1	DRR861534;DRR969141	SAMD01758668	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00421	same_biosample	Dular	2	1	SRR2056128;SRR2056248	SAMN03702440	PRJNA284427	27.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00422	same_biosample	Zhonghua 11	2	1	DRR861586;DRR969193	SAMD01758720	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00423	same_biosample	Zhonghua 11	2	1	DRR861672;DRR969279	SAMD01758806	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00424	same_biosample	Zhonghua 11	2	1	DRR861675;DRR969282	SAMD01758809	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00425	same_biosample	Zhonghua 11	2	1	DRR861743;DRR969350	SAMD01758877	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00426	same_biosample	Zhonghua 11	2	1	DRR861812;DRR969419	SAMD01758946	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00427	same_biosample	Zhonghua 11	2	1	DRR861833;DRR969440	SAMD01758967	PRJDB38331	8.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00428	same_biosample	Zhonghua 11	2	1	DRR861934;DRR969541	SAMD01759068	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00429	same_biosample	Zhonghua 11	2	1	DRR861982;DRR969589	SAMD01759116	PRJDB38331	16.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00430	same_biosample	Zhonghua 11	2	1	DRR861983;DRR969590	SAMD01759117	PRJDB38331	17.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00431	same_biosample	Zhonghua 11	2	1	DRR862018;DRR969625	SAMD01759152	PRJDB38331	21.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00432	same_biosample	Zhonghua 11	2	1	DRR862024;DRR969631	SAMD01759158	PRJDB38331	15.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00433	same_biosample	Zhonghua 11	2	1	DRR862120;DRR969727	SAMD01759254	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00434	same_biosample	Zhonghua 11	2	1	DRR862132;DRR969739	SAMD01759266	PRJDB38331	13.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00435	same_biosample	Zhonghua 11	2	1	DRR862135;DRR969742	SAMD01759269	PRJDB38331	14.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00436	same_biosample	Zhonghua 11	2	1	DRR862199;DRR969806	SAMD01759333	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00437	same_biosample	Zhonghua 11	2	1	DRR862250;DRR969857	SAMD01759384	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00438	same_biosample	Zhonghua 11	2	1	DRR862253;DRR969860	SAMD01759387	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00439	same_biosample	Zhonghua 11	2	1	DRR862373;DRR969980	SAMD01759507	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00440	same_biosample	Zhonghua 11	2	1	DRR862423;DRR970030	SAMD01759557	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00441	same_biosample	Zhonghua 11	2	1	DRR862425;DRR970032	SAMD01759559	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00442	same_biosample	JR2	2	1	SRR29409869;SRR31369133	SAMN41831863	PRJNA1122958|PRJNA1178436	40.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00443	same_biosample	Zhonghua 11	2	1	DRR862545;DRR970152	SAMD01759679	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00444	same_biosample	Zhonghua 11	2	1	DRR862609;DRR970216	SAMD01759743	PRJDB38331	12.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00445	same_biosample	Zhonghua 11	2	1	DRR862654;DRR970261	SAMD01759788	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00446	same_biosample	Zhonghua 11	2	1	DRR862664;DRR970271	SAMD01759798	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00447	same_biosample	Zhonghua 11	2	1	DRR862680;DRR970287	SAMD01759814	PRJDB38331	8.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00448	same_biosample	Zhonghua 11	2	1	DRR862687;DRR970294	SAMD01759821	PRJDB38331	8.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00449	same_biosample	Zhonghua 11	2	1	DRR862727;DRR970334	SAMD01759861	PRJDB38331	13.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00450	same_biosample	Zhonghua 11	2	1	DRR862731;DRR970338	SAMD01759865	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00451	same_biosample	Zhonghua 11	2	1	DRR862743;DRR970350	SAMD01759877	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00452	same_biosample	Zhonghua 11	2	1	DRR862831;DRR970438	SAMD01759965	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00453	same_biosample	Zhonghua 11	2	1	DRR862855;DRR970462	SAMD01759989	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00454	same_biosample	Zhonghua 11	2	1	DRR862882;DRR970489	SAMD01760016	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00455	same_biosample	Zhonghua 11	2	1	DRR862920;DRR970527	SAMD01760054	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00456	same_biosample	Zhonghua 11	2	1	DRR863004;DRR970611	SAMD01760138	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00457	same_biosample	Zhonghua 11	2	1	DRR863011;DRR970618	SAMD01760145	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00458	same_biosample	Zhonghua 11	2	1	DRR863083;DRR970690	SAMD01760217	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00459	same_biosample	Zhonghua 11	2	1	DRR863167;DRR970774	SAMD01760301	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00460	same_biosample	Zhonghua 11	2	1	DRR863210;DRR970817	SAMD01760344	PRJDB38331	16.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00461	same_biosample	Zhonghua 11	2	1	DRR863231;DRR970838	SAMD01760365	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00462	same_biosample	Zhonghua 11	2	1	DRR863249;DRR970856	SAMD01760383	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00463	same_biosample	Zhonghua 11	2	1	DRR863265;DRR970872	SAMD01760399	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00464	same_biosample	Zhonghua 11	2	1	DRR863306;DRR970913	SAMD01760440	PRJDB38331	13.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00465	same_biosample	Qianlijing	2	1	SRR31369127;SRR29409859	SAMN41831855	PRJNA1122958|PRJNA1178436	41.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00466	same_biosample	Zhonghua 11	2	1	DRR863359;DRR970966	SAMD01760493	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00467	same_biosample	Zhonghua 11	2	1	DRR863396;DRR971003	SAMD01760530	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00468	same_biosample	Zhonghua 11	2	1	DRR863431;DRR971038	SAMD01760565	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00469	same_biosample	Zhonghua 11	2	1	DRR863444;DRR971051	SAMD01760578	PRJDB38331	13.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00470	same_biosample	Zhonghua 11	2	1	DRR863467;DRR971074	SAMD01760601	PRJDB38331	16.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00471	same_biosample	Zhonghua 11	2	1	DRR863529;DRR971136	SAMD01760663	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00472	same_biosample	Zhonghua 11	2	1	DRR863617;DRR971224	SAMD01760751	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00473	same_biosample	Zhonghua 11	2	1	DRR863631;DRR971238	SAMD01760765	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00474	same_biosample	Zhonghua 11	2	1	DRR863641;DRR971248	SAMD01760775	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00475	same_biosample	Zhonghua 11	2	1	DRR863704;DRR971311	SAMD01760838	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00476	same_biosample	Zhonghua 11	2	1	DRR863762;DRR971369	SAMD01760896	PRJDB38331	16.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00477	same_biosample	Zhonghua 11	2	1	DRR863812;DRR971419	SAMD01760946	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00478	same_biosample	Zhonghua 11	2	1	DRR863818;DRR971425	SAMD01760952	PRJDB38331	15.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00479	same_biosample	Zhonghua 11	2	1	DRR863850;DRR971457	SAMD01760984	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00480	same_biosample	Zhonghua 11	2	1	DRR863942;DRR971549	SAMD01761076	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00481	same_biosample	Zhonghua 11	2	1	DRR863957;DRR971564	SAMD01761091	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00482	same_biosample	Zhonghua 11	2	1	DRR864077;DRR971684	SAMD01761211	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00483	same_biosample	Zhonghua 11	2	1	DRR864083;DRR971690	SAMD01761217	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00484	same_biosample	Zhonghua 11	2	1	DRR864164;DRR971771	SAMD01761298	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00485	same_biosample	Zhonghua 11	2	1	DRR864171;DRR971778	SAMD01761305	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00486	same_biosample	Zhonghua 11	2	1	DRR864211;DRR971818	SAMD01761345	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00487	same_biosample	Zhonghua 11	2	1	DRR864241;DRR971848	SAMD01761375	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00488	same_biosample	Zhonghua 11	2	1	DRR864336;DRR971943	SAMD01761470	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00489	same_biosample	Zhonghua 11	2	1	DRR864342;DRR971949	SAMD01761476	PRJDB38331	8.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00490	same_biosample	Zhonghua 11	2	1	DRR864348;DRR971955	SAMD01761482	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00491	same_biosample	Zhonghua 11	2	1	DRR864363;DRR971970	SAMD01761497	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00492	same_biosample	Zhonghua 11	2	1	DRR864397;DRR972004	SAMD01761531	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00493	same_biosample	Zhonghua 11	2	1	DRR864411;DRR972018	SAMD01761545	PRJDB38331	8.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00494	same_biosample	Zhonghua 11	2	1	DRR864630;DRR972237	SAMD01761764	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00495	same_biosample	Zhonghua 11	2	1	DRR864648;DRR972255	SAMD01761782	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00496	same_biosample	Zhonghua 11	2	1	DRR864895;DRR972502	SAMD01762029	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00497	same_biosample	Zhonghua 11	2	1	DRR864973;DRR972580	SAMD01762107	PRJDB38331	18.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00498	same_biosample	Zhonghua 11	2	1	DRR865018;DRR972625	SAMD01762152	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00499	same_biosample	Zhonghua 11	2	1	DRR865025;DRR972632	SAMD01762159	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00500	same_biosample	Zhonghua 11	2	1	DRR865044;DRR972651	SAMD01762178	PRJDB38331	15.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00501	same_biosample	Zhonghua 11	2	1	DRR865054;DRR972661	SAMD01762188	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00502	same_biosample	Zhonghua 11	2	1	DRR865074;DRR972681	SAMD01762208	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00503	same_biosample	Zhonghua 11	2	1	DRR865114;DRR972721	SAMD01762248	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00504	same_biosample	Zhonghua 11	2	1	DRR865123;DRR972730	SAMD01762257	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00505	same_biosample	Zhonghua 11	2	1	DRR865131;DRR972738	SAMD01762265	PRJDB38331	21.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00506	same_biosample	Zhonghua 11	2	1	DRR865140;DRR972747	SAMD01762274	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00507	same_biosample	Zhonghua 11	2	1	DRR968216;DRR860609	SAMD01757743	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00508	same_biosample	Zhonghua 11	2	1	DRR968244;DRR860637	SAMD01757771	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00509	same_biosample	Zhonghua 11	2	1	DRR968316;DRR860709	SAMD01757843	PRJDB38331	8.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00510	same_biosample	Zhonghua 11	2	1	DRR968352;DRR860745	SAMD01757879	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00511	same_biosample	Zhonghua 11	2	1	DRR968375;DRR860768	SAMD01757902	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00512	same_biosample	Zhonghua 11	2	1	DRR968532;DRR860925	SAMD01758059	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00513	same_biosample	Zhonghua 11	2	1	DRR968543;DRR860936	SAMD01758070	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00514	same_biosample	Zhonghua 11	2	1	DRR968638;DRR861031	SAMD01758165	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00515	same_biosample	Zhonghua 11	2	1	DRR968649;DRR861042	SAMD01758176	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00516	same_biosample	Zhonghua 11	2	1	DRR968665;DRR861058	SAMD01758192	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00517	same_biosample	Zhonghua 11	2	1	DRR968707;DRR861100	SAMD01758234	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00518	same_biosample	Zhonghua 11	2	1	DRR968737;DRR861130	SAMD01758264	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00519	same_biosample	Zhonghua 11	2	1	DRR968741;DRR861134	SAMD01758268	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00520	same_biosample	Zhonghua 11	2	1	DRR968782;DRR861175	SAMD01758309	PRJDB38331	14.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00521	same_biosample	Zhonghua 11	2	1	DRR968804;DRR861197	SAMD01758331	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00522	same_biosample	Zhonghua 11	2	1	DRR968967;DRR861360	SAMD01758494	PRJDB38331	18.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00523	same_biosample	Zhonghua 11	2	1	DRR968991;DRR861384	SAMD01758518	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00524	same_biosample	Zhonghua 11	2	1	DRR969020;DRR861413	SAMD01758547	PRJDB38331	16.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00525	same_biosample	Zhonghua 11	2	1	DRR969092;DRR861485	SAMD01758619	PRJDB38331	15.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00526	same_biosample	Zhonghua 11	2	1	DRR969151;DRR861544	SAMD01758678	PRJDB38331	9.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00527	same_biosample	Zhonghua 11	2	1	DRR969162;DRR861555	SAMD01758689	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00528	same_biosample	Zhonghua 11	2	1	DRR969171;DRR861564	SAMD01758698	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00529	same_biosample	Zhonghua 11	2	1	DRR969292;DRR861685	SAMD01758819	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00530	same_biosample	Zhonghua 11	2	1	DRR969401;DRR861794	SAMD01758928	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00531	same_biosample	Zhonghua 11	2	1	DRR969496;DRR861889	SAMD01759023	PRJDB38331	18.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00532	same_biosample	Zhonghua 11	2	1	DRR969511;DRR861904	SAMD01759038	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00533	same_biosample	Zhonghua 11	2	1	DRR969572;DRR861965	SAMD01759099	PRJDB38331	16.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00534	same_biosample	Zhonghua 11	2	1	DRR969573;DRR861966	SAMD01759100	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00535	same_biosample	Zhonghua 11	2	1	DRR969603;DRR861996	SAMD01759130	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00536	same_biosample	Zhonghua 11	2	1	DRR969830;DRR862223	SAMD01759357	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00537	same_biosample	Zhonghua 11	2	1	DRR969868;DRR862261	SAMD01759395	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00538	same_biosample	Zhonghua 11	2	1	DRR969909;DRR862302	SAMD01759436	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00539	same_biosample	Zhonghua 11	2	1	DRR970038;DRR862431	SAMD01759565	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00540	same_biosample	Zhonghua 11	2	1	DRR970102;DRR862495	SAMD01759629	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00541	same_biosample	Zhonghua 11	2	1	DRR970141;DRR862534	SAMD01759668	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00542	same_biosample	Zhonghua 11	2	1	DRR970229;DRR862622	SAMD01759756	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00543	same_biosample	Zhonghua 11	2	1	DRR970233;DRR862626	SAMD01759760	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00544	same_biosample	Zhonghua 11	2	1	DRR970243;DRR862636	SAMD01759770	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00545	same_biosample	Zhonghua 11	2	1	DRR970315;DRR862708	SAMD01759842	PRJDB38331	20.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00546	same_biosample	Zhonghua 11	2	1	DRR970582;DRR862975	SAMD01760109	PRJDB38331	15.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00547	same_biosample	Zhonghua 11	2	1	DRR970597;DRR862990	SAMD01760124	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00548	same_biosample	Zhonghua 11	2	1	DRR970659;DRR863052	SAMD01760186	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00549	same_biosample	Zhonghua 11	2	1	DRR970660;DRR863053	SAMD01760187	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00550	same_biosample	Zhonghua 11	2	1	DRR970711;DRR863104	SAMD01760238	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00551	same_biosample	Zhonghua 11	2	1	DRR970766;DRR863159	SAMD01760293	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00552	same_biosample	Zhonghua 11	2	1	DRR970807;DRR863200	SAMD01760334	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00553	same_biosample	Zhonghua 11	2	1	DRR970812;DRR863205	SAMD01760339	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00554	same_biosample	Zhonghua 11	2	1	DRR970832;DRR863225	SAMD01760359	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00555	same_biosample	Zhonghua 11	2	1	DRR970839;DRR863232	SAMD01760366	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00556	same_biosample	Zhonghua 11	2	1	DRR970852;DRR863245	SAMD01760379	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00557	same_biosample	Zhonghua 11	2	1	DRR970855;DRR863248	SAMD01760382	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00558	same_biosample	Zhonghua 11	2	1	DRR971072;DRR863465	SAMD01760599	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00559	same_biosample	Zhonghua 11	2	1	DRR971186;DRR863579	SAMD01760713	PRJDB38331	18.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00560	same_biosample	Zhonghua 11	2	1	DRR971239;DRR863632	SAMD01760766	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00561	same_biosample	Zhonghua 11	2	1	DRR971263;DRR863656	SAMD01760790	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00562	same_biosample	Zhonghua 11	2	1	DRR971301;DRR863694	SAMD01760828	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00563	same_biosample	Zhonghua 11	2	1	DRR971350;DRR863743	SAMD01760877	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00564	same_biosample	Zhonghua 11	2	1	DRR971498;DRR863891	SAMD01761025	PRJDB38331	15.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00565	same_biosample	Zhonghua 11	2	1	DRR971524;DRR863917	SAMD01761051	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00566	same_biosample	Zhonghua 11	2	1	DRR971800;DRR864193	SAMD01761327	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00567	same_biosample	Zhonghua 11	2	1	DRR971808;DRR864201	SAMD01761335	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00568	same_biosample	Zhonghua 11	2	1	DRR971833;DRR864226	SAMD01761360	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00569	same_biosample	Zhonghua 11	2	1	DRR971860;DRR864253	SAMD01761387	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00570	same_biosample	Zhonghua 11	2	1	DRR971937;DRR864330	SAMD01761464	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00571	same_biosample	Zhonghua 11	2	1	DRR971941;DRR864334	SAMD01761468	PRJDB38331	9.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00572	same_biosample	Zhonghua 11	2	1	DRR972036;DRR864429	SAMD01761563	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00573	same_biosample	Zhonghua 11	2	1	DRR972218;DRR864611	SAMD01761745	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00574	same_biosample	Zhonghua 11	2	1	DRR972716;DRR865109	SAMD01762243	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00575	same_biosample	Zhonghua 11	2	1	DRR972744;DRR865137	SAMD01762271	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00576	same_biosample	Zhonghua 11	2	1	DRR968752;DRR861145	SAMD01758279	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00577	same_biosample	Zhonghua 11	2	1	DRR968855;DRR861248	SAMD01758382	PRJDB38331	17.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00578	same_biosample	Zhonghua 11	2	1	DRR969718;DRR862111	SAMD01759245	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00579	same_biosample	Zhonghua 11	2	1	DRR969916;DRR862309	SAMD01759443	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00580	same_biosample	Zhonghua 11	2	1	DRR970389;DRR862782	SAMD01759916	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00581	same_biosample	Zhonghua 11	2	1	DRR970454;DRR862847	SAMD01759981	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00582	same_biosample	Zhonghua 11	2	1	DRR968515;DRR860908	SAMD01758042	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00583	same_biosample	Zhonghua 11	2	1	DRR969003;DRR861396	SAMD01758530	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00584	same_biosample	Zhonghua 11	2	1	DRR969337;DRR861730	SAMD01758864	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00585	same_biosample	Zhonghua 11	2	1	DRR970353;DRR862746	SAMD01759880	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00586	same_biosample	Zhonghua 11	2	1	DRR970393;DRR862786	SAMD01759920	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00587	same_biosample	Zhonghua 11	2	1	DRR971610;DRR864003	SAMD01761137	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00588	same_biosample	Zhonghua 11	2	1	DRR971896;DRR864289	SAMD01761423	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00589	same_biosample	Zhonghua 11	2	1	DRR972316;DRR864709	SAMD01761843	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00590	same_biosample	Zhonghua 11	2	1	DRR972365;DRR864758	SAMD01761892	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00591	same_biosample	Kitaake ubi-XA21 FN-222	2	1	SRR4096774;SRR4096773	SAMN05446195	PRJNA334377	26.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00592	same_biosample	Kitaake ubi-XA21 FN-226	2	1	SRR4096885;SRR4096884	SAMN05446197	PRJNA334380	27.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00593	same_biosample	Kitaake ubi-XA21 FN-268	2	1	SRR4096925;SRR4096924	SAMN05446458	PRJNA334417	31.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00594	same_biosample	Kitaake ubi-XA21 FN-223	2	1	SRR4096950;SRR4096949	SAMN05446196	PRJNA334378	31.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00595	same_biosample	Kitaake ubi-XA21 FN-236	2	1	SRR4096952;SRR4096951	SAMN05442950	PRJNA334389	38.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00596	same_biosample	Kitaake ubi-XA21 FN-279	2	1	SRR4097042;SRR4097041	SAMN05446479	PRJNA333154	29.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00597	same_biosample	Kitaake ubi-XA21 FN-283	2	1	SRR4097054;SRR4097055	SAMN05446405	PRJNA333156	29.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00598	same_biosample	Kitaake ubi-XA21 FN-290	2	1	SRR4097061;SRR4097062	SAMN05443044	PRJNA333163	36.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00599	same_biosample	Kitaake ubi-XA21 FN-284	2	1	SRR4097087;SRR4097088	SAMN05446406	PRJNA333157	30.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00600	same_biosample	Kitaake ubi-XA21 FN-316	2	1	SRR4097218;SRR4097219	SAMN05446121	PRJNA333187	40.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00601	same_biosample	Kitaake ubi-XA21 FN-314	2	1	SRR4097231;SRR4097232	SAMN05443038	PRJNA333185	38.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00602	same_biosample	Kitaake ubi-XA21 FN-315	2	1	SRR4097239;SRR4097238	SAMN05446120	PRJNA333186	37.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00603	same_biosample	Kitaake ubi-XA21 FN-341	2	1	SRR4097325;SRR4097326	SAMN05443022	PRJNA333209	42.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00604	same_biosample	Kitaake ubi-XA21 FN-410	2	1	SRR4097798;SRR4097799	SAMN05446404	PRJNA333258	35.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00605	same_biosample	Njavara Black variety	2	1	SRR27271384;SRR27506734	SAMN38811841	PRJNA1052060	131.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00606	same_biosample	Lijiang Xintuan Hei Gu	2	1	SRR14139042;SRR14297944	SAMN18604611	PRJNA719383	60.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00607	same_biosample	Gang46	2	1	SRR14139096;SRR14297949	SAMN18604560	PRJNA719383	67.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00608	same_biosample	02428	2	1	SRR14269773;SRR14139102	SAMN18604530	PRJNA719383	67.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00609	same_biosample	Kongyu131	2	1	SRR14297953;SRR14139103	SAMN18604527	PRJNA719383	50.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00610	same_biosample	Tulaipanji	2	1	SRR5229583;SRR5221412	SAMN06251708	PRJNA363015	8.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00611	same_biosample	PA64s-2	2	1	SRR1210626;SRR1210625	SAMN02711999	PRJNA243018	23.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00612	same_biosample	Kitaake ubi-XA56 FN1493-S	2	1	SRR4393220;SRR4393219	SAMN05878037	PRJNA346152	37.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00613	same_biosample	Kitaake ubi-XA68 FN1509-S	2	1	SRR4393228;SRR4393227	SAMN05878364	PRJNA346164	38.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00614	same_biosample	Kitaake ubi-XA79 FN1529-S	2	1	SRR4393280;SRR4393279	SAMN05878118	PRJNA346175	44.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00615	same_biosample	tetraploid of 9N	2	1	SRR8427217;SRR8427218	SAMN10720270	PRJNA514100	44.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00616	same_biosample	Carolina Gold Select	2	1	SRR9326866;SRR9321972	SAMN10380581	PRJNA503892	86.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00617	same_biosample	Huanghuazhan	2	1	SRR2040564;SRR2052536	SAMN03734915	PRJNA283022	37.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00618	same_biosample	9311K	2	1	SRR29409864;SRR31369130	SAMN41831850	PRJNA1122958|PRJNA1178436	41.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00619	same_biosample	R4115	2	1	SRR31369126;SRR29409858	SAMN41831856	PRJNA1122958|PRJNA1178436	41.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00620	same_biosample	Kitaake ubi-XA21 FN 398-3/4/5	2	1	SRR4096918;SRR4096917	SAMN05442954	PRJNA334376	27.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00621	same_biosample	Kitaake ubi-XA21 FN-277	2	1	SRR4096972;SRR4096971	SAMN05446477	PRJNA333152	29.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00622	same_biosample	Kitaake ubi-XA21 FN-285	2	1	SRR4097059;SRR4097060	SAMN05443074	PRJNA333158	36.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00623	same_biosample	Kitaake ubi-XA21 FN-289	2	1	SRR4097064;SRR4097065	SAMN05443073	PRJNA333162	31.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00624	same_biosample	Kitaake ubi-XA21 FN-288	2	1	SRR4097092;SRR4097093	SAMN05446409	PRJNA333161	41.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00625	same_biosample	Kitaake ubi-XA21 FN-344	2	1	SRR4097462;SRR4097461	SAMN05446353	PRJNA333211	34.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00626	same_biosample	Kitaake ubi-XA87 FN1537-S	2	1	SRR4393270;SRR4393271	SAMN05878504	PRJNA346183	46.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00627	same_biosample	Zhonghua 11	2	1	DRR970002;DRR862395	SAMD01759529	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00628	same_biosample	Zhonghua 11	2	1	DRR970608;DRR863001	SAMD01760135	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00629	same_biosample	Zhonghua 11	2	1	DRR860608;DRR968215	SAMD01757742	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00630	same_biosample	Zhonghua 11	2	1	DRR860625;DRR968232	SAMD01757759	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00631	same_biosample	Zhonghua 11	2	1	DRR860629;DRR968236	SAMD01757763	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00632	same_biosample	Zhonghua 11	2	1	DRR860697;DRR968304	SAMD01757831	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00633	same_biosample	Zhonghua 11	2	1	DRR860762;DRR968369	SAMD01757896	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00634	same_biosample	Zhonghua 11	2	1	DRR860829;DRR968436	SAMD01757963	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00635	same_biosample	Zhonghua 11	2	1	DRR860843;DRR968450	SAMD01757977	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00636	same_biosample	Zhonghua 11	2	1	DRR860847;DRR968454	SAMD01757981	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00637	same_biosample	Zhonghua 11	2	1	DRR861051;DRR968658	SAMD01758185	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00638	same_biosample	Zhonghua 11	2	1	DRR861181;DRR968788	SAMD01758315	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00639	same_biosample	Zhonghua 11	2	1	DRR861202;DRR968809	SAMD01758336	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00640	same_biosample	Zhonghua 11	2	1	DRR861309;DRR968916	SAMD01758443	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00641	same_biosample	Zhonghua 11	2	1	DRR861391;DRR968998	SAMD01758525	PRJDB38331	22.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00642	same_biosample	Zhonghua 11	2	1	DRR861437;DRR969044	SAMD01758571	PRJDB38331	14.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00643	same_biosample	Zhonghua 11	2	1	DRR861442;DRR969049	SAMD01758576	PRJDB38331	15.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00644	same_biosample	Zhonghua 11	2	1	DRR861575;DRR969182	SAMD01758709	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00645	same_biosample	Zhonghua 11	2	1	DRR861611;DRR969218	SAMD01758745	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00646	same_biosample	Zhonghua 11	2	1	DRR861723;DRR969330	SAMD01758857	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00647	same_biosample	Zhonghua 11	2	1	DRR861768;DRR969375	SAMD01758902	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00648	same_biosample	Zhonghua 11	2	1	DRR861963;DRR969570	SAMD01759097	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00649	same_biosample	Zhonghua 11	2	1	DRR861988;DRR969595	SAMD01759122	PRJDB38331	13.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00650	same_biosample	Zhonghua 11	2	1	DRR862013;DRR969620	SAMD01759147	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00651	same_biosample	Zhonghua 11	2	1	DRR862082;DRR969689	SAMD01759216	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00652	same_biosample	Zhonghua 11	2	1	DRR862084;DRR969691	SAMD01759218	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00653	same_biosample	Zhonghua 11	2	1	DRR862178;DRR969785	SAMD01759312	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00654	same_biosample	Zhonghua 11	2	1	DRR862194;DRR969801	SAMD01759328	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00655	same_biosample	Zhonghua 11	2	1	DRR862202;DRR969809	SAMD01759336	PRJDB38331	14.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00656	same_biosample	Zhonghua 11	2	1	DRR862321;DRR969928	SAMD01759455	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00657	same_biosample	Zhonghua 11	2	1	DRR862389;DRR969996	SAMD01759523	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00658	same_biosample	Zhonghua 11	2	1	DRR862416;DRR970023	SAMD01759550	PRJDB38331	19.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00659	same_biosample	Zhonghua 11	2	1	DRR862520;DRR970127	SAMD01759654	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00660	same_biosample	Zhonghua 11	2	1	DRR862612;DRR970219	SAMD01759746	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00661	same_biosample	Zhonghua 11	2	1	DRR862792;DRR970399	SAMD01759926	PRJDB38331	9.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00662	same_biosample	Zhonghua 11	2	1	DRR862853;DRR970460	SAMD01759987	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00663	same_biosample	Zhonghua 11	2	1	DRR862947;DRR970554	SAMD01760081	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00664	same_biosample	Zhonghua 11	2	1	DRR862980;DRR970587	SAMD01760114	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00665	same_biosample	Zhonghua 11	2	1	DRR862992;DRR970599	SAMD01760126	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00666	same_biosample	Zhonghua 11	2	1	DRR863145;DRR970752	SAMD01760279	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00667	same_biosample	Zhonghua 11	2	1	DRR863229;DRR970836	SAMD01760363	PRJDB38331	13.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00668	same_biosample	Zhonghua 11	2	1	DRR863233;DRR970840	SAMD01760367	PRJDB38331	13.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00669	same_biosample	Zhonghua 11	2	1	DRR863243;DRR970850	SAMD01760377	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00670	same_biosample	Zhonghua 11	2	1	DRR863244;DRR970851	SAMD01760378	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00671	same_biosample	Zhonghua 11	2	1	DRR863258;DRR970865	SAMD01760392	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00672	same_biosample	Zhonghua 11	2	1	DRR863262;DRR970869	SAMD01760396	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00673	same_biosample	Zhonghua 11	2	1	DRR863312;DRR970919	SAMD01760446	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00674	same_biosample	Zhonghua 11	2	1	DRR863330;DRR970937	SAMD01760464	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00675	same_biosample	Zhonghua 11	2	1	DRR863336;DRR970943	SAMD01760470	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00676	same_biosample	Zhonghua 11	2	1	DRR863418;DRR971025	SAMD01760552	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00677	same_biosample	Zhonghua 11	2	1	DRR863420;DRR971027	SAMD01760554	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00678	same_biosample	Zhonghua 11	2	1	DRR863443;DRR971050	SAMD01760577	PRJDB38331	13.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00679	same_biosample	Zhonghua 11	2	1	DRR863469;DRR971076	SAMD01760603	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00680	same_biosample	Zhonghua 11	2	1	DRR863490;DRR971097	SAMD01760624	PRJDB38331	11.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00681	same_biosample	Zhonghua 11	2	1	DRR863510;DRR971117	SAMD01760644	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00682	same_biosample	Zhonghua 11	2	1	DRR863604;DRR971211	SAMD01760738	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00683	same_biosample	Zhonghua 11	2	1	DRR863626;DRR971233	SAMD01760760	PRJDB38331	16.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00684	same_biosample	Zhonghua 11	2	1	DRR863637;DRR971244	SAMD01760771	PRJDB38331	12.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00685	same_biosample	Zhonghua 11	2	1	DRR863640;DRR971247	SAMD01760774	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00686	same_biosample	Zhonghua 11	2	1	DRR863693;DRR971300	SAMD01760827	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00687	same_biosample	Zhonghua 11	2	1	DRR863745;DRR971352	SAMD01760879	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00688	same_biosample	Zhonghua 11	2	1	DRR863765;DRR971372	SAMD01760899	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00689	same_biosample	Zhonghua 11	2	1	DRR863870;DRR971477	SAMD01761004	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00690	same_biosample	Zhonghua 11	2	1	DRR863900;DRR971507	SAMD01761034	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00691	same_biosample	Zhonghua 11	2	1	DRR863926;DRR971533	SAMD01761060	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00692	same_biosample	Zhonghua 11	2	1	DRR863940;DRR971547	SAMD01761074	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00693	same_biosample	Zhonghua 11	2	1	DRR863979;DRR971586	SAMD01761113	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00694	same_biosample	Zhonghua 11	2	1	DRR864056;DRR971663	SAMD01761190	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00695	same_biosample	Zhonghua 11	2	1	DRR864062;DRR971669	SAMD01761196	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00696	same_biosample	Zhonghua 11	2	1	DRR864142;DRR971749	SAMD01761276	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00697	same_biosample	Zhonghua 11	2	1	DRR864231;DRR971838	SAMD01761365	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00698	same_biosample	Zhonghua 11	2	1	DRR864265;DRR971872	SAMD01761399	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00699	same_biosample	Zhonghua 11	2	1	DRR864352;DRR971959	SAMD01761486	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00700	same_biosample	Zhonghua 11	2	1	DRR864372;DRR971979	SAMD01761506	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00701	same_biosample	Zhonghua 11	2	1	DRR864495;DRR972102	SAMD01761629	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00702	same_biosample	Zhonghua 11	2	1	DRR864496;DRR972103	SAMD01761630	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00703	same_biosample	Zhonghua 11	2	1	DRR864527;DRR972134	SAMD01761661	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00704	same_biosample	Zhonghua 11	2	1	DRR864533;DRR972140	SAMD01761667	PRJDB38331	8.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00705	same_biosample	Zhonghua 11	2	1	DRR864582;DRR972189	SAMD01761716	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00706	same_biosample	Zhonghua 11	2	1	DRR864662;DRR972269	SAMD01761796	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00707	same_biosample	Zhonghua 11	2	1	DRR864686;DRR972293	SAMD01761820	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00708	same_biosample	Zhonghua 11	2	1	DRR864810;DRR972417	SAMD01761944	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00709	same_biosample	Zhonghua 11	2	1	DRR864916;DRR972523	SAMD01762050	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00710	same_biosample	Zhonghua 11	2	1	DRR864926;DRR972533	SAMD01762060	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00711	same_biosample	Zhonghua 11	2	1	DRR864994;DRR972601	SAMD01762128	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00712	same_biosample	Zhonghua 11	2	1	DRR865151;DRR972758	SAMD01762285	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00713	same_biosample	Zhonghua 11	2	1	DRR968172;DRR860565	SAMD01757699	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00714	same_biosample	Zhonghua 11	2	1	DRR968179;DRR860572	SAMD01757706	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00715	same_biosample	Zhonghua 11	2	1	DRR968404;DRR860797	SAMD01757931	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00716	same_biosample	Zhonghua 11	2	1	DRR968448;DRR860841	SAMD01757975	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00717	same_biosample	Zhonghua 11	2	1	DRR968528;DRR860921	SAMD01758055	PRJDB38331	9.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00718	same_biosample	Zhonghua 11	2	1	DRR968806;DRR861199	SAMD01758333	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00719	same_biosample	Zhonghua 11	2	1	DRR968811;DRR861204	SAMD01758338	PRJDB38331	21.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00720	same_biosample	Zhonghua 11	2	1	DRR968820;DRR861213	SAMD01758347	PRJDB38331	15.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00721	same_biosample	Zhonghua 11	2	1	DRR968954;DRR861347	SAMD01758481	PRJDB38331	19.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00722	same_biosample	Zhonghua 11	2	1	DRR969063;DRR861456	SAMD01758590	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00723	same_biosample	Zhonghua 11	2	1	DRR969248;DRR861641	SAMD01758775	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00724	same_biosample	Zhonghua 11	2	1	DRR969263;DRR861656	SAMD01758790	PRJDB38331	14.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00725	same_biosample	Zhonghua 11	2	1	DRR969353;DRR861746	SAMD01758880	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00726	same_biosample	Zhonghua 11	2	1	DRR969400;DRR861793	SAMD01758927	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00727	same_biosample	Zhonghua 11	2	1	DRR969428;DRR861821	SAMD01758955	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00728	same_biosample	Zhonghua 11	2	1	DRR969471;DRR861864	SAMD01758998	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00729	same_biosample	Zhonghua 11	2	1	DRR969656;DRR862049	SAMD01759183	PRJDB38331	20.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00730	same_biosample	Zhonghua 11	2	1	DRR969710;DRR862103	SAMD01759237	PRJDB38331	19.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00731	same_biosample	Zhonghua 11	2	1	DRR969762;DRR862155	SAMD01759289	PRJDB38331	9.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00732	same_biosample	Zhonghua 11	2	1	DRR969793;DRR862186	SAMD01759320	PRJDB38331	8.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00733	same_biosample	Zhonghua 11	2	1	DRR969935;DRR862328	SAMD01759462	PRJDB38331	14.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00734	same_biosample	Zhonghua 11	2	1	DRR969940;DRR862333	SAMD01759467	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00735	same_biosample	Zhonghua 11	2	1	DRR970004;DRR862397	SAMD01759531	PRJDB38331	12.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00736	same_biosample	Zhonghua 11	2	1	DRR970085;DRR862478	SAMD01759612	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00737	same_biosample	Zhonghua 11	2	1	DRR970149;DRR862542	SAMD01759676	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00738	same_biosample	Zhonghua 11	2	1	DRR970187;DRR862580	SAMD01759714	PRJDB38331	7.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00739	same_biosample	Zhonghua 11	2	1	DRR970341;DRR862734	SAMD01759868	PRJDB38331	14.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00740	same_biosample	Zhonghua 11	2	1	DRR970358;DRR862751	SAMD01759885	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00741	same_biosample	Zhonghua 11	2	1	DRR970385;DRR862778	SAMD01759912	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00742	same_biosample	Zhonghua 11	2	1	DRR970502;DRR862895	SAMD01760029	PRJDB38331	17.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00743	same_biosample	Zhonghua 11	2	1	DRR970540;DRR862933	SAMD01760067	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00744	same_biosample	Zhonghua 11	2	1	DRR970551;DRR862944	SAMD01760078	PRJDB38331	15.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00745	same_biosample	Zhonghua 11	2	1	DRR970790;DRR863183	SAMD01760317	PRJDB38331	12.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00746	same_biosample	Zhonghua 11	2	1	DRR970858;DRR863251	SAMD01760385	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00747	same_biosample	Zhonghua 11	2	1	DRR970972;DRR863365	SAMD01760499	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00748	same_biosample	Zhonghua 11	2	1	DRR971009;DRR863402	SAMD01760536	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00749	same_biosample	Zhonghua 11	2	1	DRR971065;DRR863458	SAMD01760592	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00750	same_biosample	Zhonghua 11	2	1	DRR971161;DRR863554	SAMD01760688	PRJDB38331	12.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00751	same_biosample	Zhonghua 11	2	1	DRR971409;DRR863802	SAMD01760936	PRJDB38331	15.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00752	same_biosample	Zhonghua 11	2	1	DRR971520;DRR863913	SAMD01761047	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00753	same_biosample	Zhonghua 11	2	1	DRR971643;DRR864036	SAMD01761170	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00754	same_biosample	Zhonghua 11	2	1	DRR971861;DRR864254	SAMD01761388	PRJDB38331	9.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00755	same_biosample	Zhonghua 11	2	1	DRR971944;DRR864337	SAMD01761471	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00756	same_biosample	Zhonghua 11	2	1	DRR972021;DRR864414	SAMD01761548	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00757	same_biosample	Zhonghua 11	2	1	DRR972059;DRR864452	SAMD01761586	PRJDB38331	8.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00758	same_biosample	Zhonghua 11	2	1	DRR972067;DRR864460	SAMD01761594	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00759	same_biosample	Zhonghua 11	2	1	DRR972240;DRR864633	SAMD01761767	PRJDB38331	9.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00760	same_biosample	Zhonghua 11	2	1	DRR972274;DRR864667	SAMD01761801	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00761	same_biosample	Zhonghua 11	2	1	DRR972283;DRR864676	SAMD01761810	PRJDB38331	16.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00762	same_biosample	Zhonghua 11	2	1	DRR972441;DRR864834	SAMD01761968	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00763	same_biosample	Zhonghua 11	2	1	DRR972477;DRR864870	SAMD01762004	PRJDB38331	13.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00764	same_biosample	Zhonghua 11	2	1	DRR972599;DRR864992	SAMD01762126	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00765	same_biosample	Zhonghua 11	2	1	DRR972600;DRR864993	SAMD01762127	PRJDB38331	11.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00766	same_biosample	Zhonghua 11	2	1	DRR972647;DRR865040	SAMD01762174	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00767	same_biosample	Zhonghua 11	2	1	DRR972746;DRR865139	SAMD01762273	PRJDB38331	13.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00768	same_biosample	Zhonghua 11	2	1	DRR968322;DRR860715	SAMD01757849	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00769	same_biosample	Zhonghua 11	2	1	DRR968675;DRR861068	SAMD01758202	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00770	same_biosample	Zhonghua 11	2	1	DRR970054;DRR862447	SAMD01759581	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00771	same_biosample	Zhonghua 11	2	1	DRR970699;DRR863092	SAMD01760226	PRJDB38331	10.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00772	same_biosample	Zhonghua 11	2	1	DRR969105;DRR861498	SAMD01758632	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00773	same_biosample	Zhonghua 11	2	1	DRR968905;DRR861298	SAMD01758432	PRJDB38331	15.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00774	same_biosample	Zhonghua 11	2	1	DRR969876;DRR862269	SAMD01759403	PRJDB38331	15.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00775	same_biosample	Zhonghua 11	2	1	DRR971598;DRR863991	SAMD01761125	PRJDB38331	9.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00776	same_biosample	Zhonghua 11	2	1	DRR860626;DRR968233	SAMD01757760	PRJDB38331	17.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00777	same_biosample	Zhonghua 11	2	1	DRR860636;DRR968243	SAMD01757770	PRJDB38331	11.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00778	same_biosample	Zhonghua 11	2	1	DRR860727;DRR968334	SAMD01757861	PRJDB38331	15.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00779	same_biosample	Zhonghua 11	2	1	DRR860758;DRR968365	SAMD01757892	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00780	same_biosample	Zhonghua 11	2	1	DRR860857;DRR968464	SAMD01757991	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00781	same_biosample	Zhonghua 11	2	1	DRR861076;DRR968683	SAMD01758210	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00782	same_biosample	Zhonghua 11	2	1	DRR861235;DRR968842	SAMD01758369	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00783	same_biosample	Zhonghua 11	2	1	DRR861242;DRR968849	SAMD01758376	PRJDB38331	15.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00784	same_biosample	Zhonghua 11	2	1	DRR861378;DRR968985	SAMD01758512	PRJDB38331	16.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00785	same_biosample	Zhonghua 11	2	1	DRR861568;DRR969175	SAMD01758702	PRJDB38331	15.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00786	same_biosample	Zhonghua 11	2	1	DRR861665;DRR969272	SAMD01758799	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00787	same_biosample	Zhonghua 11	2	1	DRR861883;DRR969490	SAMD01759017	PRJDB38331	16.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00788	same_biosample	Zhonghua 11	2	1	DRR862068;DRR969675	SAMD01759202	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00789	same_biosample	Zhonghua 11	2	1	DRR862089;DRR969696	SAMD01759223	PRJDB38331	16.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00790	same_biosample	Zhonghua 11	2	1	DRR862200;DRR969807	SAMD01759334	PRJDB38331	13.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00791	same_biosample	Zhonghua 11	2	1	DRR862244;DRR969851	SAMD01759378	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00792	same_biosample	Zhonghua 11	2	1	DRR862262;DRR969869	SAMD01759396	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00793	same_biosample	Zhonghua 11	2	1	DRR862267;DRR969874	SAMD01759401	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00794	same_biosample	Zhonghua 11	2	1	DRR862312;DRR969919	SAMD01759446	PRJDB38331	8.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00795	same_biosample	Zhonghua 11	2	1	DRR862331;DRR969938	SAMD01759465	PRJDB38331	10.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00796	same_biosample	Zhonghua 11	2	1	DRR862335;DRR969942	SAMD01759469	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00797	same_biosample	Zhonghua 11	2	1	DRR862361;DRR969968	SAMD01759495	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00798	same_biosample	Zhonghua 11	2	1	DRR862549;DRR970156	SAMD01759683	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00799	same_biosample	Zhonghua 11	2	1	DRR862662;DRR970269	SAMD01759796	PRJDB38331	11.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00800	same_biosample	Zhonghua 11	2	1	DRR862736;DRR970343	SAMD01759870	PRJDB38331	16.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00801	same_biosample	Zhonghua 11	2	1	DRR862866;DRR970473	SAMD01760000	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00802	same_biosample	Zhonghua 11	2	1	DRR862924;DRR970531	SAMD01760058	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00803	same_biosample	Zhonghua 11	2	1	DRR862978;DRR970585	SAMD01760112	PRJDB38331	20.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00804	same_biosample	Zhonghua 11	2	1	DRR863054;DRR970661	SAMD01760188	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00805	same_biosample	Zhonghua 11	2	1	DRR863130;DRR970737	SAMD01760264	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00806	same_biosample	Zhonghua 11	2	1	DRR863146;DRR970753	SAMD01760280	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00807	same_biosample	Zhonghua 11	2	1	DRR863282;DRR970889	SAMD01760416	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00808	same_biosample	Zhonghua 11	2	1	DRR863348;DRR970955	SAMD01760482	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00809	same_biosample	Zhonghua 11	2	1	DRR863539;DRR971146	SAMD01760673	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00810	same_biosample	Zhonghua 11	2	1	DRR863707;DRR971314	SAMD01760841	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00811	same_biosample	Zhonghua 11	2	1	DRR863888;DRR971495	SAMD01761022	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00812	same_biosample	Zhonghua 11	2	1	DRR863944;DRR971551	SAMD01761078	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00813	same_biosample	Zhonghua 11	2	1	DRR863968;DRR971575	SAMD01761102	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00814	same_biosample	Zhonghua 11	2	1	DRR863976;DRR971583	SAMD01761110	PRJDB38331	9.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00815	same_biosample	Zhonghua 11	2	1	DRR864010;DRR971617	SAMD01761144	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00816	same_biosample	Zhonghua 11	2	1	DRR864287;DRR971894	SAMD01761421	PRJDB38331	16.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00817	same_biosample	Zhonghua 11	2	1	DRR864302;DRR971909	SAMD01761436	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00818	same_biosample	Zhonghua 11	2	1	DRR864323;DRR971930	SAMD01761457	PRJDB38331	12.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00819	same_biosample	Zhonghua 11	2	1	DRR864530;DRR972137	SAMD01761664	PRJDB38331	7.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00820	same_biosample	Zhonghua 11	2	1	DRR864542;DRR972149	SAMD01761676	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00821	same_biosample	Zhonghua 11	2	1	DRR864543;DRR972150	SAMD01761677	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00822	same_biosample	Zhonghua 11	2	1	DRR864620;DRR972227	SAMD01761754	PRJDB38331	13.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00823	same_biosample	Zhonghua 11	2	1	DRR864797;DRR972404	SAMD01761931	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00824	same_biosample	Zhonghua 11	2	1	DRR864886;DRR972493	SAMD01762020	PRJDB38331	11.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00825	same_biosample	Zhonghua 11	2	1	DRR864898;DRR972505	SAMD01762032	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00826	same_biosample	Zhonghua 11	2	1	DRR864972;DRR972579	SAMD01762106	PRJDB38331	13.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00827	same_biosample	Zhonghua 11	2	1	DRR865009;DRR972616	SAMD01762143	PRJDB38331	12.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00828	same_biosample	Zhonghua 11	2	1	DRR865034;DRR972641	SAMD01762168	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00829	same_biosample	Zhonghua 11	2	1	DRR865043;DRR972650	SAMD01762177	PRJDB38331	13.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00830	same_biosample	Zhonghua 11	2	1	DRR865075;DRR972682	SAMD01762209	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00831	same_biosample	Zhonghua 11	2	1	DRR865143;DRR972750	SAMD01762277	PRJDB38331	11.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00832	same_biosample	Zhonghua 11	2	1	DRR968296;DRR860689	SAMD01757823	PRJDB38331	9.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00833	same_biosample	Zhonghua 11	2	1	DRR968498;DRR860891	SAMD01758025	PRJDB38331	8.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00834	same_biosample	Zhonghua 11	2	1	DRR968518;DRR860911	SAMD01758045	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00835	same_biosample	Zhonghua 11	2	1	DRR968537;DRR860930	SAMD01758064	PRJDB38331	9.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00836	same_biosample	Zhonghua 11	2	1	DRR968765;DRR861158	SAMD01758292	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00837	same_biosample	Zhonghua 11	2	1	DRR968974;DRR861367	SAMD01758501	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00838	same_biosample	Zhonghua 11	2	1	DRR969019;DRR861412	SAMD01758546	PRJDB38331	18.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00839	same_biosample	Zhonghua 11	2	1	DRR969051;DRR861444	SAMD01758578	PRJDB38331	16.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00840	same_biosample	Zhonghua 11	2	1	DRR969110;DRR861503	SAMD01758637	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00841	same_biosample	Zhonghua 11	2	1	DRR969205;DRR861598	SAMD01758732	PRJDB38331	10.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00842	same_biosample	Zhonghua 11	2	1	DRR969335;DRR861728	SAMD01758862	PRJDB38331	13.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00843	same_biosample	Zhonghua 11	2	1	DRR969356;DRR861749	SAMD01758883	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00844	same_biosample	Zhonghua 11	2	1	DRR969684;DRR862077	SAMD01759211	PRJDB38331	11.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00845	same_biosample	Zhonghua 11	2	1	DRR970046;DRR862439	SAMD01759573	PRJDB38331	14.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00846	same_biosample	Zhonghua 11	2	1	DRR970392;DRR862785	SAMD01759919	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00847	same_biosample	Zhonghua 11	2	1	DRR970427;DRR862820	SAMD01759954	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00848	same_biosample	Zhonghua 11	2	1	DRR971066;DRR863459	SAMD01760593	PRJDB38331	14.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00849	same_biosample	Zhonghua 11	2	1	DRR971540;DRR863933	SAMD01761067	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00850	same_biosample	Zhonghua 11	2	1	DRR971721;DRR864114	SAMD01761248	PRJDB38331	12.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00851	same_biosample	Zhonghua 11	2	1	DRR971793;DRR864186	SAMD01761320	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00852	same_biosample	Zhonghua 11	2	1	DRR971889;DRR864282	SAMD01761416	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00853	same_biosample	Zhonghua 11	2	1	DRR972086;DRR864479	SAMD01761613	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00854	same_biosample	Zhonghua 11	2	1	DRR972329;DRR864722	SAMD01761856	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00855	same_biosample	Zhonghua 11	2	1	DRR972463;DRR864856	SAMD01761990	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00856	same_biosample	Zhonghua 11	2	1	DRR972491;DRR864884	SAMD01762018	PRJDB38331	12.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00857	same_biosample	Zhonghua 11	2	1	DRR972634;DRR865027	SAMD01762161	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00858	same_biosample	Zhonghua 11	2	1	DRR969845;DRR862238	SAMD01759372	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00859	same_biosample	Zhonghua 11	2	1	DRR971508;DRR863901	SAMD01761035	PRJDB38331	9.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00860	same_biosample	Minghui	2	1	SRR1039341;SRR567751	SAMN01141733	PRJNA174121	26.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00861	same_biosample	PA64s-1	2	1	SRR1210606;SRR1210618	SAMN02711998	PRJNA243018	23.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00862	same_biosample	Shuhui548	2	1	SRR14139067;SRR14297952	SAMN18604589	PRJNA719383	76.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00863	same_biosample	Kitaake ubi-XA21 FN-286	2	1	SRR4097089;SRR4097090	SAMN05446407	PRJNA333159	39.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00864	same_biosample	Zhonghua 11	2	1	DRR860590;DRR968197	SAMD01757724	PRJDB38331	13.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00865	same_biosample	Zhonghua 11	2	1	DRR860597;DRR968204	SAMD01757731	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00866	same_biosample	Zhonghua 11	2	1	DRR860713;DRR968320	SAMD01757847	PRJDB38331	10.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00867	same_biosample	Zhonghua 11	2	1	DRR860720;DRR968327	SAMD01757854	PRJDB38331	9.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00868	same_biosample	Zhonghua 11	2	1	DRR860757;DRR968364	SAMD01757891	PRJDB38331	8.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00869	same_biosample	Zhonghua 11	2	1	DRR860913;DRR968520	SAMD01758047	PRJDB38331	10.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00870	same_biosample	Zhonghua 11	2	1	DRR861110;DRR968717	SAMD01758244	PRJDB38331	14.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00871	same_biosample	Zhonghua 11	2	1	DRR861538;DRR969145	SAMD01758672	PRJDB38331	13.1	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00872	same_biosample	Zhonghua 11	2	1	DRR861880;DRR969487	SAMD01759014	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00873	same_biosample	Zhonghua 11	2	1	DRR861964;DRR969571	SAMD01759098	PRJDB38331	16.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00874	same_biosample	Zhonghua 11	2	1	DRR862235;DRR969842	SAMD01759369	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00875	same_biosample	Zhonghua 11	2	1	DRR862460;DRR970067	SAMD01759594	PRJDB38331	14.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00876	same_biosample	Zhonghua 11	2	1	DRR862724;DRR970331	SAMD01759858	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00877	same_biosample	Zhonghua 11	2	1	DRR863328;DRR970935	SAMD01760462	PRJDB38331	12.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00878	same_biosample	Zhonghua 11	2	1	DRR863716;DRR971323	SAMD01760850	PRJDB38331	11.4	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00879	same_biosample	Zhonghua 11	2	1	DRR863834;DRR971441	SAMD01760968	PRJDB38331	10.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00880	same_biosample	Zhonghua 11	2	1	DRR863949;DRR971556	SAMD01761083	PRJDB38331	10.8	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00881	same_biosample	Zhonghua 11	2	1	DRR863989;DRR971596	SAMD01761123	PRJDB38331	16.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00882	same_biosample	Zhonghua 11	2	1	DRR863996;DRR971603	SAMD01761130	PRJDB38331	11.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00883	same_biosample	Zhonghua 11	2	1	DRR864016;DRR971623	SAMD01761150	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00884	same_biosample	Zhonghua 11	2	1	DRR864170;DRR971777	SAMD01761304	PRJDB38331	13.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00885	same_biosample	Zhonghua 11	2	1	DRR864214;DRR971821	SAMD01761348	PRJDB38331	13.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00886	same_biosample	Zhonghua 11	2	1	DRR864223;DRR971830	SAMD01761357	PRJDB38331	10.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00887	same_biosample	Zhonghua 11	2	1	DRR864311;DRR971918	SAMD01761445	PRJDB38331	10.7	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00888	same_biosample	Zhonghua 11	2	1	DRR864321;DRR971928	SAMD01761455	PRJDB38331	9.3	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00889	same_biosample	Zhonghua 11	2	1	DRR864335;DRR971942	SAMD01761469	PRJDB38331	9.2	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00890	same_biosample	Zhonghua 11	2	1	DRR864353;DRR971960	SAMD01761487	PRJDB38331	12.6	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00891	same_biosample	Zhonghua 11	2	1	DRR864477;DRR972084	SAMD01761611	PRJDB38331	11.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00892	same_biosample	Zhonghua 11	2	1	DRR864691;DRR972298	SAMD01761825	PRJDB38331	12.0	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00893	same_biosample	Zhonghua 11	2	1	DRR865115;DRR972722	SAMD01762249	PRJDB38331	7.5	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00894	same_biosample	Zhonghua 11	2	1	DRR865121;DRR972728	SAMD01762255	PRJDB38331	10.9	keep_one_run（同一 DNA 的技术重复，建库只取 1 个 run）	
+DUP00895	same_variety_multi_run	R600	2	1	SRR10121034;SRR10121533	SAMN12734271|SAMN12751674	PRJNA564911	129.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00896	same_variety_multi_run	LIU XU::IRGC 109232-1	9	1	SRR10302205;SRR10302299;SRR10302207;SRR10302209;SRR10302210;SRR10302211;SRR10302208;SRR10302212;SRR10302300	SAMN13021815	PRJNA577228	108.5	keep（★ 重复性验证材料，不是重复）	同项目内 9 个 run
+DUP00897	same_variety_multi_run	IR64	10	1	SRR10357911;SRR10357915;SRR10357913;SRR10357916;SRR10357918;SRR10357912;SRR10357914;SRR10357917;SRR10357919;SRR10357929	SAMN10564385	PRJNA509165	29.8	keep（★ 重复性验证材料，不是重复）	同项目内 10 个 run
+DUP00898	same_variety_multi_run	BIL_sbn	2	1	SRR11097791;SRR11097792	SAMN14122721	PRJNA607167	115.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00899	same_variety_multiproject	B1	2	1	SRR11593345;SRR21747671	SAMN14548198|SAMN27611308	PRJNA623486|PRJNA801112	146.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00900	same_variety_multiproject	Nipponbare	53	1	SRR11743437;SRR11743442;SRR11743444;SRR24031302;SRR24031307;SRR24031308;SRR24031311;SRR24031328;SRR24031332;SRR24031333;SRR24031334;SRR24031336	SAMN14859344|SAMN14859345|SAMN14859346|SAMN14859347|SAMN14859348	PRJNA631341|PRJNA878954	76.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00901	same_variety_multiproject	Cocodrie	3	1	SRR11787839;SRR30032435;SRR1328215	SAMN02821231|SAMN14917679|SAMN42900528	PRJNA1141731|PRJNA205324|PRJNA632686	70.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00902	same_variety_multiproject	HJX74	3	1	SRR11928959;SRR11929011;SRR11922541	SAMN15080473|SAMN15097935|SAMN15098681	PRJNA636594|PRJNA637189|PRJNA637223	366.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00903	same_variety_multiproject	Zhonghua 11	5360	1	SRR12283958;SRR14139046;SRR14297943;SRR28530175;SRR28530176;DRR969240;DRR969701;DRR969915;DRR970491;DRR971010;DRR860554;DRR860560	SAMD01757686|SAMD01757687|SAMD01757688|SAMD01757689|SAMD01757690	PRJDB38331|PRJNA1095451|PRJNA1109999|PRJNA1314697|PRJNA647641|PRJNA719383|PRJNA894819	68.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 7 个 BioProject
+DUP00904	same_variety_multi_run	Longliangyou1353	5	1	SRR12315147;SRR12315149;SRR12315150;SRR12315148;SRR12315151	SAMN15615517|SAMN15615518|SAMN15615519|SAMN15615520|SAMN15615521	PRJNA647974	26.7	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00905	same_variety_multiproject	Zhefu802	2	1	SRR12452019;SRR8586082	SAMN10959850|SAMN15816214	PRJNA522896|PRJNA656900	55.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00906	same_variety_multiproject	Yue4A	2	1	SRR12452057;SRR24916000	SAMN15816180|SAMN35719758	PRJNA656900|PRJNA983080	17.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00907	same_variety_multiproject	Yeqinglun	2	1	SRR12452085;SRR3992368	SAMN04994794|SAMN15816154	PRJNA321462|PRJNA656900	25.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00908	same_variety_multiproject	Yangdao6hao	3	1	SRR12452098;SRR22201082;SRR3995605	SAMN05439890|SAMN15816143|SAMN31475507	PRJNA331215|PRJNA656900|PRJNA894819	47.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00909	same_variety_multiproject	Yangdao4hao	2	1	SRR12452099;SRR16990618	SAMN15816142|SAMN19552430	PRJNA656900|PRJNA734973	20.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00910	same_variety_multiproject	Yangdao2hao	2	1	SRR12452100;SRR3995594	SAMN05439889|SAMN15816141	PRJNA331215|PRJNA656900	20.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00911	same_variety_multiproject	ZHONG 413	2	1	SRR12452136;SRR1577617	SAMN03032280|SAMN15816236	PRJNA260762|PRJNA656900	21.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00912	same_variety_multiproject	Samba Mahsuri	28	1	SRR12496073;SRR12496078;SRR12496080;SRR12496085;SRR12496070;SRR12496074;SRR12496082;SRR24574990;SRR12496069;SRR12496071;SRR18056147;SRR24574989	SAMN09635493|SAMN15887493|SAMN15887494|SAMN15887495|SAMN15887496	PRJNA480378|PRJNA658718|PRJNA730098|PRJNA772118|PRJNA807848|PRJNA972670	73.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 6 个 BioProject
+DUP00913	same_variety_multiproject	IR30	3	1	SRR12523395;SRR15040872;SRR1743098	SAMN03273432|SAMN15806242|SAMN20058518	PRJNA271253|PRJNA656900|PRJNA743713	22.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00914	same_variety_multiproject	Hua Hang 31	2	1	SRR12523420;SRR30032509	SAMN15806219|SAMN42900398	PRJNA1141731|PRJNA656900	40.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00915	same_variety_multiproject	Guinongzhan	2	1	SRR12523463;SRR15900446	SAMN15806181|SAMN21436745	PRJNA656900|PRJNA763248	20.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00916	same_variety_multiproject	Gui630	5	1	SRR12523477;SRR14139095;SRR14269770;SRR1743099;SRR3992361	SAMN03273433|SAMN04994834|SAMN15806168|SAMN18604563	PRJNA271253|PRJNA321462|PRJNA656900|PRJNA719383	79.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00917	same_variety_multiproject	Exiang1hao	2	1	SRR12523579;SRR3995648	SAMN05439947|SAMN15806076	PRJNA331215|PRJNA656900	19.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00918	same_variety_multiproject	Chenghui448	2	1	SRR12523636;SRR22201024	SAMN15806024|SAMN31475538	PRJNA656900|PRJNA894819	50.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00919	same_variety_multi_run	R-6	2	1	SRR12523718;SRR12523717	SAMN15806589|SAMN15806590	PRJNA656900	21.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00920	same_variety_multiproject	Nanhui511	2	1	SRR12523794;SRR3992346	SAMN04994820|SAMN15806521	PRJNA321462|PRJNA656900	19.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00921	same_variety_multiproject	Minhui3301	2	1	SRR12523819;SRR16990643	SAMN15806498|SAMN19552484	PRJNA656900|PRJNA734973	23.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00922	same_variety_multiproject	Luohong3A	2	1	SRR12523872;SRR3995654	SAMN05439952|SAMN15806451	PRJNA331215|PRJNA656900	23.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00923	same_variety_multiproject	R225	2	1	SRR12524044;SRR15900430	SAMN15806620|SAMN21436751	PRJNA656900|PRJNA763248	18.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00924	same_variety_multiproject	Shuhui527	3	1	SRR12524209;SRR3992342;SRR1743110	SAMN03273444|SAMN04994816|SAMN15806732	PRJNA271253|PRJNA321462|PRJNA656900	21.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00925	same_variety_multiproject	Aituogu151	2	1	SRR12524286;SRR3995629	SAMN05439929|SAMN15805961	PRJNA331215|PRJNA656900	18.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00926	same_variety_multiproject	R527	3	1	SRR12524312;SRR14139068;SRR14297951	SAMN15806639|SAMN18604586	PRJNA656900|PRJNA719383	72.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00927	same_variety_multiproject	M-ERV1-3	2	1	SRR12525049;SRR12575954	SAMN15892126|SAMN15951662	PRJNA658863|PRJNA660540	16.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00928	same_variety_multiproject	N22	8	1	SRR12545187;SRR4027938;SRR4027941;SRR12545183;SRR12545189;SRR22201096;SRR4027939;SRR4027940	SAMN05518913|SAMN15929511|SAMN15929512|SAMN15929513|SAMN31475494	PRJNA337142|PRJNA659864|PRJNA894819	43.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00929	same_variety_multi_run	IRGC 132278	3	1	SRR12545190;SRR12545211;SRR12545212	SAMN15929519|SAMN15929520|SAMN15929521	PRJNA659864	18.1	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP00930	same_variety_multi_run	IRGC 128077	3	1	SRR12545219;SRR12545220;SRR12545221	SAMN15929528|SAMN15929529|SAMN15929530	PRJNA659864	17.4	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP00931	same_variety_multi_run	IRGC 127742	3	1	SRR12545225;SRR12545227;SRR12545226	SAMN15929534|SAMN15929535|SAMN15929536	PRJNA659864	28.9	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP00932	same_variety_multi_run	IRGC 125619	2	1	SRR12545231;SRR12545230	SAMN15929539|SAMN15929540	PRJNA659864	21.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00933	same_variety_multiproject	Taichung Native 1	25	1	SRR12643972;SRR12643974;SRR12643976;SRR12643978;SRR12643979;SRR12643994;SRR12643973;SRR12643986;SRR12643990;SRR12643991;SRR12643992;SRR12643981	SAMN02673292|SAMN16115968|SAMN20058626	PRJNA240140|PRJNA663050|PRJNA743713	100.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00934	same_variety_multiproject	YUMEPIRIKA	2	1	SRR13014078;SRR27388406	SAMN16685946|SAMN39203232	PRJNA1003283|PRJNA674962	14.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00935	same_variety_multi_run	Kola Joha	4	1	SRR13189454;SRR13189456;SRR13189453;SRR13189455	SAMN16793264	PRJNA678305	134.7	keep（★ 重复性验证材料，不是重复）	同项目内 4 个 run
+DUP00936	same_variety_multi_run	ZS97	2	1	SRR13280199;SRR13280200	SAMN17125852	PRJNA686812	138.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00937	same_variety_multi_run	D62	5	1	SRR14139049;SRR14269748;SRR14139074;SRR14139100;SRR14139101	SAMN18604545	PRJNA719383	54.8	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00938	same_variety_multiproject	Wushansimiao	7	1	SRR14139056;SRR14269757;SRR14139054;SRR14139055;SRR14139057;SRR12524112;SRR30032575	SAMN15806819|SAMN18604598|SAMN42900431	PRJNA1141731|PRJNA656900|PRJNA719383	66.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00939	same_variety_multi_run	Tumba	5	1	SRR14139061;SRR14139059;SRR14139062;SRR14269758;SRR14139058	SAMN18604595	PRJNA719383	58.5	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00940	same_variety_multi_run	Tsipala Menahar	5	1	SRR14139063;SRR14297940;SRR14139064;SRR14139066;SRR14139065	SAMN18604592	PRJNA719383	76.5	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00941	same_variety_multi_run	Nam Roo	5	1	SRR14139073;SRR14297950;SRR14139072;SRR14139069;SRR14139070	SAMN18604584	PRJNA719383	66.4	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00942	same_variety_multi_run	J4155	5	1	SRR14139084;SRR14269766;SRR14139081;SRR14139082;SRR14139080	SAMN18604575	PRJNA719383	60.4	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00943	same_variety_multi_run	II32	5	1	SRR14139087;SRR14269768;SRR14139088;SRR14139089;SRR14139086	SAMN18604569	PRJNA719383	55.6	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00944	same_variety_multi_run	Guang8	5	1	SRR14139092;SRR14139090;SRR14139093;SRR14139091;SRR14269769	SAMN18604566	PRJNA719383	56.9	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00945	same_variety_multi_run	DHX2	5	1	SRR14139108;SRR14139110;SRR14139107;SRR14269746;SRR14139106	SAMN18604551	PRJNA719383	70.9	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP00946	same_variety_multiproject	Fuhui838	8	1	SRR14269745;SRR14139099;SRR16990560;SRR12523554;SRR14139104;SRR1743103;SRR14139098;SRR14139105	SAMN03273437|SAMN15806098|SAMN18604554|SAMN19552483	PRJNA271253|PRJNA656900|PRJNA719383|PRJNA734973	57.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00947	same_variety_multi_run	Basmati1	2	1	SRR14269751;SRR14139120	SAMN18604536	PRJNA719383	57.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00948	same_variety_multiproject	Digu	2	1	SRR14297947;SRR16990688	SAMN18604548|SAMN19552456	PRJNA719383|PRJNA734973	71.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00949	same_variety_multiproject	Huanghuazhan	11	1	SRR14776841;SRR8586084;SRR11355295;SRR22201087;SRR2046085;SRR3992328;SRR3373344;SRR9696152;SRR2040564;SRR2052536;SRR30032580	SAMN03734915|SAMN03753708|SAMN04754833|SAMN04994804|SAMN10959848	PRJNA1141731|PRJNA283022|PRJNA318302|PRJNA321462|PRJNA522896|PRJNA526117|PRJNA541117|PRJNA554986	55.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 9 个 BioProject
+DUP00950	same_variety_multiproject	Jinhangsimiao	2	1	SRR15040797;SRR12523963	SAMN15806369|SAMN20058584	PRJNA656900|PRJNA743713	30.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00951	same_variety_multiproject	Bph68S	2	1	SRR15040884;SRR12523674	SAMN15805990|SAMN20058615	PRJNA656900|PRJNA743713	26.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00952	same_variety_multiproject	93-11	18	1	SRR15718853;SRR10948639;SRR10948641;SRR8961817;SRR10948640;SRR10948642;SRR10948643;SRR12283956;SRR12283957;SRR14139131;SRR14297939;SRR15718852	SAMN05439935|SAMN05439950|SAMN11493987|SAMN13829612|SAMN15595085	PRJNA1244057|PRJNA331215|PRJNA535372|PRJNA600693|PRJNA647641|PRJNA719383|PRJNA760649	673.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 7 个 BioProject
+DUP00953	same_variety_multiproject	II-32 B	2	1	SRR1577574;SRR9696143	SAMN03032237|SAMN12288231	PRJNA260762|PRJNA554986	11.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00954	same_variety_multiproject	PRATAO	2	1	SRR1577614;SRR32233608	SAMN03032277|SAMN46493669	PRJNA1217574|PRJNA260762	53.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00955	same_variety_multiproject	C418	4	1	SRR1577618;SRR29409862;SRR22201025;SRR31369128	SAMN03032281|SAMN31475537|SAMN41831852	PRJNA1122958|PRJNA1178436|PRJNA260762|PRJNA894819	45.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00956	same_variety_multiproject	Yihui3551	7	1	SRR16990561;SRR14139053;SRR14139051;SRR14269756;SRR12452073;SRR14139050;SRR14139052	SAMN15816165|SAMN18604601|SAMN19552482	PRJNA656900|PRJNA719383|PRJNA734973	58.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00957	same_variety_multiproject	Zhaiyeqing8hao	2	1	SRR16990599;SRR12452023	SAMN15816211|SAMN19552447	PRJNA656900|PRJNA734973	18.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00958	same_variety_multiproject	Enhui58	2	1	SRR16990610;SRR12523589	SAMN15806067|SAMN19552437	PRJNA656900|PRJNA734973	18.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00959	same_variety_multiproject	Ce49	2	1	SRR16990633;SRR12523668	SAMN15805995|SAMN19552395	PRJNA656900|PRJNA734973	26.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00960	same_variety_multiproject	Yuexiangzhan	2	1	SRR16990653;SRR12452046	SAMN15816190|SAMN19552423	PRJNA656900|PRJNA734973	20.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00961	same_variety_multiproject	Momi	2	1	SRR16990721;SRR3995613	SAMN05439915|SAMN19552547	PRJNA331215|PRJNA734973	16.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00962	same_variety_multiproject	Hanhui3	3	1	SRR17288605;SRR15040879;SRR1577621	SAMN03032284|SAMN20058619|SAMN24272043	PRJNA260762|PRJNA743713|PRJNA791281	63.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00963	same_variety_multiproject	2	2	1	SRR17344177;SRR31066069	SAMN24449275|SAMN44370679	PRJNA1175750|PRJNA792623	43.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00964	same_variety_multiproject	Minghui 63	12	1	SRR1743100;SRR22201081;SRR21656340;SRR21656343;SRR8586087;SRR21656341;SRR21656342;SRR3992341;SRR12523835;SRR21656344;SRR9696085;SRR32233605	SAMN03273434|SAMN04994815|SAMN10959853|SAMN12288266|SAMN15806483	PRJNA1217574|PRJNA271253|PRJNA321462|PRJNA522896|PRJNA554986|PRJNA656900|PRJNA882431|PRJNA894819	55.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 8 个 BioProject
+DUP00965	same_variety_multiproject	IR1544	2	1	SRR1743109;SRR3992360	SAMN03273443|SAMN04994833	PRJNA271253|PRJNA321462	24.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00966	same_variety_multiproject	HopumR	2	1	SRR17621383;SRR17631522	SAMN25000410|SAMN25025846	PRJNA797356|PRJNA797641	51.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00967	same_variety_multi_run	Kitaake FN4240-S	2	1	SRR18694055;SRR18694054	SAMN17674913	PRJNA696673	18.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00968	same_variety_multi_run	Kitaake FN4241-S	2	1	SRR18694060;SRR18694059	SAMN17674616	PRJNA696674	44.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00969	same_variety_multi_run	Kitaake FN4183-S	2	1	SRR18694231;SRR18694232	SAMN17674752	PRJNA696695	27.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00970	same_variety_multiproject	R900	10	1	SRR18739138;SRR18739140;SRR18739133;SRR18739134;SRR18739136;SRR18739137;SRR18739139;SRR18739151;SRR12524299;SRR18739135	SAMN15806651|SAMN27552386	PRJNA656900|PRJNA825106	121.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00971	same_variety_multiproject	Y58S	13	1	SRR18739141;SRR3995655;SRR14297941;SRR18739142;SRR18739145;SRR12452128;SRR18739144;SRR18739148;SRR14139048;SRR18739146;SRR18739147;SRR18739149	SAMN05439953|SAMN15816136|SAMN18604604|SAMN27552387	PRJNA331215|PRJNA656900|PRJNA719383|PRJNA825106	123.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00972	same_variety_multiproject	25	2	1	SRR19145755;SRR31066053	SAMN27029480|SAMN44370702	PRJNA1175750|PRJNA820969	58.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00973	same_variety_multiproject	1390	2	1	SRR19145848;SRR29409871	SAMN27029461|SAMN41831861	PRJNA1122958|PRJNA820969	62.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00974	same_variety_multiproject	988	2	1	SRR19145903;SRR12523338	SAMN15805924|SAMN27029736	PRJNA656900|PRJNA820969	82.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00975	same_variety_multiproject	91	3	1	SRR19145928;SRR21912305;SRR21847256	SAMN27029714|SAMN31290215	PRJNA820969|PRJNA888474|PRJNA890703	264.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP00976	same_variety_multiproject	BPT-5204	8	1	SRR19548393;SRR29460203;SRR19760413;SRR19760415;SRR29460201;SRR29460202;SRR29460204;SRR37825297	SAMN28868845|SAMN29205874|SAMN29205876|SAMN41894077|SAMN41894078	PRJNA1125578|PRJNA1444355|PRJNA846116|PRJNA851222	37.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00977	same_variety_multi_run	Huanghuazhan:HM2-S61	2	1	SRR2040558;SRR2052535	SAMN03603351	PRJNA283022	46.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00978	same_variety_multi_run	Huanghuazhan:H-212	2	1	SRR2052532;SRR2040561	SAMN03603346	PRJNA283022	68.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00979	same_variety_multi_run	PB1	2	1	SRR2056130;SRR2056129	SAMN03702439	PRJNA284427	21.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00980	same_variety_multi_run	Chunyou84 (CY84)	6	1	SRR21713904;SRR21713906;SRR21713901;SRR21713903;SRR21713902;SRR21713905	SAMN30996476|SAMN30996478|SAMN30996480|SAMN30996482|SAMN30996484	PRJNA883764	21.9	keep（★ 重复性验证材料，不是重复）	同项目内 6 个 run
+DUP00981	same_variety_multiproject	Guihuahuang	2	1	SRR22201030;SRR8586080	SAMN10959856|SAMN31475488	PRJNA522896|PRJNA894819	54.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00982	same_variety_multiproject	IR72	2	1	SRR22201038;SRR16990691	SAMN19552391|SAMN31475525	PRJNA734973|PRJNA894819	42.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00983	same_variety_multiproject	Shenglixian	4	1	SRR22201042;SRR4254559;SRR12524235;SRR1743116	SAMN03273450|SAMN05735204|SAMN15806708|SAMN31475492	PRJNA271253|PRJNA342109|PRJNA656900|PRJNA894819	24.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00984	same_variety_multiproject	Zihui100	2	1	SRR22201045;SRR3995640	SAMN05439939|SAMN31475570	PRJNA331215|PRJNA894819	38.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00985	same_variety_multiproject	Zhenzhuai	2	1	SRR22201089;SRR12452147	SAMN15816226|SAMN31475501	PRJNA656900|PRJNA894819	61.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00986	same_variety_multi_run	SR35250-2-16-1-2	2	1	SRR24060211;SRR24060201	SAMN34065209|SAMN34065218	PRJNA951930	16.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00987	same_variety_multiproject	Zhenshan97	4	1	SRR24915929;SRR3995634;SRR8586088;SRR32233604	SAMN05439934|SAMN10959852|SAMN35719794|SAMN46493665	PRJNA1217574|PRJNA331215|PRJNA522896|PRJNA983080	57.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP00988	same_variety_multiproject	33S	2	1	SRR24915947;SRR12524153	SAMN15805892|SAMN35719777	PRJNA656900|PRJNA983080	19.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00989	same_variety_multiproject	Hanareum	2	1	SRR25567075;SRR11447168	SAMN14484671|SAMN36886711	PRJNA1003283|PRJNA616209	23.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00990	same_variety_multiproject	Dongjin	2	1	SRR25567136;SRR36670657	SAMN36886700|SAMN54439064	PRJNA1003283|PRJNA1397992	30.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00991	same_variety_multiproject	Nampyeong	2	1	SRR25567139;SRR33386558	SAMN36886697|SAMN48208692	PRJNA1003283|PRJNA1256927	114.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00992	same_variety_multiproject	Cheongun	2	1	SRR25567150;SRR31187631	SAMN36886687|SAMN44524916	PRJNA1003283|PRJNA1473512	34.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00993	same_variety_multiproject	Borami	2	1	SRR25567185;SRR31187647	SAMN36886510|SAMN44524906	PRJNA1003283|PRJNA1473512	34.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00994	same_variety_multiproject	Sindongjin	2	1	SRR25567301;SRR36670658	SAMN36886571|SAMN54439063	PRJNA1003283|PRJNA1397992	35.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP00995	same_variety_multi_run	9311-2	2	1	SRR1210602;SRR1210601	SAMN02711996	PRJNA243018	23.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00996	same_variety_multi_run	9311-3	2	1	SRR1210605;SRR1210603	SAMN02711997	PRJNA243018	23.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00997	same_variety_multi_run	PA64s-3	2	1	SRR1210630;SRR1210632	SAMN02712000	PRJNA243018	21.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP00998	same_variety_multiproject	Kitaake	62	1	SRR22904516;SRR28812528;SRR28812545;SRR30670606;SRR30670612;SRR30670649;SRR35903248;SRR35930987;SRR35931215;SRR35932336;SRR22904519;SRR28812526	SAMN05725793|SAMN32422741|SAMN32422742|SAMN32422743|SAMN32422744	PRJNA1104162|PRJNA1128348|PRJNA1161160|PRJNA1161418|PRJNA1340741|PRJNA1340742|PRJNA1340743|PRJNA1340834	189.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 27 个 BioProject
+DUP00999	same_variety_multiproject	Lunhui 422	2	1	SRR27388391;SRR12523873	SAMN15806450|SAMN39203246	PRJNA1003283|PRJNA656900	19.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01000	same_variety_multiproject	Hybrid rice 2	2	1	SRR28928715;SRR28974830	SAMN41227195|SAMN41272079	PRJNA1078538|PRJNA1109459	16.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01001	same_variety_multiproject	Hybrid rice 1	2	1	SRR28928716;SRR28974831	SAMN41227194|SAMN41272078	PRJNA1078538|PRJNA1109459	16.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01002	same_variety_multiproject	Mianhui725	5	1	SRR29409876;SRR31369134;SRR12523845;SRR1743107;SRR16990731	SAMN03273440|SAMN15806475|SAMN19552538|SAMN41831848	PRJNA1122958|PRJNA1178436|PRJNA271253|PRJNA656900|PRJNA734973	41.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 5 个 BioProject
+DUP01003	same_variety_multi_run	WA09	2	1	SRR29774675;SRR29774674	SAMN42420254|SAMN42420255	PRJNA1134419	77.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01004	same_variety_multi_run	S23ZM205	2	1	SRR29774690;SRR29774691	SAMN42420268|SAMN42420269	PRJNA1134419	64.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01005	same_variety_multi_run	24HZM876	2	1	SRR29774697;SRR29774696	SAMN42420262|SAMN42420263	PRJNA1134419	66.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01006	same_variety_multi_run	WA01	2	1	SRR29774700;SRR29774701	SAMN42420250|SAMN42420251	PRJNA1134419	84.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01007	same_variety_multiproject	Yan Nuo 19	2	1	SRR30032546;SRR28728325	SAMN41000512|SAMN42900500	PRJNA1101680|PRJNA1141731	74.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01008	same_variety_multi_run	Wanli 1	12	1	SRR30327632;SRR30327614;SRR30327631;SRR30327615;SRR30327617;SRR30327620;SRR30327613;SRR30327616;SRR30327629;SRR30327630;SRR30327612;SRR30327618	SAMN43287017|SAMN43287018|SAMN43287019|SAMN43287020|SAMN43287021	PRJNA1150510	29.6	keep（★ 重复性验证材料，不是重复）	同项目内 12 个 run
+DUP01009	same_variety_multiproject	20	2	1	SRR31066059;SRR19145756	SAMN27029479|SAMN44370697	PRJNA1175750|PRJNA820969	54.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01010	same_variety_multiproject	Sangnambatbyeo	2	1	SRR31187559;SRR25567258	SAMN36886487|SAMN44524982	PRJNA1003283|PRJNA1473512	34.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01011	same_variety_multiproject	Mogyang	2	1	SRR31187579;SRR25567316	SAMN36886558|SAMN44524964	PRJNA1003283|PRJNA1473512	34.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01012	same_variety_multiproject	Jinbo	2	1	SRR31187595;SRR25567332	SAMN36886545|SAMN44524949	PRJNA1003283|PRJNA1473512	33.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01013	same_variety_multiproject	110080	2	1	SRR31369124;SRR29409873	SAMN41831859	PRJNA1122958|PRJNA1178436	41.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01014	same_variety_multiproject	Yuetai B	6	1	SRR31420046;SRR15900434;SRR9696053;SRR31690024;SRR29409877;SRR31369135	SAMN12288366|SAMN21436747|SAMN41831847	PRJNA1122958|PRJNA1178436|PRJNA554986|PRJNA763248	138.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01015	same_variety_multiproject	Xiangnuodao	2	1	SRR31851408;SRR9696196	SAMN12288323|SAMN45969929	PRJNA1203060|PRJNA554986	16.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01016	same_variety_multi_run	Liangyoupei9	8	1	SRR10498006;SRR10498028;SRR10498040;SRR10498034;SRR10498029;SRR10498017;SRR10498032;SRR10498033	SAMN13294831|SAMN13294832|SAMN13294833|SAMN13294834|SAMN13294835	PRJNA589738	32.5	keep（★ 重复性验证材料，不是重复）	同项目内 8 个 run
+DUP01017	same_variety_multi_run	Tainung sen 20	2	1	SRR3405165;SRR3405166	SAMN04870395	PRJNA318569	19.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01018	same_variety_multi_run	Clonal CY84	5	1	SRR34969591;SRR34969594;SRR34969590;SRR34969593;SRR34969592	SAMN50587901|SAMN50587902|SAMN50587903|SAMN50587904|SAMN50587905	PRJNA1305152	31.5	keep（★ 重复性验证材料，不是重复）	同项目内 5 个 run
+DUP01019	same_variety_multi_run	CY927	13	1	SRR38514881;SRR38514891;SRR38514882;SRR38514885;SRR38514887;SRR38514879;SRR38514884;SRR38514889;SRR38514880;SRR38514883;SRR38514886;SRR38514888	SAMN59654391|SAMN59654392|SAMN59654393|SAMN59654394|SAMN59654395	PRJNA1464058	53.2	keep（★ 重复性验证材料，不是重复）	同项目内 13 个 run
+DUP01020	same_variety_multiproject	16A	2	1	SRR38514893;SRR7253379	SAMN09302774|SAMN59654389	PRJNA1464058|PRJNA474406	28.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01021	same_variety_multiproject	32	3	1	SRR39037610;SRR31066045;SRR39037609	SAMN44370709|SAMN60675103|SAMN60675104	PRJNA1175750|PRJNA1475811	47.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01022	same_variety_multiproject	Guichao2hao	3	1	SRR3992324;SRR12523474;SRR16990720	SAMN04994800|SAMN15806171|SAMN19552548	PRJNA321462|PRJNA656900|PRJNA734973	20.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01023	same_variety_multiproject	Nantehao	2	1	SRR3992338;SRR12523786	SAMN04994813|SAMN15806528	PRJNA321462|PRJNA656900	27.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01024	same_variety_multiproject	Peiai64S	2	1	SRR3995657;SRR12523764	SAMN05439955|SAMN15806548	PRJNA331215|PRJNA656900	21.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01025	same_variety_multi_run	SHZ	7	1	SRR4027806;SRR4027807;SRR4027809;SRR4027805;SRR4027808;SRR4027803;SRR4027804	SAMN05519037	PRJNA337144	10.3	keep（★ 重复性验证材料，不是重复）	同项目内 7 个 run
+DUP01026	same_variety_multiproject	Dular	10	1	SRR4027823;SRR17344179;SRR4027819;SRR2056128;SRR4027821;SRR4027822;SRR2056248;SRR4027820;SRR4027824;SRR4027818	SAMN03702440|SAMN05518883|SAMN24449287	PRJNA284427|PRJNA337127|PRJNA792623	60.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01027	same_variety_multi_run	Kitaake ubi-XA21 FN-231	2	1	SRR4096814;SRR4096815	SAMN05442952	PRJNA334384	33.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01028	same_variety_multi_run	Kitaake ubi-XA21 FN-233	2	1	SRR4096879;SRR4096878	SAMN05446202	PRJNA334386	33.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01029	same_variety_multi_run	Kitaake ubi-XA21 FN-263	2	1	SRR4096881;SRR4096882	SAMN05443077	PRJNA334414	29.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01030	same_variety_multi_run	Kitaake ubi-XA21 FN-264	2	1	SRR4096915;SRR4096916	SAMN05446456	PRJNA334415	31.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01031	same_variety_multi_run	Kitaake ubi-XA21 FN-269	2	1	SRR4096920;SRR4096919	SAMN05446459	PRJNA334418	29.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01032	same_variety_multi_run	Kitaake ubi-XA21 FN-265	2	1	SRR4096953;SRR4096954	SAMN05446457	PRJNA334416	34.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01033	same_variety_multi_run	Kitaake ubi-XA21 FN-272	2	1	SRR4096956;SRR4096955	SAMN05446474	PRJNA334419	32.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01034	same_variety_multi_run	Kitaake ubi-XA21 FN-235	2	1	SRR4096962;SRR4096963	SAMN05446544	PRJNA334388	38.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01035	same_variety_multi_run	Kitaake ubi-XA21 FN-232	2	1	SRR4096964;SRR4096965	SAMN05446201	PRJNA334385	33.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01036	same_variety_multi_run	Kitaake ubi-XA21 FN-273	2	1	SRR4096967;SRR4096968	SAMN05446475	PRJNA333149	29.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01037	same_variety_multi_run	Kitaake ubi-XA21 FN-274	2	1	SRR4096974;SRR4096973	SAMN05446476	PRJNA333150	33.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01038	same_variety_multi_run	Kitaake ubi-XA21 FN-281	2	1	SRR4097043;SRR4097044	SAMN05443075	PRJNA333155	31.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01039	same_variety_multi_run	Kitaake ubi-XA21 FN-287	2	1	SRR4097057;SRR4097058	SAMN05446408	PRJNA333160	50.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01040	same_variety_multi_run	Kitaake ubi-XA21 FN-342	2	1	SRR4097331;SRR4097332	SAMN05446352	PRJNA333210	41.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01041	same_variety_multi_run	Kitaake ubi-XA21 FN-408	2	1	SRR4097793;SRR4097792	SAMN05446402	PRJNA333256	38.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01042	same_variety_multi_run	Kitaake ubi-XA21 FN-409	2	1	SRR4097797;SRR4097796	SAMN05446403	PRJNA333257	35.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01043	subspecies_conflict	Xiangnuo	2	1	SRR4254462;SRR4254510	SAMN05735162|SAMN05735174	PRJNA342109	6.2	review（同名却标注不同亚种，疑似标签错误）	亚种=indica|japonica
+DUP01044	same_variety_multi_run	Xiangnuo	2	1	SRR4254462;SRR4254510	SAMN05735162|SAMN05735174	PRJNA342109	6.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01045	subspecies_conflict	Qingke	2	1	SRR4254501;SRR22201054	SAMN05735167|SAMN31475562	PRJNA342109|PRJNA894819	39.5	review（同名却标注不同亚种，疑似标签错误）	亚种=aus|indica
+DUP01046	same_variety_multiproject	Qingke	2	1	SRR4254501;SRR22201054	SAMN05735167|SAMN31475562	PRJNA342109|PRJNA894819	39.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01047	subspecies_conflict	Xiaohuangnuo	2	1	SRR4254519;SRR4254657	SAMN05735181|SAMN05735257	PRJNA342109	6.4	review（同名却标注不同亚种，疑似标签错误）	亚种=indica|japonica
+DUP01048	same_variety_multi_run	Xiaohuangnuo	2	1	SRR4254519;SRR4254657	SAMN05735181|SAMN05735257	PRJNA342109	6.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01049	subspecies_conflict	Jiegunuo	2	1	SRR4254574;SRR4254627	SAMN05735218|SAMN05735255	PRJNA342109	8.9	review（同名却标注不同亚种，疑似标签错误）	亚种=indica|japonica
+DUP01050	same_variety_multi_run	Jiegunuo	2	1	SRR4254574;SRR4254627	SAMN05735218|SAMN05735255	PRJNA342109	8.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01051	same_variety_multi_run	Kitaake ubi-XA59 FN1497-S	2	1	SRR4393222;SRR4393223	SAMN05878373	PRJNA346155	30.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01052	same_variety_multi_run	Kitaake ubi-XA55 FN1492-S	2	1	SRR4393231;SRR4393230	SAMN05878427	PRJNA346151	49.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01053	same_variety_multi_run	Kitaake ubi-XA62 FN1501-S	2	1	SRR4393237;SRR4393236	SAMN05878132	PRJNA346158	15.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01054	same_variety_multi_run	Kitaake ubi-XA52 FN1488-S	2	1	SRR4393245;SRR4393246	SAMN05878141	PRJNA346148	53.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01055	same_variety_multi_run	Kitaake ubi-XA75 FN1525-S	2	1	SRR4393275;SRR4393274	SAMN05877998	PRJNA346171	44.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01056	same_variety_multi_run	Kitaake ubi-XA96 FN1550-S	2	1	SRR4393291;SRR4393290	SAMN05877730	PRJNA347082	44.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01057	same_variety_multi_run	illmi	6	1	SRR5478753;SRR5478754;SRR5478755;SRR5478756;SRR5478751;SRR5478752	SAMN06711082	PRJNA382602	40.3	keep（★ 重复性验证材料，不是重复）	同项目内 6 个 run
+DUP01058	same_variety_multi_run	Longdao24	8	1	SRR5630900;SRR5630909;SRR5463094;SRR5630908;SRR5630910;SRR5484648;SRR5630911;SRR5678368	SAMN06806499	PRJNA383779	51.1	keep（★ 重复性验证材料，不是重复）	同项目内 8 个 run
+DUP01059	same_variety_multiproject	Chenga	2	1	SRR5949738;SRR32233539	SAMN07527260|SAMN46523561	PRJNA1218484|PRJNA399220	35.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01060	same_variety_multiproject	IR50	4	1	SRR6122715;SRR37825289;SRR12523392;SRR15040795	SAMN07725538|SAMN15806244|SAMN20058514|SAMN56750633	PRJNA1444355|PRJNA412710|PRJNA656900|PRJNA743713	55.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01061	same_variety_multi_run	NIPB	27	1	SRR8302153;SRR8302154;SRR8302155;SRR8302162;SRR8302168;SRR8302152;SRR8302159;SRR8302170;SRR8302173;SRR8302176;SRR8302158;SRR8302160	SAMN10274467|SAMN10274468|SAMN10274469|SAMN10274470|SAMN10274471	PRJNA497989	41.0	keep（★ 重复性验证材料，不是重复）	同项目内 27 个 run
+DUP01062	same_variety_multi_run	DG1	31	1	SRR8316405;SRR8316408;SRR8316417;SRR8316420;SRR8316423;SRR8316429;SRR8316430;SRR8316432;SRR8316428;SRR8316431;SRR8316407;SRR8316412	SAMN10274430|SAMN10274431|SAMN10274432|SAMN10274433|SAMN10274434	PRJNA497989	79.8	keep（★ 重复性验证材料，不是重复）	同项目内 31 个 run
+DUP01063	same_variety_multi_run	Taipei 309 bombardment event 2	3	1	SRR8374201;SRR8374209;SRR8374213	SAMN10654450|SAMN10654462|SAMN10654468	PRJNA508943	28.1	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01064	same_variety_multi_run	Taipei 309 bombardment event 6	3	1	SRR8374205;SRR8374217;SRR8374220	SAMN10654454|SAMN10654466|SAMN10654472	PRJNA508943	25.1	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01065	same_variety_multi_run	Taipei 309 bombardment event 5	3	1	SRR8374216;SRR8374204;SRR8374221	SAMN10654453|SAMN10654465|SAMN10654471	PRJNA508943	31.5	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01066	same_variety_multi_run	tetraploid of N9	2	1	SRR8427215;SRR8427216	SAMN10720269	PRJNA514100	44.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01067	same_variety_multiproject	Shuhui498	2	1	SRR8446493;SRR12524210	SAMN10754136|SAMN15806731	PRJNA515358|PRJNA656900	116.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01068	same_variety_multiproject	Junam	2	1	SRR8770037;SRR25567321	SAMN11233561|SAMN36886553	PRJNA1003283|PRJNA528640	149.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01069	same_variety_multiproject	XiangaiB	3	1	SRR8961814;SRR22201035;SRR3995628	SAMN05439928|SAMN11493994|SAMN31475528	PRJNA331215|PRJNA535372|PRJNA894819	55.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01070	same_variety_multi_run	CSSL	3	1	SRR9316839;SRR9316841;SRR9316840	SAMN12083649	PRJNA549347	42.2	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01071	same_variety_multiproject	BASMATI 370	2	1	SRR9610469;ERR10906859	SAMEA112657699|SAMN12158152	PRJEB60058|PRJNA551546	41.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01072	same_variety_multiproject	Digludao	3	1	SRR9678808;SRR9679838;SRR9696188	SAMN12268388|SAMN12288209	PRJNA554468|PRJNA554986	7.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01073	same_variety_multiproject	SuYuNuo	3	1	SRR9696051;SRR28728278;SRR31851497	SAMN12288310|SAMN41000442|SAMN45969950	PRJNA1101680|PRJNA1203060|PRJNA554986	51.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01074	same_variety_multiproject	Shengyou2hao	2	1	SRR9696102;SRR12524233	SAMN12288291|SAMN15806710	PRJNA554986|PRJNA656900	19.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01075	same_variety_multiproject	Yaxuenuo	2	1	SRR9696185;SRR31851498	SAMN12288341|SAMN45969949	PRJNA1203060|PRJNA554986	15.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01076	same_variety_multi_run	Wuyungeng24	9	1	SRR9733632;SRR9733637;SRR9733638;SRR9733633;SRR9733635;SRR9733636;SRR9733639;SRR9733634;SRR9733640	SAMN12302755|SAMN12302756|SAMN12302757|SAMN12302758|SAMN12302759	PRJNA482013	89.2	keep（★ 重复性验证材料，不是重复）	同项目内 9 个 run
+DUP01077	same_variety_multi_run	NDCMP49	9	1	SRR33364271;SRR33364272;SRR33364273;SRR33364284;SRR33364295;SRR33364275;SRR33364296;SRR33364274;SRR33364276	SAMN48188431|SAMN48188432|SAMN48188433|SAMN48188434|SAMN48188435	PRJNA1256609	36.9	keep（★ 重复性验证材料，不是重复）	同项目内 9 个 run
+DUP01078	same_variety_multi_run	HCS	9	1	SRR33364282;SRR33364285;SRR33364281;SRR33364283;SRR33364286;SRR33364277;SRR33364278;SRR33364280;SRR33364279	SAMN48188413|SAMN48188414|SAMN48188415|SAMN48188416|SAMN48188417	PRJNA1256609	45.4	keep（★ 重复性验证材料，不是重复）	同项目内 9 个 run
+DUP01079	same_variety_multiproject	Indica-like/Hwacheong_F2	2	1	SRR4933351;SRR4937666	SAMN05981591|SAMN05981592	PRJNA352484|PRJNA352489	54.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01080	same_variety_multiproject	Kitaake Ubi-Xa21	4	1	SRR5006790;SRR5006797;SRR5006798;SRR5006799	SAMN05982995|SAMN05983737|SAMN05983738|SAMN05983752	PRJNA264752|PRJNA264753|PRJNA264754|PRJNA264755	60.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01081	same_variety_multi_run	DN423	18	1	DRR1010794;DRR1010782;DRR1010784;DRR1010790;DRR1010795;DRR1010796;DRR1010787;DRR1010793;DRR1010785;DRR1010786;DRR1010791;DRR1010792	SAMD01887774|SAMD01887775|SAMD01887776|SAMD01887777|SAMD01887778	PRJDB40960	57.5	keep（★ 重复性验证材料，不是重复）	同项目内 18 个 run
+DUP01082	same_variety_multi_run	DN416	36	1	DRR1010808;DRR1010811;DRR1010812;DRR1010817;DRR1010819;DRR1010822;DRR1010825;DRR1010828;DRR1010829;DRR1010830;DRR1010799;DRR1010806	SAMD01887792|SAMD01887793|SAMD01887794|SAMD01887795|SAMD01887796	PRJDB40960	62.9	keep（★ 重复性验证材料，不是重复）	同项目内 36 个 run
+DUP01083	same_variety_multi_run	YSBR1	4	1	DRR776337;DRR776338;DRR776339;DRR776340	SAMD01669011|SAMD01669012|SAMD01669013|SAMD01669014	PRJDB36570	119.6	keep（★ 重复性验证材料，不是重复）	同项目内 4 个 run
+DUP01084	same_variety_multi_run	SK1	47	1	DRR818072;DRR818075;DRR818082;DRR818084;DRR818087;DRR818091;DRR818095;DRR818105;DRR819224;DRR818070;DRR818073;DRR818074	SAMD01769208|SAMD01769209|SAMD01769210|SAMD01769211|SAMD01769212	PRJDB38846	65.2	keep（★ 重复性验证材料，不是重复）	同项目内 47 个 run
+DUP01085	same_variety_multi_run	US_Nato	2	1	SRR11131379;SRR11131383	SAMN14152859|SAMN14152863	PRJNA603026	78.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01086	same_variety_multi_run	Xiushui 134	3	1	SRR11743110;SRR11743111;SRR11743109	SAMN14850016|SAMN14850059|SAMN14850060	PRJNA631002	49.5	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01087	same_variety_multiproject	QingLiuAi	2	1	SRR1181476;SRR3992333	SAMN02670875|SAMN04994808	PRJNA239760|PRJNA321462	19.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01088	same_variety_multi_run	9311-1	2	1	SRR1210599;SRR1210600	SAMN02711995	PRJNA243018	23.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01089	same_variety_multiproject	Hybrid rice	2	1	SRR12329621;SRR30280105	SAMN15650270|SAMN43173046	PRJNA1147860|PRJNA602139	16.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01090	same_variety_multiproject	ZhongHui8006	2	1	SRR12452132;SRR8241152	SAMN10439576|SAMN15816240	PRJNA482013|PRJNA656900	23.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01091	same_variety_multiproject	Huazhan	6	1	SRR12523408;SRR15900432;SRR36697990;SRR8586085;SRR30032510;SRR16990636	SAMN10959847|SAMN15806230|SAMN19552491|SAMN21436749|SAMN42900397	PRJNA1141731|PRJNA1366044|PRJNA522896|PRJNA656900|PRJNA734973|PRJNA763248	63.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 6 个 BioProject
+DUP01092	same_variety_multiproject	Dongtingwanxian	2	1	SRR12523595;SRR22201059	SAMN15806062|SAMN31475557	PRJNA656900|PRJNA894819	35.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01093	same_variety_multiproject	CDR22	4	1	SRR12523672;SRR1743101;SRR22201049;SRR16990682	SAMN03273435|SAMN15805992|SAMN19552462|SAMN31475566	PRJNA271253|PRJNA656900|PRJNA734973|PRJNA894819	45.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01094	same_variety_multiproject	Lehui188	2	1	SRR12523928;SRR16990676	SAMN15806400|SAMN19552467	PRJNA656900|PRJNA734973	24.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01095	same_variety_multiproject	Jianzhen2hao	2	1	SRR12523991;SRR16990648	SAMN15806343|SAMN19552427	PRJNA656900|PRJNA734973	19.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01096	same_variety_multiproject	Xiangwanxian17	2	1	SRR12524078;SRR9696199	SAMN12288324|SAMN15806850	PRJNA554986|PRJNA656900	17.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01097	same_variety_multiproject	Shuhui548	3	1	SRR12524206;SRR14139067;SRR14297952	SAMN15806734|SAMN18604589	PRJNA656900|PRJNA719383	76.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01098	same_variety_multiproject	M-ERV1-1	2	1	SRR12525070;SRR12575976	SAMN15892124|SAMN15951660	PRJNA658863|PRJNA660540	16.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01099	same_variety_multiproject	P-RH78-1	2	1	SRR12525225;SRR12576014	SAMN15892120|SAMN15951656	PRJNA658863|PRJNA660540	15.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01100	same_variety_multi_run	IRGC 127652	3	1	SRR12545184;SRR12545186;SRR12545185	SAMN15929514|SAMN15929515|SAMN15929516	PRJNA659864	22.2	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01101	same_variety_multi_run	IRGC 117425	2	1	SRR12545191;SRR12545188	SAMN15929517|SAMN15929518	PRJNA659864	18.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01102	same_variety_multi_run	IRGC 132424	2	1	SRR12545228;SRR12545229	SAMN15929537|SAMN15929538	PRJNA659864	18.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01103	same_variety_multiproject	Jupiter	2	1	SRR1328225;SRR7087899	SAMN02821241|SAMN09006493	PRJNA205324|PRJNA454387	20.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01104	same_variety_multiproject	Hopum	3	1	SRR13823270;SRR25567142;SRR17629771	SAMN18103647|SAMN25013773|SAMN36886694	PRJNA1003283|PRJNA705813|PRJNA797574	38.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01105	same_variety_multi_run	Chuannong1	2	1	SRR14139060;SRR14297946	SAMN18604542	PRJNA719383	75.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01106	same_variety_multiproject	Vandana	2	1	SRR14553097;ERR10368528	SAMEA111468911|SAMN19217578	PRJEB56693|PRJNA730098	59.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01107	same_variety_multiproject	IR26	2	1	SRR15040784;SRR1743097	SAMN03273431|SAMN20058515	PRJNA271253|PRJNA743713	34.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01108	same_variety_multi_run	114-7-2	2	1	SRR15675933;SRR15682554	SAMN21155889	PRJNA759058	23.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01109	same_variety_multiproject	900	2	1	SRR16990577;SRR19145936	SAMN19552523|SAMN27029707	PRJNA734973|PRJNA820969	60.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01110	same_variety_multiproject	02428	5	1	SRR16990600;SRR3123453;SRR14269773;SRR14776832;SRR14139102	SAMN04441364|SAMN18604530|SAMN19552446|SAMN19609962	PRJNA309746|PRJNA526117|PRJNA719383|PRJNA734973	67.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01111	same_variety_multiproject	Huhan3Hao	2	1	SRR16990619;SRR22201075	SAMN19552429|SAMN31475513	PRJNA734973|PRJNA894819	54.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01112	same_variety_multiproject	R288	2	1	SRR16990725;SRR12524329	SAMN15806623|SAMN19552400	PRJNA656900|PRJNA734973	21.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01113	same_variety_multiproject	Juppa	2	1	SRR17344183;SRR3630789	SAMN04256286|SAMN24449348	PRJNA301661|PRJNA792623	21.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01114	same_variety_multi_run	J.P. 5	2	1	SRR17344228;SRR17344173	SAMN24449257|SAMN24449394	PRJNA792623	21.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01115	same_variety_multiproject	LUSITANO	2	1	SRR17344307;ERR11784649	SAMEA114006096|SAMN24449406	PRJEB64146|PRJNA792623	59.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01116	same_variety_multiproject	Minghui70	2	1	SRR1743105;SRR12523833	SAMN03273439|SAMN15806485	PRJNA271253|PRJNA656900	22.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01117	same_variety_multiproject	Guangchang13	3	1	SRR1743114;SRR12523509;SRR3992325	SAMN03273447|SAMN04994801|SAMN15806139	PRJNA271253|PRJNA321462|PRJNA656900	24.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01118	same_variety_multi_run	Kitaake FN4255-S	2	1	SRR18694064;SRR18694065	SAMN17675914	PRJNA696678	25.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01119	same_variety_multi_run	Kitaake FN4247-S	2	1	SRR18694068;SRR18694067	SAMN17675927	PRJNA696675	23.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01120	same_variety_multi_run	Kitaake FN4187-S	2	1	SRR18694296;SRR18694295	SAMN17675921	PRJNA696698	23.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01121	same_variety_multi_run	Kitaake FN4189-S	2	1	SRR18694298;SRR18694297	SAMN17676072	PRJNA696700	21.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01122	same_variety_multi_run	Kitaake FN4188-S	2	1	SRR18694302;SRR18694301	SAMN17675922	PRJNA696699	32.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01123	same_variety_multi_run	Kitaake FN4190-S	2	1	SRR18694401;SRR18694402	SAMN17674465	PRJNA696701	23.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01124	same_variety_multiproject	1128	2	1	SRR19145901;SRR16990574	SAMN19552525|SAMN27029369	PRJNA734973|PRJNA820969	57.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01125	same_variety_multiproject	11	2	1	SRR19145965;SRR31066068	SAMN27029360|SAMN44370688	PRJNA1175750|PRJNA820969	57.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01126	same_variety_multiproject	551	2	1	SRR19146007;SRR15900438	SAMN21436761|SAMN27029556	PRJNA763248|PRJNA820969	54.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01127	same_variety_multi_run	Hawara Bunar	2	1	SRR20396309;SRR20396308	SAMN29886731|SAMN29886732	PRJNA861136	56.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01128	same_variety_multi_run	Huanghuazhan:HE-47	2	1	SRR2052531;SRR2046084	SAMN03603345	PRJNA283022	39.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01129	same_variety_multiproject	Mitak	2	1	SRR23822206;SRR17344303	SAMN24449443|SAMN33691551	PRJNA792623|PRJNA942452	35.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01130	same_variety_multi_run	Jia58	9	1	SRR24504126;SRR24504130;SRR24504131;SRR24504123;SRR24504125;SRR24504127;SRR24504124;SRR24504128;SRR24504129	SAMN34229299|SAMN34229300|SAMN34229301|SAMN34229302|SAMN34229303	PRJNA956682	33.2	keep（★ 重复性验证材料，不是重复）	同项目内 9 个 run
+DUP01131	same_variety_multi_run	Badsabhog	3	1	SRR26747320;SRR26747318;SRR26747319	SAMN37920877|SAMN37920878|SAMN37920879	PRJNA1030963	78.9	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01132	same_variety_multi_run	Chhola Boro (2)::G1-1	2	1	SRR32126058;SRR32126061	SAMN46374567|SAMN46374667	PRJNA1214498	8.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01133	same_variety_multi_run	Kittake	2	1	SRR36216736;SRR36216737	SAMN53423374|SAMN53423375	PRJNA1370280	93.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01134	same_variety_multiproject	ADT-43	2	1	SRR37825280;SRR12777939	SAMN16288134|SAMN56750619	PRJNA1444355|PRJNA666316	54.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01135	same_variety_multiproject	CY84	2	1	SRR7253378;SRR28063370	SAMN09302775|SAMN40004657	PRJNA1078538|PRJNA474406	76.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01136	same_variety_multiproject	Tetep	7	1	SRR8184521;SRR8241155;SRR1743117;SRR17629770;SRR16990689;SRR8586081;SRR13823348	SAMN03273451|SAMN09694248|SAMN10959855|SAMN18103711|SAMN19552455	PRJNA271253|PRJNA482013|PRJNA522896|PRJNA705822|PRJNA734973|PRJNA797573	153.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 6 个 BioProject
+DUP01137	same_variety_multiproject	MianHui2009	2	1	SRR8241150;SRR12523844	SAMN10439574|SAMN15806476	PRJNA482013|PRJNA656900	24.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01138	same_variety_multiproject	NeiHui2539	2	1	SRR8241151;SRR12523783	SAMN10439575|SAMN15806531	PRJNA482013|PRJNA656900	22.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01139	same_variety_multi_run	PA1	7	1	SRR8302121;SRR8302122;SRR8302131;SRR8302129;SRR8302119;SRR8302120;SRR8302130	SAMN10274494|SAMN10274495|SAMN10274496|SAMN10274497|SAMN10274498	PRJNA497989	74.6	keep（★ 重复性验证材料，不是重复）	同项目内 7 个 run
+DUP01140	same_variety_multi_run	KA1	6	1	SRR8302124;SRR8302126;SRR8302123;SRR8302125;SRR8302127;SRR8302128	SAMN10274461|SAMN10274462|SAMN10274463|SAMN10274464|SAMN10274465	PRJNA497989	66.4	keep（★ 重复性验证材料，不是重复）	同项目内 6 个 run
+DUP01141	same_variety_multi_run	Taipei 309 bombardment event 8	2	1	SRR8373192;SRR8374215	SAMN10654133|SAMN10654456	PRJNA508943	25.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01142	same_variety_multi_run	Taipei 309 bombardment event 3	3	1	SRR8374206;SRR8374210;SRR8374223	SAMN10654451|SAMN10654463|SAMN10654469	PRJNA508943	24.0	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01143	same_variety_multi_run	Taipei 309 bombardment event 1	3	1	SRR8374212;SRR8374200;SRR8374208	SAMN10654449|SAMN10654461|SAMN10654467	PRJNA508943	23.5	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01144	same_variety_multiproject	Yueguang	2	1	SRR9696058;SRR8961813	SAMN11493991|SAMN12288365	PRJNA535372|PRJNA554986	58.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01145	same_variety_multiproject	FL478	4	1	SRR9943932;DRR855711;DRR855712;DRR855713	SAMD01773120|SAMD01773121|SAMD01773122|SAMN12548499	PRJDB39365|PRJNA422249	239.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01146	same_variety_multiproject	IR 42	2	1	ERR5104859;SRR15040883	SAMEA7819730|SAMN20058517	PRJEB35029|PRJNA743713	15.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01147	same_variety_multiproject	Xiangwanxian3hao	2	1	SRR22201061;SRR12524087	SAMN15806842|SAMN31475555	PRJNA656900|PRJNA894819	43.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01148	same_variety_multiproject	Guangchangai	2	1	SRR22201065;SRR12523508	SAMN15806140|SAMN31475487	PRJNA656900|PRJNA894819	55.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01149	same_variety_multiproject	Giho	2	1	SRR25567078;SRR31187617	SAMN36886709|SAMN44524929	PRJNA1003283|PRJNA1473512	30.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01150	same_variety_multiproject	Dobong	4	1	SRR25567079;SRR2824356;SRR2822453;SRR2824353	SAMN04216245|SAMN04216247|SAMN04216249|SAMN36886708	PRJNA1003283|PRJNA299838|PRJNA299840|PRJNA299843	111.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01151	same_variety_multiproject	1394	2	1	SRR29409860;SRR19145775	SAMN27029462|SAMN41831854	PRJNA1122958|PRJNA820969	76.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01152	same_variety_multiproject	Yuetai A	2	1	SRR29409867;SRR12452047	SAMN15816189|SAMN41831865	PRJNA1122958|PRJNA656900	43.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01153	same_variety_multiproject	Wuyunjing8	2	1	SRR29409874;SRR31369125	SAMN41831858	PRJNA1122958|PRJNA1178436	41.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01154	same_variety_multi_run	whitened leaf	2	1	SRR29442753;SRR29442755	SAMN41881261|SAMN41881263	PRJNA1125040	82.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01155	same_variety_multi_run	normal leaf	2	1	SRR29442754;SRR29442756	SAMN41881260|SAMN41881262	PRJNA1125040	93.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01156	same_variety_multi_run	WA04	2	1	SRR29774678;SRR29774689	SAMN42420252|SAMN42420253	PRJNA1134419	72.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01157	same_variety_multi_run	24HZM877	2	1	SRR29774694;SRR29774695	SAMN42420264|SAMN42420265	PRJNA1134419	72.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01158	same_variety_multiproject	Nong Xiang 39	2	1	SRR30032626;SRR12523771	SAMN15806542|SAMN42900515	PRJNA1141731|PRJNA656900	70.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01159	same_variety_multiproject	6	2	1	SRR31066042;SRR19145779	SAMN27029588|SAMN44370683	PRJNA1175750|PRJNA820969	62.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01160	same_variety_multiproject	30	2	1	SRR31066048;SRR19145753	SAMN27029482|SAMN44370707	PRJNA1175750|PRJNA820969	63.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01161	same_variety_multiproject	Namil	2	1	SRR31187575;SRR25567314	SAMN36886560|SAMN44524967	PRJNA1003283|PRJNA1473512	31.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01162	same_variety_multiproject	Jogwang	2	1	SRR31187587;SRR25567327	SAMN36886550|SAMN44524956	PRJNA1003283|PRJNA1473512	32.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01163	same_variety_multiproject	R465	2	1	SRR31369129;SRR29409863	SAMN41831851	PRJNA1122958|PRJNA1178436	41.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01164	same_variety_multiproject	610234	2	1	SRR31369131;SRR29409865	SAMN41831849	PRJNA1122958|PRJNA1178436	41.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01165	same_variety_multiproject	Balilla	4	1	SRR31690023;SRR31369132;SRR29409868;SRR31420045	SAMN41831864	PRJNA1122958|PRJNA1178436	131.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01166	same_variety_multiproject	Cypress	4	1	SRR32233601;SRR10846668;SRR22201056;SRR17344201	SAMN13718717|SAMN24449454|SAMN31475560|SAMN46493662	PRJNA1217574|PRJNA598851|PRJNA792623|PRJNA894819	48.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01167	same_variety_multiproject	Swarna	4	1	SRR32476988;SRR1715155;SRR14553098;SRR9943900	SAMN03266148|SAMN12548493|SAMN19217577|SAMN46991388	PRJNA1227721|PRJNA270390|PRJNA422249|PRJNA730098	56.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 4 个 BioProject
+DUP01168	same_variety_multi_run	DV85	9	1	SRR33364270;SRR33364290;SRR33364291;SRR33364292;SRR33364294;SRR33364287;SRR33364289;SRR33364293;SRR33364288	SAMN48188422|SAMN48188423|SAMN48188424|SAMN48188425|SAMN48188426	PRJNA1256609	43.0	keep（★ 重复性验证材料，不是重复）	同项目内 9 个 run
+DUP01169	same_variety_multiproject	BALA	2	1	SRR33470783;SRR1577583	SAMN03032246|SAMN48390096	PRJNA1260329|PRJNA260762	68.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01170	same_variety_multiproject	Hybrid	3	1	SRR34403275;SRR33618969;SRR33618970	SAMN48554280|SAMN48554281|SAMN49826107	PRJNA1264972|PRJNA1287739	63.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01171	same_variety_multi_run	parent2	2	1	SRR38398302;SRR38398301	SAMN58884878	PRJNA1462520	26.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01172	same_variety_multiproject	Qingerai	2	1	SRR3992365;SRR12523738	SAMN04994791|SAMN15806572	PRJNA321462|PRJNA656900	18.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01173	same_variety_multiproject	IR58025B	2	1	SRR3995644;SRR22201022	SAMN05439943|SAMN31475540	PRJNA331215|PRJNA894819	37.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01174	same_variety_multiproject	Zhong 9B	2	1	SRR3995645;SRR30032619	SAMN05439944|SAMN42900521	PRJNA1141731|PRJNA331215	72.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01175	same_variety_multi_run	Kitaake ubi-XA21 FN-225	2	1	SRR4096776;SRR4096775	SAMN05442953	PRJNA334379	23.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01176	same_variety_multi_run	Kitaake ubi-XA21 FN 398-1	2	1	SRR4096942;SRR4096943	SAMN05446194	PRJNA334375	29.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01177	same_variety_multi_run	Kitaake ubi-XA21 FN-234	2	1	SRR4096946;SRR4096947	SAMN05442951	PRJNA334387	45.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01178	same_variety_multi_run	Kitaake ubi-XA21 FN-275	2	1	SRR4096970;SRR4096969	SAMN05443076	PRJNA333151	31.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01179	same_variety_multi_run	Kitaake ubi-XA21 FN-278	2	1	SRR4097039;SRR4097040	SAMN05446478	PRJNA333153	35.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01180	same_variety_multiproject	Nampung	2	1	SRR11447182;SRR25567350	SAMN14484727|SAMN36886718	PRJNA1003283|PRJNA616219	27.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01181	same_variety_multiproject	Hwayeong	3	1	SRR12506299;SRR24348258;SRR25567209	SAMN15890928|SAMN34427711|SAMN36886677	PRJNA1003283|PRJNA658846|PRJNA962984	85.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01182	same_variety_multiproject	898B	2	1	SRR12523349;SRR16990659	SAMN15805923|SAMN19552417	PRJNA656900|PRJNA734973	28.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01183	same_variety_multiproject	Guangqiuai	2	1	SRR12523489;SRR3992329	SAMN04994787|SAMN15806157	PRJNA321462|PRJNA656900	16.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01184	same_variety_multiproject	Fuhui676	2	1	SRR12523556;SRR15040895	SAMN15806096|SAMN20058507	PRJNA656900|PRJNA743713	30.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01185	same_variety_multiproject	Ce64	2	1	SRR12523666;SRR16990622	SAMN15805997|SAMN19552396	PRJNA656900|PRJNA734973	23.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01186	same_variety_multiproject	C815S	2	1	SRR12523673;SRR24915937	SAMN15805991|SAMN35719786	PRJNA656900|PRJNA983080	26.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01187	same_variety_multiproject	Nong Xiang 42	2	1	SRR12523767;SRR30032625	SAMN15806545|SAMN42900516	PRJNA1141731|PRJNA656900	64.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01188	same_variety_multiproject	Lucaihao	2	1	SRR12523883;SRR3992319	SAMN04994795|SAMN15806441	PRJNA321462|PRJNA656900	23.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01189	same_variety_multiproject	XinanS	2	1	SRR12524045;SRR3995653	SAMN05439951|SAMN15806880	PRJNA331215|PRJNA656900	21.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01190	same_variety_multiproject	Wen229	2	1	SRR12524118;SRR16990613	SAMN15806813|SAMN19552434	PRJNA656900|PRJNA734973	25.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01191	same_variety_multiproject	Wanhui88	2	1	SRR12524124;SRR1743108	SAMN03273442|SAMN15806808	PRJNA271253|PRJNA656900	24.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01192	same_variety_multiproject	Te Xian Zhan 25	2	1	SRR12524170;SRR30032451	SAMN15806767|SAMN42900470	PRJNA1141731|PRJNA656900	54.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01193	same_variety_multiproject	Shuhui202	2	1	SRR12524216;SRR16990681	SAMN15806725|SAMN19552463	PRJNA656900|PRJNA734973	27.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01194	same_variety_multiproject	Shengtai1hao	2	1	SRR12524234;SRR16990703	SAMN15806709|SAMN19552402	PRJNA656900|PRJNA734973	21.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01195	same_variety_multiproject	Aijiaonante	2	1	SRR12524319;SRR3995658	SAMN05439895|SAMN15805958	PRJNA331215|PRJNA656900	21.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01196	same_variety_multiproject	P-RH78-3	2	1	SRR12525115;SRR12575803	SAMN15892122|SAMN15951658	PRJNA658863|PRJNA660540	15.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01197	same_variety_multiproject	YASUMURA	2	1	SRR13014131;DRR179812	SAMD00164585|SAMN16685898	PRJDB8365|PRJNA674962	15.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01198	same_variety_multi_run	FS32	2	1	SRR14139097;SRR14297948	SAMN18604557	PRJNA719383	56.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01199	same_variety_multi_run	Yixiang1	2	1	SRR14297942;SRR14139047	SAMN18604607	PRJNA719383	58.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01200	same_variety_multiproject	Yue He Si Miao	2	1	SRR15040875;SRR30032574	SAMN20058623|SAMN42900432	PRJNA1141731|PRJNA743713	53.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01201	same_variety_multiproject	RGD-7S	2	1	SRR15040877;SRR12524249	SAMN15806695|SAMN20058621	PRJNA656900|PRJNA743713	27.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01202	same_variety_multiproject	Fuhui673	2	1	SRR15040896;SRR12523557	SAMN15806095|SAMN20058506	PRJNA656900|PRJNA743713	27.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01203	same_variety_multiproject	ZHONGHAN 209	2	1	SRR1577616;SRR12452133	SAMN03032279|SAMN15816239	PRJNA260762|PRJNA656900	18.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01204	same_variety_multiproject	Yahui2115	2	1	SRR16990568;SRR12452106	SAMN15816138|SAMN19552475	PRJNA656900|PRJNA734973	21.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01205	same_variety_multiproject	Xianghui91269	2	1	SRR16990718;SRR22201009	SAMN19552550|SAMN31475552	PRJNA734973|PRJNA894819	43.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01206	same_variety_multiproject	Bombilla	2	1	SRR17344298;SRR30032618	SAMN24449387|SAMN42900522	PRJNA1141731|PRJNA792623	61.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01207	same_variety_multiproject	Chuannong422	2	1	SRR1743112;SRR12523618	SAMN03273446|SAMN15806041	PRJNA271253|PRJNA656900	24.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01208	same_variety_multi_run	Kitaake FN4279-S	2	1	SRR18694061;SRR18694062	SAMN17674301	PRJNA696684	25.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01209	same_variety_multi_run	Kitaake FN4325-S	2	1	SRR18694216;SRR18694217	SAMN17674765	PRJNA696692	24.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01210	same_variety_multi_run	Kitaake FN4314-S	2	1	SRR18694219;SRR18694218	SAMN17674764	PRJNA696691	23.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01211	same_variety_multi_run	Kitaake ubi-XA21 FN1152 -S	2	1	SRR4210080;SRR4210082	SAMN05444137	PRJNA334712	112.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01212	same_variety_multi_run	Kitaake ubi-XA72 FN1515-S	2	1	SRR4393234;SRR4393233	SAMN05877840	PRJNA346168	46.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01213	same_variety_multi_run	Kitaake ubi-XA64 FN1505-S	2	1	SRR4393241;SRR4393242	SAMN05878131	PRJNA346160	36.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01214	same_variety_multi_run	Kitaake ubi-XA63 FN1504-S	2	1	SRR4393244;SRR4393243	SAMN05878011	PRJNA346159	40.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01215	same_variety_multiproject	86	2	1	SRR19145951;SRR21912304	SAMN27029693|SAMN31290216	PRJNA820969|PRJNA890703	226.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01216	same_variety_multi_run	RD31	4	1	SRR36002384;SRR36002382;SRR36002383;SRR36002385	SAMN53197819|SAMN53197820|SAMN53197821|SAMN53197822	PRJNA1362971	38.8	keep（★ 重复性验证材料，不是重复）	同项目内 4 个 run
+DUP01217	same_variety_multi_run	Wild	2	1	DRR1004262;DRR1004261	SAMD01896688|SAMD01896689	PRJDB41693	114.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01218	same_variety_multi_run	RP Bio-226	2	1	SRR2175888;SRR2544584	SAMN03751782	PRJNA285384	27.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01219	same_variety_multiproject	Huangpinuo	2	1	SRR22201033;SRR4254568	SAMN05735212|SAMN31475530	PRJNA342109|PRJNA894819	35.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01220	same_variety_multiproject	Jinyou1hao	2	1	SRR22201060;SRR3995611	SAMN05439913|SAMN31475556	PRJNA331215|PRJNA894819	39.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01221	same_variety_multiproject	NERICA 4	2	1	SRR24060263;SRR29953191	SAMN34065156|SAMN42784861	PRJNA1139799|PRJNA951930	35.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01222	same_variety_multiproject	MAHSURI	2	1	SRR24388814;SRR17344147	SAMN24449335|SAMN34504494	PRJNA792623|PRJNA965822	19.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01223	same_variety_multiproject	Daeripbyeo 1	2	1	SRR25567128;SRR31187626	SAMN36886518|SAMN44524921	PRJNA1003283|PRJNA1473512	34.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01224	same_variety_multiproject	Joan	2	1	SRR25567328;SRR31187590	SAMN36886549|SAMN44524954	PRJNA1003283|PRJNA1473512	34.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01225	same_variety_multi_run	Huanghuazhan:H174	2	1	SRR2040559;SRR2052533	SAMN03603347	PRJNA283022	41.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01226	same_variety_multi_run	Huanghuazhan:H190	2	1	SRR2040560;SRR2052534	SAMN03603348	PRJNA283022	38.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01227	same_variety_multiproject	Taichung Sen 10	3	1	SRR28285154;SRR3133264;SRR14637438	SAMN04437024|SAMN19321650|SAMN40370988	PRJNA1086197|PRJNA309597|PRJNA485658	26.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01228	same_variety_multi_run	Clonal Fix	4	1	SRR28974826;SRR28974825;SRR28974827;SRR28974828	SAMN41272081|SAMN41272082|SAMN41272083|SAMN41272084	PRJNA1109459	30.1	keep（★ 重复性验证材料，不是重复）	同项目内 4 个 run
+DUP01229	same_variety_multiproject	Hybrid rice 3	2	1	SRR28974829;SRR28928714	SAMN41227196|SAMN41272080	PRJNA1078538|PRJNA1109459	17.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01230	same_variety_multiproject	JR2	2	1	SRR29409869;SRR31369133	SAMN41831863	PRJNA1122958|PRJNA1178436	40.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01231	same_variety_multi_run	A15	2	1	SRR29774671;SRR29774670	SAMN42420258|SAMN42420259	PRJNA1134419	87.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01232	same_variety_multi_run	A06	2	1	SRR29774673;SRR29774672	SAMN42420256|SAMN42420257	PRJNA1134419	80.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01233	same_variety_multi_run	S23ZM206	2	1	SRR29774687;SRR29774688	SAMN42420270|SAMN42420271	PRJNA1134419	68.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01234	same_variety_multi_run	24HZM875	2	1	SRR29774698;SRR29774699	SAMN42420260|SAMN42420261	PRJNA1134419	74.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01235	same_variety_multiproject	7	2	1	SRR31066041;SRR19145974	SAMN27029639|SAMN44370684	PRJNA1175750|PRJNA820969	53.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01236	same_variety_multiproject	27	2	1	SRR31066051;SRR19145754	SAMN27029481|SAMN44370704	PRJNA1175750|PRJNA820969	61.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01237	same_variety_multiproject	Qianlijing	2	1	SRR31369127;SRR29409859	SAMN41831855	PRJNA1122958|PRJNA1178436	41.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01238	same_variety_multi_run	Dom	4	1	ERR3476465;ERR3476466;ERR3476463;ERR3476464	SAMEA5860897|SAMEA5860898|SAMEA5860899|SAMEA5860900	PRJEB32431	15.8	keep（★ 重复性验证材料，不是重复）	同项目内 4 个 run
+DUP01239	same_variety_multiproject	Cempo Ireng	2	1	SRR39573099;SRR23822209	SAMN33691594|SAMN61554289	PRJNA1493276|PRJNA942452	78.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01240	same_variety_multiproject	Aizizhan	2	1	SRR3992317;SRR12524263	SAMN04994785|SAMN15805963	PRJNA321462|PRJNA656900	19.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01241	same_variety_multiproject	Xiangzaoxian7hao	2	1	SRR3995623;SRR12524067	SAMN05439924|SAMN15806860	PRJNA331215|PRJNA656900	20.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01242	same_variety_multi_run	Kitaake ubi-XA21 FN-222	2	1	SRR4096774;SRR4096773	SAMN05446195	PRJNA334377	26.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01243	same_variety_multi_run	Kitaake ubi-XA21 FN-226	2	1	SRR4096885;SRR4096884	SAMN05446197	PRJNA334380	27.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01244	same_variety_multi_run	Kitaake ubi-XA21 FN-268	2	1	SRR4096925;SRR4096924	SAMN05446458	PRJNA334417	31.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01245	same_variety_multi_run	Kitaake ubi-XA21 FN-223	2	1	SRR4096950;SRR4096949	SAMN05446196	PRJNA334378	31.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01246	same_variety_multi_run	Kitaake ubi-XA21 FN-236	2	1	SRR4096952;SRR4096951	SAMN05442950	PRJNA334389	38.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01247	same_variety_multi_run	Kitaake ubi-XA21 FN-279	2	1	SRR4097042;SRR4097041	SAMN05446479	PRJNA333154	29.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01248	same_variety_multi_run	Kitaake ubi-XA21 FN-283	2	1	SRR4097054;SRR4097055	SAMN05446405	PRJNA333156	29.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01249	same_variety_multi_run	Kitaake ubi-XA21 FN-290	2	1	SRR4097061;SRR4097062	SAMN05443044	PRJNA333163	36.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01250	same_variety_multi_run	Kitaake ubi-XA21 FN-284	2	1	SRR4097087;SRR4097088	SAMN05446406	PRJNA333157	30.1	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01251	same_variety_multi_run	Kitaake ubi-XA21 FN-316	2	1	SRR4097218;SRR4097219	SAMN05446121	PRJNA333187	40.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01252	same_variety_multi_run	Kitaake ubi-XA21 FN-314	2	1	SRR4097231;SRR4097232	SAMN05443038	PRJNA333185	38.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01253	same_variety_multi_run	Kitaake ubi-XA21 FN-315	2	1	SRR4097239;SRR4097238	SAMN05446120	PRJNA333186	37.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01254	same_variety_multi_run	Kitaake ubi-XA21 FN-341	2	1	SRR4097325;SRR4097326	SAMN05443022	PRJNA333209	42.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01255	same_variety_multi_run	Kitaake ubi-XA21 FN-410	2	1	SRR4097798;SRR4097799	SAMN05446404	PRJNA333258	35.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01256	same_variety_multiproject	Cheongcheong	2	1	SRR11446343;SRR25567081	SAMN14484504|SAMN36886706	PRJNA1003283|PRJNA616202	26.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01257	same_variety_multiproject	Takanari	2	1	SRR11447183;DRR018360	SAMD00003725|SAMN14484803	PRJDB1948|PRJNA616222	37.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01258	same_variety_multiproject	Tongil	2	1	SRR1182443;SRR25567343	SAMN02671721|SAMN36886724	PRJNA1003283|PRJNA239926	84.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01259	same_variety_multiproject	HuangxiuzHan	2	1	SRR12523411;SRR3995651	SAMN05439949|SAMN15806227	PRJNA331215|PRJNA656900	17.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01260	same_variety_multiproject	Gu154	2	1	SRR12523513;SRR3992339	SAMN04994814|SAMN15806135	PRJNA321462|PRJNA656900	16.7	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01261	same_variety_multiproject	203A	2	1	SRR12523549;SRR15040776	SAMN15805905|SAMN20058603	PRJNA656900|PRJNA743713	35.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01262	same_variety_multiproject	HOSHINOYUME	2	1	SRR13014102;DRR179702	SAMD00164475|SAMN16685924	PRJDB8365|PRJNA674962	8.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01263	same_variety_multiproject	MIKAWA NISHIKI	2	1	SRR13014150;DRR179811	SAMD00164584|SAMN16685881	PRJDB8365|PRJNA674962	11.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01264	same_variety_multiproject	Carolina Gold Select	3	1	SRR1328207;SRR9326866;SRR9321972	SAMN02821223|SAMN10380581	PRJNA205324|PRJNA503892	86.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01265	same_variety_multi_run	Njavara Black variety	2	1	SRR27271384;SRR27506734	SAMN38811841	PRJNA1052060	131.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01266	same_variety_multiproject	Nokyang	2	1	SRR31187572;SRR25567312	SAMN36886561|SAMN44524970	PRJNA1003283|PRJNA1473512	34.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01267	same_variety_multiproject	Mogwoo	2	1	SRR31187580;SRR25567317	SAMN36886557|SAMN44524963	PRJNA1003283|PRJNA1473512	33.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01268	same_variety_multiproject	Lijiang Xintuan Hei Gu	3	1	SRR14139042;SRR9943902;SRR14297944	SAMN12548491|SAMN18604611	PRJNA422249|PRJNA719383	60.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01269	same_variety_multi_run	Gang46	2	1	SRR14139096;SRR14297949	SAMN18604560	PRJNA719383	67.0	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01270	same_variety_multi_run	Gemdjah Beton	2	1	SRR32402000;SRR32402001	SAMN46885768|SAMN46885770	PRJNA1225329	97.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01271	same_variety_multi_run	Kongyu131	2	1	SRR14297953;SRR14139103	SAMN18604527	PRJNA719383	50.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01272	same_variety_multiproject	Tulaipanji	3	1	SRR5229583;SRR5221412;SRR5947297	SAMN06251708|SAMN07522604	PRJNA363015|PRJNA399072	30.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01273	same_variety_multiproject	Fu Xiang Zhan	2	1	SRR15040870;SRR30032483	SAMN20058627|SAMN42900571	PRJNA1141731|PRJNA743713	83.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01274	same_variety_multiproject	Chenghui727	2	1	SRR16990730;SRR12523635	SAMN15806025|SAMN19552539	PRJNA656900|PRJNA734973	19.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01275	same_variety_multi_run	PA64s-2	2	1	SRR1210626;SRR1210625	SAMN02711999	PRJNA243018	23.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01276	same_variety_multiproject	79	2	1	SRR17344283;SRR19145728	SAMN24449276|SAMN27029667	PRJNA792623|PRJNA820969	57.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01277	same_variety_multi_run	Kitaake ubi-XA56 FN1493-S	2	1	SRR4393220;SRR4393219	SAMN05878037	PRJNA346152	37.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01278	same_variety_multi_run	Kitaake ubi-XA68 FN1509-S	2	1	SRR4393228;SRR4393227	SAMN05878364	PRJNA346164	38.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01279	same_variety_multi_run	Kitaake ubi-XA79 FN1529-S	2	1	SRR4393280;SRR4393279	SAMN05878118	PRJNA346175	44.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01280	same_variety_multiproject	Suijing18	2	1	SRR5880533;SRR5880534	SAMN07426265|SAMN07426270	PRJNA396421|PRJNA396422	94.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01281	same_variety_multi_run	Taipei 309 bombardment event 4	3	1	SRR8374207;SRR8374211;SRR8374222	SAMN10654452|SAMN10654464|SAMN10654470	PRJNA508943	24.4	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01282	same_variety_multi_run	tetraploid of 9N	2	1	SRR8427217;SRR8427218	SAMN10720270	PRJNA514100	44.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01283	same_variety_multiproject	Samgwang	3	1	SRR8770036;SRR25567307;SRR31187561	SAMN11233562|SAMN36886566|SAMN44524980	PRJNA1003283|PRJNA1180626|PRJNA528640	84.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01284	same_variety_multiproject	Huaidao9hao	2	1	SRR9696147;SRR22201088	SAMN12288225|SAMN31475502	PRJNA554986|PRJNA894819	44.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01285	same_variety_multiproject	Cheongdam	2	1	SRR25567181;SRR31187633	SAMN36886513|SAMN44524915	PRJNA1003283|PRJNA1473512	28.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01286	same_variety_multiproject	LAC 23	2	1	SRR1577613;SRR9943942	SAMN03032276|SAMN12548468	PRJNA260762|PRJNA422249	19.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01287	same_variety_multiproject	Taizhongxianxuan2	2	1	SRR22201058;SRR3995620	SAMN05439921|SAMN31475558	PRJNA331215|PRJNA894819	49.8	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01288	same_variety_multiproject	Huangsiguizhan	3	1	SRR22201062;SRR3995609;SRR8961815	SAMN05439911|SAMN11493993|SAMN31475554	PRJNA331215|PRJNA535372|PRJNA894819	68.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01289	same_variety_multiproject	Chengnongshuijing	2	1	SRR22201067;SRR3995612	SAMN05439914|SAMN31475521	PRJNA331215|PRJNA894819	30.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01290	same_variety_multiproject	9311K	2	1	SRR29409864;SRR31369130	SAMN41831850	PRJNA1122958|PRJNA1178436	41.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01291	same_variety_multiproject	1892S	2	1	SRR29825284;SRR12523970	SAMN15805931|SAMN42490075	PRJNA1135730|PRJNA656900	124.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01292	same_variety_multiproject	Hua Si Zhan	2	1	SRR30032454;SRR3992336	SAMN04994811|SAMN42900468	PRJNA1141731|PRJNA321462	44.9	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01293	same_variety_multiproject	Huang Li Zhan	2	1	SRR30032658;SRR12523412	SAMN15806226|SAMN42900399	PRJNA1141731|PRJNA656900	58.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01294	same_variety_multiproject	14	2	1	SRR31066065;SRR19145772	SAMN27029465|SAMN44370691	PRJNA1175750|PRJNA820969	58.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01295	same_variety_multiproject	Hongjinju	2	1	SRR31187605;SRR25567339	SAMN36886539|SAMN44524940	PRJNA1003283|PRJNA1473512	34.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01296	same_variety_multiproject	Geonganghongmi	2	1	SRR31187619;SRR25567121	SAMN36886524|SAMN44524927	PRJNA1003283|PRJNA1473512	31.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01297	same_variety_multiproject	R4115	2	1	SRR31369126;SRR29409858	SAMN41831856	PRJNA1122958|PRJNA1178436	41.5	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01298	same_variety_multi_run	Huang-Jin-Ke	2	1	SRR39037612;SRR39037611	SAMN60675101|SAMN60675102	PRJNA1475811	33.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01299	same_variety_multiproject	Badshabhog	2	1	SRR39354034;SRR32233541	SAMN46523559|SAMN61131337	PRJNA1218484|PRJNA1482111	31.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01300	same_variety_multiproject	Shuhui707	2	1	SRR3992344;SRR12524204	SAMN04994818|SAMN15806736	PRJNA321462|PRJNA656900	21.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01301	same_variety_multi_run	Kitaake ubi-XA21 FN 398-3/4/5	2	1	SRR4096918;SRR4096917	SAMN05442954	PRJNA334376	27.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01302	same_variety_multi_run	Kitaake ubi-XA21 FN-277	2	1	SRR4096972;SRR4096971	SAMN05446477	PRJNA333152	29.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01303	same_variety_multi_run	Kitaake ubi-XA21 FN-285	2	1	SRR4097059;SRR4097060	SAMN05443074	PRJNA333158	36.9	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01304	same_variety_multi_run	Kitaake ubi-XA21 FN-289	2	1	SRR4097064;SRR4097065	SAMN05443073	PRJNA333162	31.6	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01305	same_variety_multi_run	Kitaake ubi-XA21 FN-288	2	1	SRR4097092;SRR4097093	SAMN05446409	PRJNA333161	41.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01306	same_variety_multi_run	Kitaake ubi-XA21 FN-344	2	1	SRR4097462;SRR4097461	SAMN05446353	PRJNA333211	34.7	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01307	same_variety_multiproject	Daohuaxiang	2	1	SRR30323595;DRR771413	SAMD01666537|SAMN43265746	PRJDB36518|PRJNA1149932	55.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01308	same_variety_multi_run	Kitaake ubi-XA87 FN1537-S	2	1	SRR4393270;SRR4393271	SAMN05878504	PRJNA346183	46.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01309	same_variety_multiproject	Yuzhenxiang	3	1	SRR9696055;SRR12452032;SRR15040781	SAMN12288368|SAMN15816203|SAMN20058598	PRJNA554986|PRJNA656900|PRJNA743713	29.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01310	same_variety_multiproject	Xiaobaidao	2	1	SRR9696198;SRR31851477	SAMN12288325|SAMN45969896	PRJNA1203060|PRJNA554986	11.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01311	same_variety_multi_run	TI 17	2	1	SRR19760412;SRR19760414	SAMN29205875|SAMN29205877	PRJNA851222	25.2	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01312	same_variety_multi_run	Longdao5	2	1	DRR821960;DRR821961	SAMD01756913|SAMD01756914	PRJDB38198	34.4	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01313	same_variety_multi_run	YF47	3	1	DRR855714;DRR855716;DRR855715	SAMD01773123|SAMD01773124|SAMD01773125	PRJDB39365	225.2	keep（★ 重复性验证材料，不是重复）	同项目内 3 个 run
+DUP01314	same_variety_multi_run	Minghui	2	1	SRR1039341;SRR567751	SAMN01141733	PRJNA174121	26.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01315	same_variety_multi_run	PA64s-1	2	1	SRR1210606;SRR1210618	SAMN02711998	PRJNA243018	23.3	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01316	same_variety_multiproject	Zhen Hui 084	2	1	SRR12452014;SRR30032569	SAMN15816219|SAMN42900437	PRJNA1141731|PRJNA656900	48.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01317	same_variety_multiproject	Ezao6hao	2	1	SRR12523578;SRR16990597	SAMN15806077|SAMN19552449	PRJNA656900|PRJNA734973	19.3	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01318	same_variety_multiproject	99S	2	1	SRR12523594;SRR24915944	SAMN15805901|SAMN35719780	PRJNA656900|PRJNA983080	19.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01319	same_variety_multiproject	Minghui86	3	1	SRR12523828;SRR16990680;SRR1743106	SAMN03273441|SAMN15806490|SAMN19552392	PRJNA271253|PRJNA656900|PRJNA734973	24.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01320	same_variety_multiproject	Luhui17	2	1	SRR12523880;SRR16990733	SAMN15806443|SAMN19552536	PRJNA656900|PRJNA734973	20.6	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01321	same_variety_multiproject	Xiangyaxiangzhan	2	1	SRR12524073;SRR30323608	SAMN15806854|SAMN43265736	PRJNA1149932|PRJNA656900	29.2	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01322	same_variety_multiproject	BICO BRANCO	2	1	SRR1577592;SRR9943933	SAMN03032255|SAMN12548476	PRJNA260762|PRJNA422249	22.4	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01323	same_variety_multiproject	Ninghui21	2	1	SRR16990719;SRR22201036	SAMN19552549|SAMN31475527	PRJNA734973|PRJNA894819	42.0	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 2 个 BioProject
+DUP01324	same_variety_multiproject	Hwacheong	3	1	SRR25567074;SRR7881213;SRR7907527	SAMN10095021|SAMN10095126|SAMN36886712	PRJNA1003283|PRJNA492191|PRJNA492202	39.1	keep（可能是同一品种的不同种子来源，可用于跨项目验证）	涉及 3 个 BioProject
+DUP01325	same_variety_multi_run	24HZM878	2	1	SRR29774692;SRR29774693	SAMN42420266|SAMN42420267	PRJNA1134419	61.5	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run
+DUP01326	same_variety_multi_run	Kitaake ubi-XA21 FN-286	2	1	SRR4097089;SRR4097090	SAMN05446407	PRJNA333159	39.8	keep（★ 重复性验证材料，不是重复）	同项目内 2 个 run

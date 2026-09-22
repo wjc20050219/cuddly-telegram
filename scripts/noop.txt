@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+import csv
+from pathlib import Path
+p=Path('/mnt/dsh/RiceVar-ID/data/metadata/candidates/candidate_samples.tsv')

@@ -1,0 +1,14 @@
+database	label	query	count	querytranslation
+biosample	OS-organism-try1	%22Oryza+sativa%22%5BOrganism%5D	218272	\
+biosample	OS-organism-try2	%22Oryza+sativa%22%5BOrganism%5D	218272	\
+biosample	OS-organism-try3	%22Oryza+sativa%22%5BOrganism%5D	218272	\
+sra	OS+WGS[Strategy]	%22Oryza+sativa%22%5BOrganism%5D+AND+WGS%5BStrategy%5D	106474	\
+sra	OS+WGS(无限定符)	%22Oryza+sativa%22%5BOrganism%5D+AND+WGS	106685	\
+sra	OS-only	%22Oryza+sativa%22%5BOrganism%5D	193516	\
+sra	OS+ILLUMINA[Platform]	%22Oryza+sativa%22%5BOrganism%5D+AND+ILLUMINA%5BPlatform%5D	180836	\
+sra	OS+WGS+ILLUMINA	%22Oryza+sativa%22%5BOrganism%5D+AND+WGS%5BStrategy%5D+AND+ILLUMINA%5BPlatform%5D	103166	\
+bioproject	OS-quoted	%22Oryza+sativa%22%5BOrganism%5D	9450	\
+bioproject	Oryza[Organism]	Oryza%5BOrganism%5D	9811	\
+biosample	OS-quoted	%22Oryza+sativa%22%5BOrganism%5D	218272	\
+biosample	Oryza[Organism]	Oryza%5BOrganism%5D	229746	\
+nuccore	OS-quoted	%22Oryza+sativa%22%5BOrganism%5D	2300483	\

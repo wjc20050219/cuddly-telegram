@@ -1,0 +1,72 @@
+"""Thin Snakemake wrapper around the tested server stage scripts.
+
+This file is a workflow skeleton, not evidence that real FASTQ analysis ran.
+Run server/00_probe.sh manually first. For smoke1, call stage scripts directly
+because formal joint SNP calling requires at least two samples.
+"""
+import os
+from pathlib import Path
+
+ROOT = Path(workflow.basedir).parent.resolve()
+RV_ROOT = os.path.expanduser(config.get("project_root", "~/ricevar"))
+manifest_cfg = config.get("sample_manifest", "data/metadata/server/pilot_smoke5.tsv")
+MANIFEST = str((ROOT / manifest_cfg).resolve()) if not os.path.isabs(manifest_cfg) else manifest_cfg
+THREADS = int(config.get("threads", 8))
+PAR = int(config.get("parallel_samples", 2))
+REPS = int(config.get("replicates", 3))
+DEPTHS = " ".join(str(x) for x in config.get("depths", [0.02, 0.05, 0.10, 0.20, 0.50, 1.00]))
+SERVER = ROOT / "server"
+ENV = "RV_ROOT='{root}' RV_SAMPLES='{manifest}' THREADS={threads} PAR={par} RV_REPS={reps} RV_DEPTHS='{depths}'".format(
+    root=RV_ROOT, manifest=MANIFEST, threads=THREADS, par=PAR, reps=REPS, depths=DEPTHS
+)
+
+rule all:
+    input:
+        f"{RV_ROOT}/export/MANIFEST.sha256"
+
+rule download:
+    output:
+        touch(f"{RV_ROOT}/logs/.snakemake_download_done")
+    shell:
+        "{ENV} bash '{SERVER}/02_download.sh' && touch {output}"
+
+rule align:
+    input:
+        rules.download.output
+    output:
+        touch(f"{RV_ROOT}/logs/.snakemake_align_done")
+    shell:
+        "{ENV} bash '{SERVER}/03_align.sh' && touch {output}"
+
+rule depth:
+    input:
+        rules.align.output
+    output:
+        touch(f"{RV_ROOT}/logs/.snakemake_depth_done")
+    shell:
+        "{ENV} bash '{SERVER}/04_variant_depth.sh' && touch {output}"
+
+rule joint_snp:
+    input:
+        rules.align.output
+    output:
+        f"{RV_ROOT}/vcf/cohort.biallelic_snps.vcf.gz"
+    shell:
+        "{ENV} bash '{SERVER}/04_joint_snp.sh'"
+
+rule simulate:
+    input:
+        rules.depth.output,
+        rules.joint_snp.output
+    output:
+        touch(f"{RV_ROOT}/logs/.snakemake_simulate_done")
+    shell:
+        "{ENV} bash '{SERVER}/05_simulate.sh' && touch {output}"
+
+rule export:
+    input:
+        rules.simulate.output
+    output:
+        f"{RV_ROOT}/export/MANIFEST.sha256"
+    shell:
+        "{ENV} bash '{SERVER}/06_export.sh'"

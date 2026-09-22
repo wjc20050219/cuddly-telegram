@@ -1,0 +1,56 @@
+panel	sample_id	canonical_name	BioProject	depth	confidence	pmid	doi	year	journal	title	reported_n	scale_note
+pilot	SRR34854884	Nangeng46	PRJNA1301070	38.493	none							
+pilot	SRR34854885	Hugeng137	PRJNA1301070	38.242	none							
+pilot	SRR13189454	Kola Joha	PRJNA678305	35.363	none							
+pilot	SRR22201068	Koshihijar	PRJNA894819	31.065	none							
+pilot	SRR22201066	Yanggeng4227	PRJNA894819	30.752	none							
+pilot	SRR6983858	Xiushui 110	PRJNA448500	29.237	none							
+pilot	SRR19502944	V559_Nanfangchangligeng	PRJNA844290	28.771	match	37056426	10.1093/nsr/nwad029	2023		Genomic decoding of breeding history to guide breeding-by-design in rice.	546	run/样本 = 1.00（近乎 1:1，高度可信）
+pilot	SRR2544584	RP Bio-226	PRJNA285384	27.936	none							
+pilot	SRR18272552	Sherpa	PRJNA813905	27.851	none							
+pilot	DRR092499	Bekogonomi	PRJDB5765	27.57	none							
+pilot	SRR567751	Minghui	PRJNA174121	26.466	none							
+pilot	SRR22201097	Jinkeyou651	PRJNA894819	24.758	none							
+pilot	SRR19503114	V074_Kuiku131	PRJNA844290	22.992	match	37056426	10.1093/nsr/nwad029	2023		Genomic decoding of breeding history to guide breeding-by-design in rice.	546	run/样本 = 1.00（近乎 1:1，高度可信）
+pilot	SRR15040831	19W35	PRJNA743713	22.653	match	34564276	10.3390/insects12090836	2021		Genome-Wide Association Study Reveals a New Quantitative Trait Locus in Rice Related to Resistance to Brown Planthopper <i>Nilaparvata lugens</i> (Stål).	123	run/样本 = 0.97（近乎 1:1，高度可信）
+pilot	DRR179816	BOUZU 1	PRJDB8365	22.213	none							
+pilot	SRR15040811	19W70	PRJNA743713	21.737	match	34564276	10.3390/insects12090836	2021		Genome-Wide Association Study Reveals a New Quantitative Trait Locus in Rice Related to Resistance to Brown Planthopper <i>Nilaparvata lugens</i> (Stål).	123	run/样本 = 0.97（近乎 1:1，高度可信）
+pilot	SRR17344245	Santhi 990	PRJNA792623	21.61	none							
+pilot	SRR17344239	Spin Mere	PRJNA792623	21.552	none							
+pilot	SRR32126008	P 32::GSOR 311085-G1	PRJNA1214498	21.538	none							
+pilot	SRR17344256	C.B. II	PRJNA792623	21.521	none							
+pilot	SRR33723419	Yamuna	PRJNA1268320	21.279	none							
+pilot	SRR19502941	V057_Kendao12	PRJNA844290	21.163	match	37056426	10.1093/nsr/nwad029	2023		Genomic decoding of breeding history to guide breeding-by-design in rice.	546	run/样本 = 1.00（近乎 1:1，高度可信）
+pilot	SRR15040869	Jiangxiang1	PRJNA743713	20.818	match	34564276	10.3390/insects12090836	2021		Genome-Wide Association Study Reveals a New Quantitative Trait Locus in Rice Related to Resistance to Brown Planthopper <i>Nilaparvata lugens</i> (Stål).	123	run/样本 = 0.97（近乎 1:1，高度可信）
+pilot	SRR25567266	Gaekjujodo	PRJNA1003283	20.034	match	40169429	10.1186/s12284-025-00782-8	2025		Comprehensive GWAS and Transcriptome Analysis Discovered Candidate Gene Associated with Starch Pasting Properties of Temperate japonica rice (Oryza sativa L.).	284	run/样本 = 1.14（近乎 1:1，高度可信）
+pilot	SRR12523534	Gangxiang1A	PRJNA656900	20.031	plausible	37191779	10.1186/s12284-023-00642-3	2023		Genetic Diversity and Breeding Signatures for Regional Indica Rice Improvement in Guangdong of Southern China.	517	run/样本 = 2.20（每样本多次测序，合理）
+pilot	DRR771401	Long Japonica 13	PRJDB36518	20.024	none							
+pilot	SRR22440195	Ganggye 12	PRJNA896894	20.024	unknown	36568369	10.3389/fgene.2022.1036747	2022		GWAS analysis to elucidate genetic composition underlying a photoperiod-insensitive rice population, North Korea.		摘要未给出样本量，无法核验
+pilot	SRR12523904	LT4	PRJNA656900	20.019	plausible	37191779	10.1186/s12284-023-00642-3	2023		Genetic Diversity and Breeding Signatures for Regional Indica Rice Improvement in Guangdong of Southern China.	517	run/样本 = 2.20（每样本多次测序，合理）
+pilot	SRR22223604	G41761	PRJNA896343	20.0	mismatch	36618635	10.3389/fpls.2022.1076600	2022		High-density genetic mapping identified QTLs for anaerobic germination tolerance in rice.	50	run/样本 = 3.76（★ 差距过大，疑为误匹配）
+pilot	SRR12524065	Xiangzaoxian13hao	PRJNA656900	20.0	plausible	37191779	10.1186/s12284-023-00642-3	2023		Genetic Diversity and Breeding Signatures for Regional Indica Rice Improvement in Guangdong of Southern China.	517	run/样本 = 2.20（每样本多次测序，合理）
+independent_test	SRR27987055	jg818	PRJNA1077238	42.822	none							
+independent_test	SRR5486789	Tam Xoan Hai Hau	PRJNA384811	41.217	none							
+independent_test	SRR5463094	Longdao24	PRJNA383779	40.915	none							
+independent_test	SRR28514681	LB	PRJNA1094905	37.967	none							
+independent_test	DRR092498	Akidawara	PRJDB5765	37.166	none							
+independent_test	SRR2029574	Huanghuazhan:HM2-S125	PRJNA283022	37.129	none							
+independent_test	SRR2543336	Ble te lo	PRJNA296753	35.627	none							
+independent_test	SRR5486790	Tam Xoan Bac Ninh	PRJNA384811	35.608	none							
+independent_test	SRR2529343	Chiem Nho Bac Ninh 2	PRJNA296753	34.467	none							
+independent_test	SRR24504128	Jia58	PRJNA956682	33.162	none							
+independent_test	SRR2543299	Nep Lun	PRJNA296753	30.098	none							
+independent_test	ERR10368528	Vandana	PRJEB56693	28.597	none							
+independent_test	SRR30280100	Induced haploid 5	PRJNA1147860	20.173	none							
+independent_test	DRR771469	NG718	PRJDB36518	20.151	none							
+independent_test	SRR32361556	DN9_118	PRJNA1224316	20.133	unknown	40164786	10.1038/s41477-025-01966-2	2025		Rapid formation of stable autotetraploid rice from genome-doubled F1 hybrids of japonica-indica subspecies.		摘要未给出样本量，无法核验
+independent_test	SRR22440327	Ganggye 3	PRJNA896894	20.13	unknown	36568369	10.3389/fgene.2022.1036747	2022		GWAS analysis to elucidate genetic composition underlying a photoperiod-insensitive rice population, North Korea.		摘要未给出样本量，无法核验
+independent_test	SRR9943889	Tak Siah	PRJNA422249	20.13	runs_fewer	37467142	10.7554/elife.86324	2023		Transposons are important contributors to gene expression variability under selection in rice populations.	208	run/样本 = 0.27（run 少于自述样本量，可能仅部分数据）
+independent_test	SRR22440367	Heocheon4	PRJNA896894	20.102	unknown	36568369	10.3389/fgene.2022.1036747	2022		GWAS analysis to elucidate genetic composition underlying a photoperiod-insensitive rice population, North Korea.		摘要未给出样本量，无法核验
+independent_test	SRR25567107	Yejo	PRJNA1003283	20.089	match	40169429	10.1186/s12284-025-00782-8	2025		Comprehensive GWAS and Transcriptome Analysis Discovered Candidate Gene Associated with Starch Pasting Properties of Temperate japonica rice (Oryza sativa L.).	284	run/样本 = 1.14（近乎 1:1，高度可信）
+independent_test	SRR6220456	cultivated_rice_128	PRJNA407820	20.087	unknown	33547986	10.1186/s12284-021-00459-y	2021		Genomics Analyses Reveal Unique Classification, Population Structure and Novel Allele of Neo-Tetraploid Rice.		摘要未给出样本量，无法核验
+independent_test	SRR11131409	US_L202	PRJNA603026	20.05	unknown		10.1101/2024.05.06.592698	2024		Maroon rice genomic diversity reflects 350 years of colonial history		摘要未给出样本量，无法核验
+independent_test	DRR771445	DN2323	PRJDB36518	20.044	none							
+independent_test	SRR24060283	ART71-96-1-1-B-B	PRJNA951930	20.041	none							
+independent_test	SRR25567193	Sura	PRJNA1003283	20.032	match	40169429	10.1186/s12284-025-00782-8	2025		Comprehensive GWAS and Transcriptome Analysis Discovered Candidate Gene Associated with Starch Pasting Properties of Temperate japonica rice (Oryza sativa L.).	284	run/样本 = 1.14（近乎 1:1，高度可信）
+independent_test	SRR22223553	G41971	PRJNA896343	20.019	mismatch	36618635	10.3389/fpls.2022.1076600	2022		High-density genetic mapping identified QTLs for anaerobic germination tolerance in rice.	50	run/样本 = 3.76（★ 差距过大，疑为误匹配）

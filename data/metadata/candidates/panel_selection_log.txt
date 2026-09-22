@@ -1,0 +1,62 @@
+==========================================================================
+TASK-014：建立 Pilot Panel 与独立测试集
+==========================================================================
+随机种子：20260920（固定，用于复现）
+目标规模：Pilot 30 份 / 独立测试集 25 份
+
+--- 筛选过程 ---
+  品种名可用                           14,830
+  排除突变体/转基因材料                      9,393  (-5,437)
+  仅短读平台（剔除 119 个长读）                9,274  (-119)
+  深度 20–50×                        3,039  (-6,235)
+  每 BioSample 仅取 1 run             2,957  (-82)
+  每品种仅取 1 run                      2,701  (-256)
+
+--- 候选池的亚种构成 ---
+  unknown                  2,449
+  indica                     150
+  japonica                    53
+  aus                         45
+  temperate_japonica           2
+  aromatic                     1
+  admixed                      1
+  [提示] 亚种 aromatic 配额 3 未满，实得 1（候选池不足）
+  [补足] 从剩余候选补到 30 份（目标 30）
+  [提示] 亚种 aus 配额 3 未满，实得 0（候选池不足）
+  [提示] 亚种 aromatic 配额 3 未满，实得 0（候选池不足）
+  [提示] 亚种 temperate_japonica 配额 2 未满，实得 0（候选池不足）
+  [提示] 亚种 admixed 配额 1 未满，实得 0（候选池不足）
+  [补足] 从剩余候选补到 25 份（目标 25）
+
+--- 面板构建结果 ---
+  Pilot          ：30 份
+  独立测试集     ：25 份
+  品种重叠       ：0 个 ✅ 无重叠
+
+--- Pilot Panel 构成 ---
+  亚种：{'indica': 8, 'japonica': 8, 'aus': 4, 'unknown': 6, 'aromatic': 1, 'temperate_japonica': 2, 'admixed': 1}
+  平台：{'ILLUMINA': 28, 'BGISEQ': 2}
+  来源：{'NCBI_SRA': 27, 'DDBJ': 3}
+  深度：min=20.0× median=22.2× max=38.5×
+  FASTQ 总字节：183,285,412,761 B = 170.70 GiB
+  BioProject 数：19
+
+--- 独立测试集 构成 ---
+  亚种：{'indica': 6, 'japonica': 6, 'unknown': 13}
+  平台：{'ILLUMINA': 24, 'DNBSEQ': 1}
+  来源：{'ENA': 1, 'NCBI_SRA': 21, 'DDBJ': 3}
+  深度：min=20.0× median=20.2× max=42.8×
+  FASTQ 总字节：176,111,063,280 B = 164.02 GiB
+  BioProject 数：19
+
+--- ★ 下载与存储估算（基于真实 fastq_bytes，非理论推算）---
+  两面板合计 FASTQ：359,396,476,041 B = 334.71 GiB
+  合计测序深度     ：1442×  （55 份样本）
+  推算 100 份规模  ：约 609 GiB
+  推算 500 份规模  ：约 3043 GiB
+
+已写出：/mnt/d/dsh/RiceVar-ID/data/metadata/candidates/pilot_panel.tsv（30 行）
+
+已写出：/mnt/d/dsh/RiceVar-ID/data/metadata/candidates/independent_test_panel.tsv（25 行）
+
+★ 独立测试集自本文件生成之时起冻结，后续不得根据结果重选。

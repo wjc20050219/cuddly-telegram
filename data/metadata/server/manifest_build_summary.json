@@ -1,0 +1,22 @@
+{
+  "inputs": {
+    "data\\metadata\\candidates\\pilot_panel.tsv": "439624e07119997b0432ca34761bc8597d7fe0d6e208715cf0944a48baf8ec78",
+    "data\\metadata\\candidates\\independent_test_panel.tsv": "04a63c223b44e70c57b1800c2e5b9281257ad2b1431f2a536a1bdca2a61a24ad"
+  },
+  "selection_rule": "minimum FASTQ bytes; smoke5 spans preferred subspecies labels before size fill",
+  "pilot_rows": 30,
+  "independent_rows": 25,
+  "variety_overlap": [],
+  "smoke1": [
+    "SRR25567266"
+  ],
+  "smoke5": [
+    "SRR15040869",
+    "DRR771401",
+    "SRR18272552",
+    "SRR25567266",
+    "SRR34854884"
+  ],
+  "smoke1_fastq_bytes": 2799458993,
+  "smoke5_fastq_bytes": 24895801496
+}

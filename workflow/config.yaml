@@ -1,0 +1,11 @@
+# RiceVar-ID 本科版 Snakemake 配置骨架。
+# 首次服务器运行必须先人工执行 server/00_probe.sh。
+project_root: "~/ricevar"
+sample_manifest: "data/metadata/server/pilot_smoke5.tsv"
+threads: 8
+parallel_samples: 2
+replicates: 3
+depths: [0.02, 0.05, 0.10, 0.20, 0.50, 1.00]
+reference:
+  name: "IRGSP-1.0"
+  url: "https://ftp.ebi.ac.uk/ensemblgenomes/pub/plants/release-60/fasta/oryza_sativa/dna/Oryza_sativa.IRGSP-1.0.dna.toplevel.fa.gz"

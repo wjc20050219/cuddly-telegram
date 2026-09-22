@@ -1,0 +1,66 @@
+{
+  "generated_by": "scripts/record_search_provenance.py",
+  "note": "本文件记录检索产物的来源与完整性状态。行数恰好等于脚本所用 limit= 的清单视为**截断**，不得当作全量统计使用。",
+  "artifacts": [
+    {
+      "name": "ena_search_summary.tsv",
+      "kind": "counts",
+      "present": true,
+      "description": "各 query 的命中数（由 limit=0 计数查询产生，服务端计数，精确）",
+      "data_rows": 7,
+      "bytes": 605,
+      "page_cap": null,
+      "cap_reason": null,
+      "status": "exact_count"
+    },
+    {
+      "name": "ena_rice_wgs_runs.tsv",
+      "kind": "listing",
+      "present": true,
+      "description": ">=1x WGS run 级清单（按 limit=5000 拉取，行数等于页上限即视为截断）",
+      "data_rows": 5000,
+      "bytes": 1813932,
+      "page_cap": 5000,
+      "cap_reason": "scripts/search_ena.sh 使用 limit=5000",
+      "status": "suspected_truncated"
+    },
+    {
+      "name": "ena_rice_wgs_deep_runs.tsv",
+      "kind": "listing",
+      "present": true,
+      "description": ">=5x GENOMIC WGS run 级清单（按 limit=10000 拉取，行数等于页上限即视为截断）",
+      "data_rows": 10000,
+      "bytes": 4360264,
+      "page_cap": 10000,
+      "cap_reason": "scripts/search_round2.sh 使用 limit=10000",
+      "status": "suspected_truncated"
+    }
+  ],
+  "dependent_claims": [
+    {
+      "file": "data/metadata/search/README.md",
+      "pattern": "24,633",
+      "still_present": true
+    },
+    {
+      "file": "data/metadata/search/README.md",
+      "pattern": "32,478",
+      "still_present": true
+    },
+    {
+      "file": "data/metadata/search/README.md",
+      "pattern": "10,707",
+      "still_present": true
+    },
+    {
+      "file": "docs/server_admin_questions.md",
+      "pattern": "24,633",
+      "still_present": true
+    },
+    {
+      "file": "scripts/task011_fetch_ena.py",
+      "pattern": "24,633",
+      "still_present": true
+    }
+  ]
+}
