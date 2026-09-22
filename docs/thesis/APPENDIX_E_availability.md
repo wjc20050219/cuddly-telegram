@@ -10,12 +10,13 @@
 | --- | --- |
 | 项目名 | RiceVar-ID |
 | 工作目录 | `D:\dsh\RiceVar-ID`（开发机，Windows 11 + WSL2） |
-| 版本控制 | **已建立本地 Git 仓库**（见 E.1.1）；`.gitignore` 见 E.4 |
+| 版本控制 | **已建立 Git 仓库并推送到 GitHub**（见 E.1.1）；`.gitignore` 见 E.4 |
+| 仓库地址 | https://github.com/wjc20050219/cuddly-telegram （分支 `main`） |
 | 许可证 | {{TODO: 待定（若公开需明确许可证，否则默认保留所有权利）}} |
 | 归档 DOI | {{TODO: 待定（建议投稿/答辩前打 tag 并归档到 Zenodo 获取 DOI）}} |
 
-**重要说明**：本项目已建立**本地** Git 仓库，但**尚未推送到任何远程托管平台**，
-也**尚未归档**。把它当作"已经托管到某处"是不正确的。
+**重要说明**：本项目已推送到 GitHub 上的公开仓库，但**尚未归档**、
+**尚未打 tag**，因此目前**没有 DOI**。把它当作"已经有永久标识"是不正确的。
 
 ### E.1.1 版本控制的实际状态（如实说明）
 
@@ -26,11 +27,11 @@
 
 | 项 | 实际情况 |
 | --- | --- |
-| 仓库位置 | 工作目录下的 `.git`（本地，无远程） |
-| 操作方式 | `python scripts/vcs.py status \| add \| commit \| log` |
+| 仓库位置 | 工作目录下的 `.git`；远程 `origin` 指向 GitHub（`main` 分支） |
+| 操作方式 | `python scripts/vcs.py status \| add \| commit \| log \| remote \| push` |
 | 提交者 | `RiceVar-ID <ricevar@localhost>` |
-| 被排除的内容 | FASTQ/BAM/CRAM/VCF、`reference/*.fa*`、`.tools/`、`.tmp/` 等（见 E.4） |
-| 未做的事 | **未推送远程**、**未打 tag**、**未归档 DOI** |
+| 被排除的内容 | FASTQ/BAM/CRAM/VCF、`reference/*.fa*`、`.tools/`、`.tmp/`、`.learnings/`、`docs/methods/_raw/` 等（见 E.4） |
+| 未做的事 | **未打 tag**、**未归档 DOI** |
 
 > **一个值得记录的坑**：`dulwich` 的 `porcelain.commit` **不会**自动把
 > 已跟踪文件的改动写入索引。只 `add` 未跟踪文件时，会产生一个**有合法 SHA、
@@ -144,6 +145,17 @@ Python 依赖由两份文件共同确定：`environment.yml`（conda 侧，含 b
 脚本会因找不到输出目录而失败。该规则由 `tests/test_gitignore.py` 的
 10 项测试锁定，其中包含"任何 `data/metadata/` 下的文件都不得被排除
 （`xml_cache` 除外）"这一条。
+
+另有**两类内容被特意排除在仓库之外**，它们只存在于开发机：
+
+| 被排除目录 | 内容 | 排除理由 |
+| --- | --- | --- |
+| `.learnings/` | 开发工具链自动生成的会话记录 | 属工具链副产物，非研究产出 |
+| `docs/methods/_raw/` | 已发表论文全文的抓取存档（6 个文件） | 第三方受版权保护的全文，不宜转载 |
+
+这两项都**不影响结论的可复现性**：`.learnings/` 与论文无关；
+`_raw/` 中文献的抽取结论已独立记录在 `docs/methods/paper_niu2024_extraction.md`
+（该文件随仓库提供），并给出了原始出处，读者可自行获取原文。
 
 ## E.5 可复现性现状（**关键声明**）
 

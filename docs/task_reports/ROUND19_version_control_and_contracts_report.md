@@ -134,7 +134,7 @@ reference/ markers/ analysis/
 | 产物 | 说明 |
 | --- | --- |
 | `scripts/vcs.py` | dulwich 驱动的版本控制（新增，后修复暂存缺陷） |
-| `.git` | 本地仓库，**4 个提交**，含 257+ blob 的初始提交 |
+| `.git` | 本地仓库，**4 个提交**，含 257+ blob 的初始提交（**已过期**：后重建为 `main` 上单一提交，259 个 blob，见 §6 补记） |
 | `tests/test_admin_onepager_contract.py` | 17 项，新增 |
 | `tests/test_vcs_script.py` | 10 项，新增 |
 | `tests/test_thesis_figure_references.py` | 7 项，新增 |
@@ -152,6 +152,11 @@ reference/ markers/ analysis/
 - **服务器探测仍未运行**：`logs/probe_summary.tsv` 依旧不存在，
   因此 `interpret_probe.py` **仍不能**给出任何建议——没有探测就下结论即造假。
 - **未推送远程、未打 tag、未归档 DOI**。`.git` 只在本机，磁盘损坏仍会丢失。
+
+> **后续更新（推送完成后补记）**：上面两条已被推翻。仓库已重建为单一干净提交
+> （259 个 blob）并推送到 <https://github.com/wjc20050219/cuddly-telegram>
+> （分支 `main`），同时排除了 `.learnings/` 与 `docs/methods/_raw/`。
+> **仍未打 tag、未归档 DOI**——这两项至今成立。本节其余内容为上轮原始记录，未改动。
 - `fig_pca` 与 `fig_confusion` **从未产出过 PNG**（本机无 matplotlib）。
 - Streamlit 页面**从未渲染过**。
 - `bash -n` 与真实 bcftools/samtools 命令验证**仍未执行**（本机无可用 shell）。
