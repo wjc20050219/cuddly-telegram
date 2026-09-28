@@ -1,217 +1,608 @@
-# RiceVar-ID
+🌾 RiceVar-ID
 
-**基于超低深度全基因组测序（ulcWGS）的水稻品种数字身份证系统**
+基于超低深度全基因组测序的水稻品种数字身份证系统
 
-> 全部基础数据来自公开数据库（NCBI SRA / ENA / DDBJ）；不做新的湿实验，
-> ulcWGS 通过对真实高/中深度 WGS 数据计算机抽样模拟。
+Rice Variety Digital Identification System Based on Ultra-Low-Coverage Whole-Genome Sequencing
 
-## 1. 项目目标
+---
 
-本项目现已收敛为**本科毕业论文最小可行系统**：
+📖 项目简介
 
-```
-真实公开数据 → FastQC/fastp → IRGSP-1.0 比对 → 联合 SNP calling
-→ 500/1000/2000 SNP 指纹 → 六档超低深度模拟 → 品种识别
-→ SQLite + Streamlit 原型 → 本科论文
-```
+RiceVar-ID 是一个面向水稻品种基因组识别的计算生物学研究项目，探索利用**超低深度全基因组测序（ulcWGS）**和少量预定义 SNP Marker，构建水稻品种的数字化基因组身份。
 
-SNP 是唯一必做 marker 主线；k-mer 仅在主线全部完成后作为可选扩展，CNV/SV/PAV 与复杂平台不作为本科必做。现行范围见 [`docs/UNDERGRADUATE_SCOPE.md`](docs/UNDERGRADUATE_SCOPE.md)，任务见 [`UNDERGRADUATE_TASK_LIST.md`](UNDERGRADUATE_TASK_LIST.md)。
+本研究完全基于 NCBI SRA、ENA、DDBJ 等公共数据库中的真实水稻 WGS 数据，不进行新的湿实验。
 
-最终系统输入一份低深度水稻 SNP 指纹，即可输出：
+研究采用真实中、高深度 WGS 数据，通过计算机随机降采样模拟不同测序深度，并在固定 SNP 位点上进行分型，最终评价不同测序深度和不同 SNP 数量条件下的水稻品种识别能力。
 
-- 最可能的品种与 Top 5 候选；
-- 相似度与匹配置信度、差异标记数量；
-- 品种数字身份证（二维码 / DNA Fingerprint）;
-- 数据来源与文献来源。
+核心研究路线：
 
-## 2. 核心科学问题
+flowchart TD
+    A[公共真实 WGS 数据] --> B[质量控制]
+    B --> C[参考基因组比对]
+    C --> D[多样本联合 SNP Calling]
+    D --> E[SNP 筛选]
+    E --> F[固定 SNP Panel]
+    F --> G[超低深度模拟]
+    G --> H[固定 SNP 位点分型]
+    H --> I[SNP Fingerprint]
+    I --> J[指纹相似度计算]
+    J --> K[品种识别]
+    K --> L[Open-set 拒识]
+    L --> M[数字身份证]
 
-1. 真实公开 WGS 是否能建立可区分 20–30 个水稻品种的 SNP 数字指纹？
-2. 在 1 / 0.5 / 0.2 / 0.1 / 0.05 / 0.02× 六档深度下，Top-1 与 marker recall 如何变化？
-3. 500 / 1000 / 2000 个 SNP 中，哪一档能在工作量与识别效果间取得合理平衡？
-4. 如何用 Pilot 内部验证校准拒识阈值，并用零重叠独立面板检验开放集误指派风险？
+---
 
-所有最低深度、准确率与阈值均待真实 FASTQ 计算，不能提前设定。
+🎯 研究目标
 
-## 3. 数据来源
+本研究主要回答以下问题：
 
-**已完成检索（Phase 3，TASK-008/009/010）**，详见
-[`docs/methods/data_source_survey.md`](docs/methods/data_source_survey.md)：
+1. SNP 数字指纹能否区分不同水稻品种？
 
-| 来源 | 水稻 WGS 记录 | 可用性 |
-| --- | ---: | --- |
-| **ENA**（主下载源） | 96,623（其中 **≥10× 有 24,633**） | ✅ API 稳定，FASTQ 直链直接可得 |
-| NCBI SRA / BioProject / BioSample | 106,474 / 9,450 / 218,272 | ✅ API 正常，用于交叉核验 |
-| DDBJ DRA | 经 INSDC 镜像可见 1,255（≥5×） | ⚠️ **官方 API 全线 504**，数据改经 ENA/NCBI 获取 |
+利用真实公共 WGS 数据构建品种 SNP 指纹，并评价其品种区分能力。
 
-- 公开研究论文检索已完成，见 `docs/methods/literature_review.md`；
-- 主参考固定为 IRGSP-1.0，见 `docs/methods/reference_genome_plan.md`。
+2. 测序深度降低后，品种识别能力如何变化？
 
-> **数据供给不是瓶颈**（≥10× 有 24,633 条），但**品种名覆盖才是真瓶颈**：
-> ≥5× 的 32,564 条 run 中，仅 **45.5%（14,830 条）**能提取出可用品种名，
-> 不可改善部分达 48.2%（字段全空 + 提交者填了 INSDC 缺失值）。
-> 本项目的真正约束是**磁盘与算力**。
+模拟不同超低测序深度，研究测序信息量下降对品种识别性能的影响。
 
-## 4. 技术路线
+3. 不同 SNP 数量对识别性能有什么影响？
 
-### 4.1 分析流程总览
+比较 500、1000 和 2000 个 SNP Marker 所形成的数字指纹。
 
-**本科版现行流程**：
+4. 系统能否识别数据库之外的未知品种？
 
-```text
-公开 FASTQ
-  → FastQC + fastp
-  → BWA-MEM2 / samtools（CRAM）
-  → Pilot 多样本联合 bcftools calling
-  → SNP QC 与区分度排序（只用 Pilot）
-  → 冻结 500 / 1000 / 2000 SNP 集
-  → 六档降采样、每档 3–5 个 seed
-  → 固定位点分型与 IBS/Hamming
-  → Top-1 / Top-5 / marker recall / 开放集拒识
-  → PCA、热图、准确率图
-  → SQLite + Streamlit
-```
+通过 Open-set Identification 设计拒识机制，避免将未知品种强制匹配到已知品种。
 
-正式 SNP 矩阵必须来自多样本联合 VCF或固定 marker 定点分型。不能把多个仅含变异位点的单样本 VCF 直接拼接，因为某样本“未出现该位点”不等于已确认 `0/0`。完整预注册设计见 [`docs/methods/snp_evaluation_design.md`](docs/methods/snp_evaluation_design.md)。
+---
 
-历史四路线设计仍保存在 `docs/methods/marker_routes.md`，仅作研究档案；不再是本科版交付要求。
+🧬 核心研究思路
 
-## 5. 软件环境（已建成）
+RiceVar-ID 将水稻品种的基因组变异转换为固定长度的 SNP 数字指纹。
 
-环境三层结构：
+flowchart LR
+    A[水稻品种] --> B[全基因组变异]
+    B --> C[SNP Marker]
+    C --> D[SNP Fingerprint]
+    D --> E[品种识别]
+    E --> F[Digital ID]
 
-```
-Windows 11 → WSL 2.7.14（内核 6.18.33.2）→ Ubuntu 26.04.1 LTS
-          → Miniconda3 /opt/miniconda3（conda 26.7.1）
-          → conda env ricevar
-```
+一个品种可以表示为：
 
-进入环境：
+品种 A
+    ↓
+SNP Fingerprint
+    ↓
+010110011010010101...
+    ↓
+RV-A8F3C21D
 
-```bash
-wsl -d Ubuntu -u root
-source /opt/miniconda3/etc/profile.d/conda.sh && conda activate ricevar
-```
+其中：
 
-- 环境规格见 `environment.yml`（Python 3.11 / R 4.3），Python 依赖见 `requirements.txt`；
-- 实测版本清单（samtools 1.24、bwa-mem2 2.3、mosdepth 0.3.14、KMC 3.2.4、
-  Snakemake 9.24 等全部工具已逐项验证）见 `software_versions.txt`；
-- 通道与 PyPI 均指向 TUNA 镜像，`channel_priority: strict`；
-- 一键重建：`bash setup_wsl_env3.sh`（WSL 内以 root 运行）；
-- 资源限制见 `C:\Users\86159\.wslconfig`（内存上限 10 GB、swap 16 GB 放 D 盘、
-  `sparseVhd=true` 防止虚拟磁盘只涨不缩吃满 C 盘）；
-- **环境自检**：`bash scripts/verify_env.sh`（资源 / 工具 / Python 库 / 实跑链路 / 磁盘一次查完）。
+- SNP Fingerprint：固定 SNP 位点上的基因型组合；
+- Digital ID：用于数据库存储和查询的数字化身份标识。
 
-> **已知事件与恢复入口**：2026-09-15 19:02 WSL 服务因 `wslsettings.exe` 崩溃而卡死，
-> 2026-09-16 重启后完全恢复（工具 0/14 缺失）。下次若再卡死，双击 `fix_wsl.cmd`
-> （自动请求提权）或运行 `recover_wsl2.ps1`。
-> **注意**：需要管理员权限的操作无法由自动化会话完成——自动化进程不在交互桌面上，
-> UAC 对话框弹不出来。
+---
 
-## 6. 目录结构
+🌱 超低深度全基因组测序
 
-见 [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)。要点：
+本研究不直接预设某个测序深度一定能够完成品种识别，而是通过真实 WGS 数据的随机降采样进行系统评价。
 
-- `data/{metadata,raw,processed,qc}` — 数据四层；
-- `results/{statistics,markers,fingerprints,validation}` — 结果四类；
-- `docs/task_reports/` — 每个 TASK 一份执行报告；
-- 大文件（FASTQ/BAM/参考基因组）不入库，只记录来源与校验和。
+模拟深度：
 
-## 7. 如何运行
+测序深度
+1×
+0.5×
+0.2×
+0.1×
+0.05×
+0.02×
 
-**运行架构（2026-09-15 决策）**：重活放学校服务器，分析与写作放本机。
+实验矩阵：
 
-```
-服务器：下载 → 质控 → 比对 → 分型 → 窗口深度 → ulcWGS 模拟 → 汇总导出
-                                                              ↓ 只传特征矩阵（GB 级）
-本机  ：标记筛选 → 指纹 → 相似度 → 阈值/ROC → 图表 → 论文
-```
+3 种 SNP Panel × 6 种测序深度 × 多个随机 Seed
 
-- 架构设计：`docs/methods/server_local_split_design.md`
-- Pilot 运行手册：`docs/methods/server_pilot_runbook.md`
-- 算力评估：`docs/methods/compute_feasibility_assessment.md`
+通过重复随机降采样，降低单次随机抽样造成的偶然影响。
 
-```bash
-# 【服务器】先探测环境（5 分钟，回答调度器/外网/存储三个未知数）
-cd ~/ricevar/server && bash 00_probe.sh
+---
 
-# 【本机】先生成并验证服务器样本清单（不下载 FASTQ）
-python scripts/build_server_manifests.py
-python scripts/verify_undergraduate_scope.py
+🧪 数据集设计
 
-# 【服务器】上传 server/ 与 pilot_smoke1.tsv 后建环境并单样本试跑
-bash 01_setup_env.sh
-source ~/miniconda3/etc/profile.d/conda.sh && conda activate ricevar
-RV_SAMPLES="$HOME/ricevar/metadata/pilot_smoke1.tsv" bash run_all.sh 02 2>&1 | tee logs/run_smoke1.log
+研究使用两个相互独立的数据面板。
 
-# 单样本通过后再换 pilot_smoke5.tsv；不要直接启动 30+25 全量
+flowchart TD
+    A[公共水稻 WGS 数据] --> B[样本筛选]
+    B --> C[Pilot Panel]
+    B --> D[Independent Test Panel]
 
-# 【本机，WSL 内】拉回特征矩阵并校验
-wsl -d Ubuntu -u root
-source /opt/miniconda3/etc/profile.d/conda.sh && conda activate ricevar
-bash /mnt/d/dsh/RiceVar-ID/local/import_export.sh user@server:~/ricevar/export
-```
+    C --> E[Marker 筛选]
+    C --> F[参数校准]
+    C --> G[阈值校准]
 
-## 8. 如何复现实验
+    D --> H[最终性能评价]
+    D --> I[Open-set 验证]
 
-1. 按 `software_versions.txt` 锁定的版本部署环境；
-2. 按服务器 `$RV_ROOT/metadata/download_log.tsv` 中记录的 accession 与校验和
-   重新下载原始数据（该日志由 `server/02_download.sh` 在服务器上生成，
-   **不在本仓库内**；仓库内的 `data/metadata/` 只存放检索与面板元数据）；
-3. 先执行 1 样本与 5 样本 smoke test，再运行完整 Pilot；
-4. marker 集与阈值在查看冻结独立面板结果前固定；
-5. 每次下载、抽样与导出均保留 checksum、工具版本和随机 seed。
+数据集| 样本数| 用途
+Pilot Panel| 30| SNP Marker 筛选、参数校准
+Independent Test Panel| 25| 独立性能评价、Open-set 验证
 
-## 9. 当前研究状态
+Independent Test Panel 不参与 Marker 优化和最终阈值确定。
 
-| 阶段 | 内容 | 状态 |
-| --- | --- | --- |
-| Phase 0 | 项目初始化 | ✅ **完成**：TASK-001 ✅ / TASK-002 ✅（环境已建成并逐项验证）/ TASK-003 ✅ |
-| Phase 1 | 小麦论文技术路线解析 | ✅ **完成**：TASK-004 ✅（逐节解析）/ TASK-005 ✅（技术路线图）/ TASK-006 ✅（迁移表） |
-| Phase 2 | 候选标记体系 | ✅ **完成**：TASK-007 ✅（四条路线 + 统一比较框架 + 诚实假设清单） |
-| Phase 3 | 公共数据搜索 | ✅ **完成**：TASK-008 ✅（NCBI）/ TASK-009 ✅（ENA）/ TASK-010 ⚠️（DDBJ 官方 API 故障，数据经 INSDC 镜像库获取） |
-| Phase 4–5 | 样本库与 Pilot 数据集 | ✅ **第一轮完成（2026-09-20，TASK-011~014）**：候选样本表 **32,564 run**（品种名可用 14,830，8,415 个规范品种）；**Pilot Panel 30 份 + 独立测试集 25 份（已冻结）**；详见 [`docs/ROUND1_SUMMARY.md`](docs/ROUND1_SUMMARY.md) |
-| 本科 TASK-010~017 | 下载 / QC / IRGSP-1.0 / 比对 | 🔶 脚本与方案已有；学校服务器未 probe、未下载 FASTQ |
-| 本科 TASK-018~025 | SNP / 指纹 / 识别 | 🔶 联合 calling 与评估方案已有；无真实 VCF、指纹或准确率 |
-| 本科 TASK-026~040 | 六档降采样与图表 | ⬜ 无真实 CRAM，尚未执行 |
-| 本科 TASK-041~048 | SQLite / Streamlit / 论文 / PPT | ⬜ |
+---
 
-> **第一轮结论：GO（有条件）** —— 数据基础真实可用；放行条件为确认服务器
-> 存储 ≥600 GiB、能访问 EBI、≥8 核/作业。
-> **注意：至今未下载任何测序数据，未跑任何基因组分析。**
-> 三套任务规范的编号差异见 [`docs/TASK_NUMBERING.md`](docs/TASK_NUMBERING.md)；现行使用本科版规范 C。
->
-> **文献检索（原 TASK-011，已补做）**：见
-> [`docs/methods/literature_review.md`](docs/methods/literature_review.md)。
-> ★ 两条关键发现：①**没有"超低深度做品种鉴定"的先例**（新颖性来源，但审查会更严）；
-> ②**现有低深度文献全部依赖"填补"**，与本项目的"直接检测"范式不同，
-> **不能直接引用其阳性结论**。
+🧩 SNP Marker Panel
 
-**计划外但已完成的三项工作**（为降低后续返工风险而提前做）：
+本研究以 SNP 作为核心遗传 Marker。
 
-1. **环境全项自检**（`scripts/verify_env.sh`）：关键工具 0/14 缺失、Python 库 0/11 缺失、
-   `samtools → bwa-mem2 → bcftools → mosdepth` 实跑链路通畅；
-2. **本机算力实测**（`scripts/bench2.sh`）：用真实参考序列测得单样本 10× 全基因组
-   = **墙钟 12.1 分钟 / CPU 0.81 核时**。该结果**推翻了此前的文献估算**（原估 10–31 核时），
-   并查明**本机瓶颈是磁盘而非 CPU**。详见 `docs/methods/benchmark_results.md`；
-3. **Phase 0–1 四项任务复核**：逐条对照 `TASK_LIST.md` 核验 TASK-001~004，
-   查出并修复 **2 处真实依赖缺陷**（`environment.yml` 的 jellyfish 包名错误 → 复现性 bug；
-   `hmmlearn` 完全缺失 → 阻塞 CNV 路线）。详见 `TASK-002_report.md` 第七节。
+设计三个不同规模的 SNP Panel：
 
-> 现行任务总清单：[UNDERGRADUATE_TASK_LIST.md](UNDERGRADUATE_TASK_LIST.md)（规范 C，TASK-001–048）。
-> 历史完整科研版 `TASK_LIST.md` 与规范 B 的产出继续保留，但不再定义本科必做范围。
+Panel| SNP 数量| 研究目的
+Small| 500| 紧凑型数字指纹
+Medium| 1000| 中等规模数字指纹
+Large| 2000| 高信息量数字指纹
 
-## 10. 许可
+Marker 筛选和参数优化只使用 Pilot Panel。
 
-**决定（2026-09-16）：暂不创建 `LICENSE` 文件，推迟到论文投稿时确定。**
+Marker Panel 确定后，在 Independent Test Panel 上保持固定。
 
-理由：
+---
 
-- 本项目 100% 使用公开数据、不做新湿实验，**不涉及需要立即声明的资产**；
-- 目标期刊（Genome Biology、The Plant Journal、中国农业科学等）通常会**指定或推荐**
-  特定许可协议（多为 CC-BY / CC0），现在选定反而可能返工；
-- **数据本身的许可由各来源数据库决定**（NCBI SRA / ENA / DDBJ），
-  与代码仓库的 LICENSE 是两件事，不受此决定影响。
+🧬 生物信息学分析流程
 
-> **触发条件**：论文定稿投出前，按目标期刊要求创建 `LICENSE` 并更新本节。
-> 详见 `docs/task_reports/TASK-003_report.md` 复核一节。
+flowchart TD
+    A[FASTQ] --> B[FastQC / fastp]
+    B --> C[BWA-MEM2]
+    C --> D[SAM / BAM]
+    D --> E[samtools]
+    E --> F[CRAM]
+
+    F --> G[mosdepth]
+    F --> H[bcftools]
+
+    H --> I[多样本联合 SNP Calling]
+    I --> J[SNP 质量控制]
+    J --> K[Marker 筛选]
+
+    K --> L[500 SNP]
+    K --> M[1000 SNP]
+    K --> N[2000 SNP]
+
+    L --> O[超低深度模拟]
+    M --> O
+    N --> O
+
+    O --> P[固定 SNP 位点分型]
+    P --> Q[SNP Fingerprint]
+    Q --> R[IBS / Hamming Distance]
+    R --> S[品种识别]
+    S --> T[Open-set 拒识]
+
+参考基因组：
+
+IRGSP-1.0
+
+---
+
+⚠️ SNP 矩阵构建原则
+
+正式 SNP 指纹矩阵必须基于：
+
+- 多样本联合 VCF；
+- 或固定 SNP Marker 位点重新分型。
+
+不应简单拼接多个单样本 Variant-only VCF。
+
+原因是：
+
+«VCF 中没有某个位点的 Variant 记录，并不等价于该样本在该位点已经被确认是 0/0。»
+
+正式 SNP 矩阵需要明确区分：
+
+0/0
+0/1
+1/1
+Missing
+
+这一原则对于后续 SNP Fingerprint 构建和品种识别非常重要。
+
+---
+
+📉 超低深度模拟
+
+利用真实 WGS 数据进行随机降采样：
+
+flowchart TD
+    A[真实 WGS] --> B{随机降采样}
+
+    B --> C[1×]
+    B --> D[0.5×]
+    B --> E[0.2×]
+    B --> F[0.1×]
+    B --> G[0.05×]
+    B --> H[0.02×]
+
+    C --> I[固定 SNP 位点分型]
+    D --> I
+    E --> I
+    F --> I
+    G --> I
+    H --> I
+
+    I --> J[SNP Fingerprint]
+
+每一个深度条件使用多个随机 Seed。
+
+这样可以评价：
+
+测序深度 → Marker Recall → 指纹质量 → 品种识别性能
+
+之间的关系。
+
+---
+
+🧮 品种识别方法
+
+对于一个待识别样本：
+
+flowchart TD
+    A[待识别样本] --> B[固定 SNP 位点分型]
+    B --> C[生成 SNP Fingerprint]
+    C --> D[与参考品种指纹比较]
+    D --> E[计算 IBS / Hamming Distance]
+    E --> F[候选品种排序]
+    F --> G[输出识别结果]
+
+主要输出：
+
+- Top-1 Candidate
+- Top-5 Candidates
+- Similarity
+- Difference Marker Count
+- Marker Recall
+- Reject Status
+
+---
+
+🚪 Open-set Identification
+
+传统封闭集分类通常要求每一个输入样本都属于已有类别。
+
+RiceVar-ID 增加开放集识别机制：
+
+flowchart TD
+    A[输入样本] --> B[SNP Fingerprint]
+    B --> C[与已知品种匹配]
+    C --> D{是否达到匹配阈值}
+
+    D -->|是| E[输出已知品种]
+    D -->|否| F[Reject]
+
+因此系统不仅判断：
+
+«“它最像哪个已知品种？”»
+
+还判断：
+
+«“它是否足够像数据库中的某个已知品种？”»
+
+拒识阈值在 Pilot Panel 中进行校准，再使用 Independent Test Panel 进行独立评价。
+
+---
+
+📊 评价指标
+
+Top-1 Accuracy
+
+真实品种是否为匹配结果中的第一名。
+
+Top-5 Accuracy
+
+真实品种是否进入前五名候选。
+
+Marker Recall
+
+预定义 SNP Marker 中获得有效基因型信息的比例。
+
+Similarity
+
+待识别样本与候选品种 SNP Fingerprint 的相似程度。
+
+Difference Marker Count
+
+两个 SNP Fingerprint 之间存在差异的有效 Marker 数量。
+
+Open-set Rejection
+
+对于数据库之外的未知品种，系统能否避免将其错误指派为已知品种。
+
+---
+
+🗃️ 公共数据来源
+
+本研究使用公共数据库中的真实水稻 WGS 数据：
+
+数据库| 用途
+ENA| WGS 数据检索与下载
+NCBI SRA| 数据检索与交叉核验
+DDBJ| INSDC 数据交叉核验
+
+大型原始测序文件不直接进入 Git 仓库。
+
+记录数据溯源信息：
+
+Accession
+Sample Metadata
+Source Database
+Checksum
+Reference Genome
+Software Version
+Analysis Parameters
+Random Seed
+
+---
+
+📈 公共数据规模
+
+前期公共数据库调查显示，水稻 WGS 数据具有较大的数据供给。
+
+数据来源| WGS 记录
+ENA| 96,623
+NCBI SRA| 106,474
+DDBJ| 1,255*
+
+数据筛选并非单纯追求样本数量，而重点考虑：
+
+- 测序深度
+- 品种名称完整性
+- 样本质量
+- 品种代表性
+- 样本独立性
+
+«* DDBJ 相关统计来自项目调查期间可获得的 INSDC 数据及镜像信息，正式论文中将根据最终数据检索时间重新核实统计数字。»
+
+---
+
+🔬 研究变量
+
+本研究重点考察三个因素：
+
+flowchart LR
+    A[测序深度] --> D[识别性能]
+    B[SNP 数量] --> D
+    C[随机 Seed] --> D
+
+    D --> E[Top-1]
+    D --> F[Top-5]
+    D --> G[Marker Recall]
+    D --> H[Similarity]
+    D --> I[Open-set Rejection]
+
+核心实验关系：
+
+Sequencing Depth × SNP Panel Size × Identification Performance
+
+---
+
+🪪 数字身份证设计
+
+研究最终将水稻品种的 SNP Fingerprint 转换为数字化身份。
+
+一个数字身份证可以包含：
+
+RiceVar-ID
+│
+├── Variety Name
+├── Digital ID
+├── SNP Panel
+├── SNP Fingerprint
+├── Similarity
+├── Difference Marker Count
+├── Marker Recall
+├── Data Source
+└── Reference Information
+
+示意：
+
+品种名称：Example Variety
+
+Digital ID：
+RV-XXXXXXXX
+
+SNP Panel：
+1000 SNP
+
+SNP Fingerprint：
+010110011010010101...
+
+Similarity：
+XX.XX%
+
+Difference Marker：
+XX
+
+Data Source：
+Public WGS
+
+最终可以将这些信息存储到数据库，并进一步实现基于 SNP Fingerprint 的自动品种查询。
+
+---
+
+💻 研究技术栈
+
+生物信息学
+
+FastQC
+fastp
+BWA-MEM2
+samtools
+bcftools
+mosdepth
+KMC
+
+数据分析
+
+Python
+R
+NumPy
+Pandas
+SciPy
+scikit-learn
+
+可视化
+
+Matplotlib
+R
+
+数据库与系统原型
+
+SQLite
+Streamlit
+
+---
+
+🏗️ 研究系统框架
+
+flowchart TD
+    A[公共 WGS 数据] --> B[生物信息学分析]
+    B --> C[SNP Matrix]
+
+    C --> D[Marker Selection]
+    D --> E[500 / 1000 / 2000 SNP]
+
+    E --> F[ulcWGS Simulation]
+    F --> G[固定 SNP 分型]
+    G --> H[SNP Fingerprint]
+
+    H --> I[Fingerprint Matching]
+    I --> J[品种识别]
+    J --> K[Open-set Rejection]
+
+    K --> L[Digital ID]
+    L --> M[数据库 / 系统原型]
+
+---
+
+📌 研究范围
+
+本科研究阶段以 SNP + ulcWGS + 品种识别 为核心主线。
+
+核心研究内容
+
+公共真实 WGS
+      ↓
+SNP Calling
+      ↓
+SNP Marker
+      ↓
+ulcWGS 模拟
+      ↓
+固定 SNP 分型
+      ↓
+SNP Fingerprint
+      ↓
+品种识别
+      ↓
+Open-set 验证
+      ↓
+Digital ID
+
+暂不作为核心研究内容
+
+CNV
+SV
+PAV
+复杂单倍型模型
+大型深度学习分类模型
+
+后续扩展方向
+
+k-mer
+CNV
+SV
+PAV
+Haplotype
+大规模品种面板
+机器学习模型
+
+---
+
+🎓 预期研究结果
+
+本研究最终希望建立一个完整的评价框架：
+
+flowchart LR
+    A[公共 WGS] --> B[SNP Digital Fingerprint]
+    B --> C[不同测序深度]
+    C --> D[不同 SNP Panel]
+    D --> E[品种识别性能]
+    E --> F[Open-set 性能]
+    F --> G[Digital ID]
+
+最终获得：
+
+- 不同测序深度下的品种识别结果；
+- 不同 SNP Panel 的识别性能；
+- Marker Recall 与测序深度之间的关系；
+- Top-1 / Top-5 识别结果；
+- Open-set 拒识结果；
+- 水稻品种 SNP 数字指纹；
+- 水稻品种数字身份证系统原型。
+
+---
+
+🌾 项目核心假设
+
+RiceVar-ID 探索的核心假设是：
+
+«即使测序深度降低到超低水平，只要预先选择具有较高区分度的 SNP Marker，仍可能从有限的基因组测序信息中提取足够的遗传特征，用于水稻品种识别。»
+
+这一假设不预先设定最终成立与否。
+
+最终结论将以真实公共 WGS 数据、超低深度模拟结果以及独立测试集评价结果为依据。
+
+---
+
+📚 数据与方法学原则
+
+本研究遵循以下原则：
+
+真实数据
+
+使用公共数据库中的真实 WGS 数据，不使用人为构造的数据替代真实测序数据。
+
+不预设性能
+
+不预先规定最低可用测序深度、识别准确率或拒识阈值。
+
+数据独立
+
+Pilot Panel 用于 Marker 开发和参数校准，Independent Test Panel 用于最终独立评价。
+
+方法可复现
+
+记录数据 Accession、软件版本、参数、随机 Seed 和参考基因组信息。
+
+SNP 主线
+
+研究主体聚焦 SNP，避免在本科阶段同时引入过多复杂遗传变异类型。
+
+---
+
+📖 Citation
+
+正式论文发表后将在此处补充 RiceVar-ID 的正式引用信息。
+
+同时建议引用：
+
+1. RiceVar-ID 项目；
+2. 所使用的公共 WGS 数据及其原始研究；
+3. IRGSP-1.0 参考基因组相关研究；
+4. SNP Calling、测序比对及相关分析方法学文献。
+
+---
+
+<div align="center">🌾 RiceVar-ID
+
+公共 WGS · SNP 数字指纹 · 超低深度测序 · 品种识别 · Open-set · Digital ID
+
+将水稻基因组变异转化为可计算的品种数字身份
+
+</div>
